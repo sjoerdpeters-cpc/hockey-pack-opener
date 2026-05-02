@@ -17,10 +17,19 @@ export function Collection({ collection, onBack, onSell }: Props) {
 
   const sellable = useMemo(() => getSellableDuplicates(collection), [collection]);
 
+  // How many copies of each player the user owns (across the full collection)
+  const countMap = useMemo(() => {
+    const map = new Map<string, number>();
+    for (const c of collection) map.set(c.id, (map.get(c.id) ?? 0) + 1);
+    return map;
+  }, [collection]);
+
   const clubs = useMemo(() => [...new Set(collection.map(c => c.club))].sort(), [collection]);
   const nationalities = useMemo(() => [...new Set(collection.map(c => c.nationality))].sort(), [collection]);
 
-  const filtered = useMemo(() => {
+  // Filtered, then deduplicated: show each player once
+  const displayCards = useMemo(() => {
+    const seen = new Set<string>();
     return collection.filter(c => {
       if (filters.search && !c.name.toLowerCase().includes(filters.search.toLowerCase())) return false;
       if (filters.gender !== 'all' && c.gender !== filters.gender) return false;
@@ -31,9 +40,15 @@ export function Collection({ collection, onBack, onSell }: Props) {
       if (filters.isSeniorInternational !== 'all' && c.isSeniorInternational !== filters.isSeniorInternational) return false;
       if (filters.isJongOranje !== 'all' && c.isJongOranje !== filters.isJongOranje) return false;
       if (filters.isForeignSeniorInternational !== 'all' && c.isForeignSeniorInternational !== filters.isForeignSeniorInternational) return false;
+      if (seen.has(c.id)) return false;
+      seen.add(c.id);
       return true;
     });
   }, [collection, filters]);
+
+  // Find one sellable duplicate for a given player id
+  const sellableFor = (id: string): CollectedCard | undefined =>
+    [...sellable].find(c => c.id === id);
 
   const uniqueCount = new Set(collection.map(c => c.id)).size;
   const internationalCount = [...new Set(collection.map(c => c.id))]
@@ -42,15 +57,8 @@ export function Collection({ collection, onBack, onSell }: Props) {
   const allDuplicates = [...sellable];
   const bulkCoins = allDuplicates.reduce((sum, c) => sum + sellPriceFor(c.rarity), 0);
 
-  function handleSellOne(card: CollectedCard) {
-    onSell([card]);
-  }
-
   function handleBulkSell() {
-    if (!confirmBulk) {
-      setConfirmBulk(true);
-      return;
-    }
+    if (!confirmBulk) { setConfirmBulk(true); return; }
     setConfirmBulk(false);
     onSell(allDuplicates);
   }
@@ -75,7 +83,6 @@ export function Collection({ collection, onBack, onSell }: Props) {
           )}
         </div>
 
-        {/* Bulk sell */}
         {allDuplicates.length > 0 && (
           <button
             onClick={handleBulkSell}
@@ -86,14 +93,10 @@ export function Collection({ collection, onBack, onSell }: Props) {
                 : 'bg-orange-500/20 hover:bg-orange-500/30 text-orange-300 border border-orange-500/30'
             }`}
           >
-            {confirmBulk ? (
-              'Zeker? Klik om te bevestigen'
-            ) : (
-              <>
-                Verkoop alle dubbelen ({allDuplicates.length})
-                <span className="text-yellow-400 font-bold">🪙 {bulkCoins.toLocaleString()}</span>
-              </>
-            )}
+            {confirmBulk
+              ? 'Zeker? Klik om te bevestigen'
+              : <>Verkoop alle dubbelen ({allDuplicates.length}) <span className="text-yellow-400 font-bold">🪙 {bulkCoins.toLocaleString()}</span></>
+            }
           </button>
         )}
       </div>
@@ -109,7 +112,7 @@ export function Collection({ collection, onBack, onSell }: Props) {
       </div>
 
       {/* Cards */}
-      {filtered.length === 0 ? (
+      {displayCards.length === 0 ? (
         <div className="text-center text-white/40 py-20">
           {collection.length === 0
             ? 'Nog geen kaarten. Open een pack!'
@@ -117,21 +120,29 @@ export function Collection({ collection, onBack, onSell }: Props) {
         </div>
       ) : (
         <div className="flex flex-wrap gap-3 justify-start">
-          {filtered.map((card, i) => {
-            const isSellable = sellable.has(card);
-            const price = sellPriceFor(card.rarity);
+          {displayCards.map((card) => {
+            const count = countMap.get(card.id) ?? 1;
+            const dup = sellableFor(card.id);
+            const price = dup ? sellPriceFor(dup.rarity) : 0;
             return (
-              <div key={`${card.id}-${card.collectedAt}-${i}`} className="flex flex-col items-center gap-1">
-                <PlayerCard player={card} small />
-                {isSellable ? (
+              <div key={card.id} className="flex flex-col items-center gap-1">
+                <div className="relative">
+                  <PlayerCard player={card} small />
+                  {count > 1 && (
+                    <div className="absolute -top-1.5 -left-1.5 min-w-5 h-5 px-1 bg-orange-500 text-white text-xs font-black rounded-full flex items-center justify-center shadow-lg shadow-black/40">
+                      {count}
+                    </div>
+                  )}
+                </div>
+                {dup ? (
                   <button
-                    onClick={() => handleSellOne(card)}
+                    onClick={() => onSell([dup])}
                     className="w-full text-xs font-semibold text-yellow-400 bg-yellow-400/10 hover:bg-yellow-400/20 border border-yellow-400/20 rounded-lg px-2 py-1 transition-colors"
                   >
-                    Verkoop · 🪙 {price.toLocaleString()}
+                    Verkoop 1 · 🪙 {price.toLocaleString()}
                   </button>
                 ) : (
-                  <div className="h-6" /> /* spacer to keep grid aligned */
+                  <div className="h-6" />
                 )}
               </div>
             );
