@@ -5,7 +5,7 @@ import { PackOpening } from './components/PackOpening';
 import { Collection } from './components/Collection';
 import { CsvImport } from './components/CsvImport';
 import { DatasetInfo } from './components/DatasetInfo';
-import { openPack, loadCollection, saveToCollection, loadCoins, saveCoins } from './lib/packLogic';
+import { openPack, loadCollection, saveToCollection, loadCoins, saveCoins, sellCards } from './lib/packLogic';
 import { datasetMeta } from './data/dataset';
 
 type Screen = 'home' | 'opening' | 'collection' | 'csv' | 'dataset';
@@ -42,6 +42,14 @@ export default function App() {
     const updated = saveToCollection(players, collection);
     setCollection(updated);
     setScreen('home');
+  }
+
+  function handleSell(cards: CollectedCard[]) {
+    const { remaining, coinsEarned } = sellCards(cards, collection);
+    setCollection(remaining);
+    const newCoins = coins + coinsEarned;
+    setCoins(newCoins);
+    saveCoins(newCoins);
   }
 
   const uniqueCount = new Set(collection.map(c => c.id)).size;
@@ -149,7 +157,7 @@ export default function App() {
       )}
 
       {screen === 'collection' && (
-        <Collection collection={collection} onBack={() => setScreen('home')} />
+        <Collection collection={collection} onBack={() => setScreen('home')} onSell={handleSell} />
       )}
 
       {screen === 'csv' && (

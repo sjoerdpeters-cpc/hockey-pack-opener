@@ -1,6 +1,7 @@
 import type { EnrichedPlayer, Rarity, PackConfig, CollectedCard } from '../types';
 import { BASE_ODDS } from '../data/packs';
 import { players } from '../data/dataset';
+import { SELL_PRICES } from '../config';
 
 function weightedRarity(boost?: Partial<Record<Rarity, number>>): Rarity {
   const odds = { ...BASE_ODDS, ...boost };
@@ -18,15 +19,12 @@ export function openPack(pack: PackConfig): EnrichedPlayer[] {
   if (pool.length === 0) return [];
 
   const drawn: EnrichedPlayer[] = [];
-
   for (let i = 0; i < pack.cardCount; i++) {
     const targetRarity = weightedRarity(pack.rarityBoost);
     const byRarity = pool.filter((p) => p.rarity === targetRarity);
     const source = byRarity.length > 0 ? byRarity : pool;
-    const pick = source[Math.floor(Math.random() * source.length)];
-    drawn.push(pick);
+    drawn.push(source[Math.floor(Math.random() * source.length)]);
   }
-
   return drawn;
 }
 
@@ -54,6 +52,50 @@ export function saveToCollection(newCards: EnrichedPlayer[], existing: Collected
   }
   localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
   return updated;
+}
+
+// Returns which cards in the collection are sellable duplicates.
+// For each player id, the earliest-acquired copy is kept; every later copy is a duplicate.
+export function getSellableDuplicates(collection: CollectedCard[]): Set<CollectedCard> {
+  const firstSeen = new Map<string, number>(); // id -> smallest collectedAt
+  const sellable = new Set<CollectedCard>();
+
+  // Stable sort: earlier acquired first
+  const sorted = [...collection].sort((a, b) => a.collectedAt - b.collectedAt);
+
+  for (const card of sorted) {
+    if (!firstSeen.has(card.id)) {
+      firstSeen.set(card.id, card.collectedAt);
+    } else {
+      sellable.add(card);
+    }
+  }
+  return sellable;
+}
+
+export function sellPriceFor(rarity: Rarity): number {
+  return SELL_PRICES[rarity];
+}
+
+// Removes the given cards from the collection, returns updated list + coins earned.
+export function sellCards(
+  toSell: CollectedCard[],
+  existing: CollectedCard[],
+): { remaining: CollectedCard[]; coinsEarned: number } {
+  const sellSet = new Set(toSell);
+  const coinsEarned = toSell.reduce((sum, c) => sum + SELL_PRICES[c.rarity], 0);
+
+  // Remove sold cards, then recalculate duplicateOf flags
+  const kept = existing.filter((c) => !sellSet.has(c));
+  const seenIds = new Set<string>();
+  const remaining = kept.map((card) => {
+    const dup = seenIds.has(card.id);
+    seenIds.add(card.id);
+    return dup ? { ...card, duplicateOf: card.id } : { ...card, duplicateOf: undefined };
+  });
+
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(remaining));
+  return { remaining, coinsEarned };
 }
 
 export function loadCoins(): number {
