@@ -84,7 +84,7 @@ export function PackOpening({ pack, cards, onDone }: Props) {
     setFlareColor(color);
     setFlaring(true);
     playRevealSound(card.rarity);
-    const t = setTimeout(() => setFlaring(false), 1500);
+    const t = setTimeout(() => setFlaring(false), 4000);
     return () => clearTimeout(t);
   }, [revealed, phase, cards]);
 
@@ -114,7 +114,7 @@ export function PackOpening({ pack, cards, onDone }: Props) {
               style={{ background: flareColor }}
               initial={{ opacity: 0.75 }}
               animate={{ opacity: 0 }}
-              transition={{ duration: 1.5, ease: 'easeOut' }}
+              transition={{ duration: 4, ease: 'easeOut' }}
             />
             {/* Radial burst expanding from center */}
             <motion.div
@@ -125,7 +125,7 @@ export function PackOpening({ pack, cards, onDone }: Props) {
               }}
               initial={{ scale: 0.1, opacity: 1 }}
               animate={{ scale: 3, opacity: 0 }}
-              transition={{ duration: 1.5, ease: 'easeOut' }}
+              transition={{ duration: 4, ease: 'easeOut' }}
             />
             {/* Rotating light rays */}
             <motion.div
@@ -136,7 +136,7 @@ export function PackOpening({ pack, cards, onDone }: Props) {
               }}
               initial={{ rotate: 0, opacity: 0.55 }}
               animate={{ rotate: 60, opacity: 0 }}
-              transition={{ duration: 1.5, ease: 'easeOut' }}
+              transition={{ duration: 4, ease: 'easeOut' }}
             />
           </motion.div>
         )}
