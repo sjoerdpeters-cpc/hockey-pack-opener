@@ -1,7 +1,8 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import type { EnrichedPlayer, PackConfig } from '../types';
 import { PlayerCard } from './PlayerCard';
+import { getClubByName } from '../clubs';
 
 interface Props {
   pack: PackConfig;
@@ -9,15 +10,85 @@ interface Props {
   onDone: () => void;
 }
 
+const SPECIAL_RARITIES = new Set(['Elite', 'Icon', 'Special']);
+
+function playRevealSound(rarity: string) {
+  try {
+    const ctx = new AudioContext();
+
+    type RarityKey = 'Icon' | 'Special' | 'Elite';
+    const CONFIGS: Record<RarityKey, { notes: number[]; vol: number; step: number }> = {
+      Icon:    { notes: [261.63, 523.25, 659.25, 783.99, 1046.50, 1318.51], vol: 0.28, step: 0.09 },
+      Special: { notes: [349.23, 466.16, 587.33, 739.99, 987.77, 1318.51], vol: 0.26, step: 0.08 },
+      Elite:   { notes: [392, 493.88, 587.33, 783.99, 987.77],             vol: 0.24, step: 0.10 },
+    };
+    const cfg = CONFIGS[rarity as RarityKey] ?? CONFIGS.Elite;
+
+    cfg.notes.forEach((freq, i) => {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = i === 0 ? 'triangle' : 'sine';
+      osc.frequency.value = freq;
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      const t = ctx.currentTime + i * cfg.step;
+      gain.gain.setValueAtTime(0, t);
+      gain.gain.linearRampToValueAtTime(cfg.vol, t + 0.04);
+      gain.gain.exponentialRampToValueAtTime(0.001, t + 0.65);
+      osc.start(t);
+      osc.stop(t + 0.65);
+    });
+
+    // Sparkle noise burst
+    const bufSize = Math.floor(ctx.sampleRate * 0.35);
+    const buf = ctx.createBuffer(1, bufSize, ctx.sampleRate);
+    const data = buf.getChannelData(0);
+    for (let i = 0; i < bufSize; i++) {
+      data[i] = (Math.random() * 2 - 1) * Math.exp(-i / (ctx.sampleRate * 0.07));
+    }
+    const noise = ctx.createBufferSource();
+    noise.buffer = buf;
+    const hpf = ctx.createBiquadFilter();
+    hpf.type = 'highpass';
+    hpf.frequency.value = 4500;
+    const noiseGain = ctx.createGain();
+    noiseGain.gain.setValueAtTime(0.15, ctx.currentTime);
+    noiseGain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.35);
+    noise.connect(hpf);
+    hpf.connect(noiseGain);
+    noiseGain.connect(ctx.destination);
+    noise.start();
+
+    setTimeout(() => { ctx.close().catch(() => {}); }, 2500);
+  } catch {
+    // AudioContext unavailable (e.g. blocked by browser)
+  }
+}
+
 export function PackOpening({ pack, cards, onDone }: Props) {
   const [phase, setPhase] = useState<'pack' | 'reveal' | 'all'>('pack');
   const [revealed, setRevealed] = useState<number>(0);
+  const [flaring, setFlaring] = useState(false);
+  const [flareColor, setFlareColor] = useState('#fbbf24');
 
-  const hasSpecial = cards.some(c => c.rarity === 'Icon' || c.rarity === 'Elite' || c.rarity === 'Special');
+  const hasSpecial = cards.some(c => SPECIAL_RARITIES.has(c.rarity));
 
-  function openPack() {
-    setPhase('reveal');
-  }
+  useEffect(() => {
+    if (phase !== 'reveal') return;
+    const card = cards[revealed];
+    if (!SPECIAL_RARITIES.has(card.rarity)) {
+      setFlaring(false);
+      return;
+    }
+    const color = getClubByName(card.club).colorPrimary;
+    setFlareColor(color);
+    setFlaring(true);
+    playRevealSound(card.rarity);
+    const t = setTimeout(() => setFlaring(false), 1500);
+    return () => clearTimeout(t);
+  }, [revealed, phase, cards]);
+
+  function openPack() { setPhase('reveal'); }
 
   function revealNext() {
     if (revealed < cards.length - 1) {
@@ -29,6 +100,48 @@ export function PackOpening({ pack, cards, onDone }: Props) {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center px-4 py-8">
+
+      {/* Club-color flare overlay */}
+      <AnimatePresence>
+        {flaring && (
+          <motion.div
+            key="flare"
+            className="fixed inset-0 z-50 pointer-events-none overflow-hidden"
+          >
+            {/* Solid color wash that fades */}
+            <motion.div
+              className="absolute inset-0"
+              style={{ background: flareColor }}
+              initial={{ opacity: 0.75 }}
+              animate={{ opacity: 0 }}
+              transition={{ duration: 1.5, ease: 'easeOut' }}
+            />
+            {/* Radial burst expanding from center */}
+            <motion.div
+              className="absolute"
+              style={{
+                inset: '-50%',
+                background: `radial-gradient(circle at 50% 50%, #ffffff 0%, ${flareColor} 20%, ${flareColor}88 45%, transparent 65%)`,
+              }}
+              initial={{ scale: 0.1, opacity: 1 }}
+              animate={{ scale: 3, opacity: 0 }}
+              transition={{ duration: 1.5, ease: 'easeOut' }}
+            />
+            {/* Rotating light rays */}
+            <motion.div
+              className="absolute"
+              style={{
+                inset: '-100%',
+                background: `repeating-conic-gradient(${flareColor}55 0deg, transparent 6deg, transparent 13deg)`,
+              }}
+              initial={{ rotate: 0, opacity: 0.55 }}
+              animate={{ rotate: 60, opacity: 0 }}
+              transition={{ duration: 1.5, ease: 'easeOut' }}
+            />
+          </motion.div>
+        )}
+      </AnimatePresence>
+
       <AnimatePresence mode="wait">
         {phase === 'pack' && (
           <motion.div
@@ -80,14 +193,6 @@ export function PackOpening({ pack, cards, onDone }: Props) {
                 transition={{ duration: 0.4, ease: 'easeOut' }}
                 style={{ perspective: 1000 }}
               >
-                {(cards[revealed].rarity === 'Elite' || cards[revealed].rarity === 'Icon' || cards[revealed].rarity === 'Special') && (
-                  <motion.div
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: [0, 1, 0] }}
-                    transition={{ duration: 0.6 }}
-                    className="absolute inset-0 bg-white rounded-xl pointer-events-none z-10"
-                  />
-                )}
                 <PlayerCard player={cards[revealed]} />
               </motion.div>
             </AnimatePresence>

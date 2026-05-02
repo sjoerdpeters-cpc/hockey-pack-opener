@@ -3,12 +3,11 @@ import type { PackConfig, CollectedCard, EnrichedPlayer } from './types';
 import { PackSelector } from './components/PackSelector';
 import { PackOpening } from './components/PackOpening';
 import { Collection } from './components/Collection';
-import { CsvImport } from './components/CsvImport';
 import { DatasetInfo } from './components/DatasetInfo';
 import { openPack, loadCollection, saveToCollection, loadCoins, saveCoins, sellCards } from './lib/packLogic';
 import { datasetMeta } from './data/dataset';
 
-type Screen = 'home' | 'opening' | 'collection' | 'csv' | 'dataset';
+type Screen = 'home' | 'opening' | 'collection' | 'dataset';
 
 export default function App() {
   const [screen, setScreen] = useState<Screen>('home');
@@ -36,12 +35,6 @@ export default function App() {
     setCollection(updated);
 
     setScreen('opening');
-  }
-
-  function handleCsvImport(players: EnrichedPlayer[]) {
-    const updated = saveToCollection(players, collection);
-    setCollection(updated);
-    setScreen('home');
   }
 
   function handleSell(cards: CollectedCard[]) {
@@ -74,14 +67,6 @@ export default function App() {
               }`}
             >
               📦 Collectie <span className="bg-white/20 rounded-full px-1.5 text-xs">{uniqueCount}</span>
-            </button>
-            <button
-              onClick={() => setScreen('csv')}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg transition-colors ${
-                screen === 'csv' ? 'bg-blue-600 text-white' : 'text-white/60 hover:text-white hover:bg-white/10'
-              }`}
-            >
-              📂 Import
             </button>
             <button
               onClick={() => setScreen('dataset')}
@@ -158,10 +143,6 @@ export default function App() {
 
       {screen === 'collection' && (
         <Collection collection={collection} onBack={() => setScreen('home')} onSell={handleSell} />
-      )}
-
-      {screen === 'csv' && (
-        <CsvImport onImport={handleCsvImport} onBack={() => setScreen('home')} />
       )}
 
       {screen === 'dataset' && (
