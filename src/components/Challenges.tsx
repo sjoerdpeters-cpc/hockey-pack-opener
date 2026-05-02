@@ -250,14 +250,8 @@ function DetailModal({
 function MissingCard({ player }: { player: EnrichedPlayer }) {
   return (
     <div className="w-32 rounded-xl border border-white/8 bg-white/4 p-2 flex flex-col items-center gap-1.5 select-none">
-      {/* Rating + position row */}
-      <div className="w-full flex items-center justify-between">
-        <span className="text-base font-black text-white/15 leading-none">{player.rating}</span>
-        <span className="text-xs font-bold bg-white/8 text-white/20 px-1 rounded">{player.position}</span>
-      </div>
-
       {/* Avatar ghost */}
-      <div className="w-11 h-11 rounded-full bg-white/8 flex items-center justify-center">
+      <div className="w-11 h-11 rounded-full bg-white/8 flex items-center justify-center mt-1">
         <span className="text-white/15 text-lg">?</span>
       </div>
 
@@ -265,9 +259,6 @@ function MissingCard({ player }: { player: EnrichedPlayer }) {
       <div className="text-xs font-medium text-white/25 text-center leading-tight line-clamp-2 px-1">
         {player.name}
       </div>
-
-      {/* Rarity */}
-      <div className="text-xs text-white/15 uppercase tracking-wider">{player.rarity}</div>
     </div>
   );
 }
