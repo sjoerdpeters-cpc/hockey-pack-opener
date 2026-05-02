@@ -1,0 +1,442 @@
+{
+  "datasetVersion": "v1.6.0",
+  "lastUpdated": "2026-05-02",
+  "modelVersion": "rating-model-v1.0-2026-05-02",
+  "totalPlayers": 521,
+  "ratingMin": 50,
+  "ratingMax": 92,
+  "ratingAverage": 56.96,
+  "rarityCounts": {
+    "Gold": 46,
+    "Bronze": 356,
+    "Silver": 111,
+    "Elite": 7,
+    "Icon": 1
+  },
+  "top20": [
+    {
+      "playerId": "hk-nl-m-den-bosch-timo-boers",
+      "name": "Timo Boers",
+      "previousRating": 72,
+      "rating": 92,
+      "rarity": "Icon"
+    },
+    {
+      "playerId": "hk-nl-m-den-bosch-koen-bijen",
+      "name": "Koen Bijen",
+      "previousRating": 72,
+      "rating": 88,
+      "rarity": "Elite"
+    },
+    {
+      "playerId": "hk-nl-m-den-bosch-thierry-brinkman",
+      "name": "Thierry Brinkman",
+      "previousRating": 72,
+      "rating": 87,
+      "rarity": "Elite"
+    },
+    {
+      "playerId": "hk-nl-f-schc-yibbi-jansen",
+      "name": "Yibbi Jansen",
+      "previousRating": 72,
+      "rating": 86,
+      "rarity": "Elite"
+    },
+    {
+      "playerId": "hk-nl-f-den-bosch-frederique-matla",
+      "name": "Frédérique Matla",
+      "previousRating": 70,
+      "rating": 85,
+      "rarity": "Elite"
+    },
+    {
+      "playerId": "hk-nl-m-kampong-duco-telgenkamp",
+      "name": "Duco Telgenkamp",
+      "previousRating": 70,
+      "rating": 83,
+      "rarity": "Elite"
+    },
+    {
+      "playerId": "hk-nl-m-rotterdam-pepijn-van-der-heijden",
+      "name": "Pepijn van der Heijden",
+      "previousRating": 72,
+      "rating": 83,
+      "rarity": "Elite"
+    },
+    {
+      "playerId": "hk-nl-f-schc-jip-dicke",
+      "name": "Jip Dicke",
+      "previousRating": 70,
+      "rating": 82,
+      "rarity": "Elite"
+    },
+    {
+      "playerId": "hk-nl-f-amsterdam-anne-veenendaal",
+      "name": "Anne Veenendaal",
+      "previousRating": 73,
+      "rating": 81,
+      "rarity": "Gold"
+    },
+    {
+      "playerId": "hk-nl-f-amsterdam-trijntje-beljaars",
+      "name": "Trijntje Beljaars",
+      "previousRating": 70,
+      "rating": 81,
+      "rarity": "Gold"
+    },
+    {
+      "playerId": "hk-nl-f-den-bosch-josine-koning",
+      "name": "Josine Koning",
+      "previousRating": 73,
+      "rating": 81,
+      "rarity": "Gold"
+    },
+    {
+      "playerId": "hk-nl-m-pinoke-miles-bukkens",
+      "name": "Miles Bukkens",
+      "previousRating": 72,
+      "rating": 81,
+      "rarity": "Gold"
+    },
+    {
+      "playerId": "hk-nl-f-amsterdam-freeke-moes",
+      "name": "Freeke Moes",
+      "previousRating": 76,
+      "rating": 80,
+      "rarity": "Gold"
+    },
+    {
+      "playerId": "hk-nl-m-bloemendaal-maurits-visser",
+      "name": "Maurits Visser",
+      "previousRating": 73,
+      "rating": 79,
+      "rarity": "Gold"
+    },
+    {
+      "playerId": "hk-nl-m-pinoke-hidde-brink",
+      "name": "Hidde Brink",
+      "previousRating": 73,
+      "rating": 79,
+      "rarity": "Gold"
+    },
+    {
+      "playerId": "hk-nl-m-rotterdam-derk-meijer",
+      "name": "Derk Meijer",
+      "previousRating": 73,
+      "rating": 79,
+      "rarity": "Gold"
+    },
+    {
+      "playerId": "hk-nl-f-den-bosch-joosje-burg",
+      "name": "Joosje Burg",
+      "previousRating": 70,
+      "rating": 78,
+      "rarity": "Gold"
+    },
+    {
+      "playerId": "hk-nl-f-kampong-luna-fokke",
+      "name": "Luna Fokke",
+      "previousRating": 76,
+      "rating": 78,
+      "rarity": "Gold"
+    },
+    {
+      "playerId": "hk-nl-m-oranje-rood-tijmen-reyenga",
+      "name": "Tijmen Reyenga",
+      "previousRating": 72,
+      "rating": 78,
+      "rarity": "Gold"
+    },
+    {
+      "playerId": "hk-nl-m-rotterdam-thijs-van-dam",
+      "name": "Thijs van Dam",
+      "previousRating": 76,
+      "rating": 78,
+      "rarity": "Gold"
+    }
+  ],
+  "biggestIncreases": [
+    {
+      "playerId": "hk-nl-m-den-bosch-timo-boers",
+      "name": "Timo Boers",
+      "previousRating": 72,
+      "rating": 92,
+      "delta": 20
+    },
+    {
+      "playerId": "hk-nl-m-den-bosch-koen-bijen",
+      "name": "Koen Bijen",
+      "previousRating": 72,
+      "rating": 88,
+      "delta": 16
+    },
+    {
+      "playerId": "hk-nl-f-den-bosch-frederique-matla",
+      "name": "Frédérique Matla",
+      "previousRating": 70,
+      "rating": 85,
+      "delta": 15
+    },
+    {
+      "playerId": "hk-nl-m-den-bosch-thierry-brinkman",
+      "name": "Thierry Brinkman",
+      "previousRating": 72,
+      "rating": 87,
+      "delta": 15
+    },
+    {
+      "playerId": "hk-nl-f-schc-yibbi-jansen",
+      "name": "Yibbi Jansen",
+      "previousRating": 72,
+      "rating": 86,
+      "delta": 14
+    },
+    {
+      "playerId": "hk-nl-m-kampong-duco-telgenkamp",
+      "name": "Duco Telgenkamp",
+      "previousRating": 70,
+      "rating": 83,
+      "delta": 13
+    },
+    {
+      "playerId": "hk-nl-f-schc-jip-dicke",
+      "name": "Jip Dicke",
+      "previousRating": 70,
+      "rating": 82,
+      "delta": 12
+    },
+    {
+      "playerId": "hk-nl-f-amsterdam-trijntje-beljaars",
+      "name": "Trijntje Beljaars",
+      "previousRating": 70,
+      "rating": 81,
+      "delta": 11
+    },
+    {
+      "playerId": "hk-nl-m-rotterdam-pepijn-van-der-heijden",
+      "name": "Pepijn van der Heijden",
+      "previousRating": 72,
+      "rating": 83,
+      "delta": 11
+    },
+    {
+      "playerId": "hk-nl-m-pinoke-miles-bukkens",
+      "name": "Miles Bukkens",
+      "previousRating": 72,
+      "rating": 81,
+      "delta": 9
+    },
+    {
+      "playerId": "hk-nl-f-amsterdam-anne-veenendaal",
+      "name": "Anne Veenendaal",
+      "previousRating": 73,
+      "rating": 81,
+      "delta": 8
+    },
+    {
+      "playerId": "hk-nl-f-den-bosch-josine-koning",
+      "name": "Josine Koning",
+      "previousRating": 73,
+      "rating": 81,
+      "delta": 8
+    },
+    {
+      "playerId": "hk-nl-f-den-bosch-joosje-burg",
+      "name": "Joosje Burg",
+      "previousRating": 70,
+      "rating": 78,
+      "delta": 8
+    },
+    {
+      "playerId": "hk-nl-m-rotterdam-tjep-hoedemakers",
+      "name": "Tjep Hoedemakers",
+      "previousRating": 70,
+      "rating": 78,
+      "delta": 8
+    },
+    {
+      "playerId": "hk-nl-m-rotterdam-guus-jansen",
+      "name": "Guus Jansen",
+      "previousRating": 68,
+      "rating": 76,
+      "delta": 8
+    },
+    {
+      "playerId": "hk-nl-m-den-bosch-max-kreft",
+      "name": "Max Kreft",
+      "previousRating": 68,
+      "rating": 75,
+      "delta": 7
+    },
+    {
+      "playerId": "hk-nl-m-bloemendaal-maurits-visser",
+      "name": "Maurits Visser",
+      "previousRating": 73,
+      "rating": 79,
+      "delta": 6
+    },
+    {
+      "playerId": "hk-nl-m-oranje-rood-tijmen-reyenga",
+      "name": "Tijmen Reyenga",
+      "previousRating": 72,
+      "rating": 78,
+      "delta": 6
+    },
+    {
+      "playerId": "hk-nl-m-pinoke-hidde-brink",
+      "name": "Hidde Brink",
+      "previousRating": 73,
+      "rating": 79,
+      "delta": 6
+    },
+    {
+      "playerId": "hk-nl-m-rotterdam-derk-meijer",
+      "name": "Derk Meijer",
+      "previousRating": 73,
+      "rating": 79,
+      "delta": 6
+    }
+  ],
+  "biggestDecreases": [
+    {
+      "playerId": "hk-nl-m-hdm-cedric-de-gier",
+      "name": "Cédric de Gier",
+      "previousRating": 76,
+      "rating": 52,
+      "delta": -24
+    },
+    {
+      "playerId": "hk-nl-m-hdm-sander-groenheijde",
+      "name": "Sander Groenheijde",
+      "previousRating": 76,
+      "rating": 52,
+      "delta": -24
+    },
+    {
+      "playerId": "hk-nl-f-hurley-sophie-schelfhout",
+      "name": "Sophie Schelfhout",
+      "previousRating": 76,
+      "rating": 52,
+      "delta": -24
+    },
+    {
+      "playerId": "hk-nl-f-hurley-chrisje-van-der-salm",
+      "name": "Chrisje van der Salm",
+      "previousRating": 76,
+      "rating": 52,
+      "delta": -24
+    },
+    {
+      "playerId": "hk-nl-m-hurley-mees-loman",
+      "name": "Mees Loman",
+      "previousRating": 76,
+      "rating": 52,
+      "delta": -24
+    },
+    {
+      "playerId": "hk-nl-m-klein-zwitserland-douwe-steens",
+      "name": "Douwe Steens",
+      "previousRating": 76,
+      "rating": 52,
+      "delta": -24
+    },
+    {
+      "playerId": "hk-nl-m-laren-diederick-van-berckel",
+      "name": "Diederick van Berckel",
+      "previousRating": 76,
+      "rating": 52,
+      "delta": -24
+    },
+    {
+      "playerId": "hk-nl-f-oranje-rood-vivienne-peters",
+      "name": "Vivienne Peters",
+      "previousRating": 76,
+      "rating": 52,
+      "delta": -24
+    },
+    {
+      "playerId": "hk-nl-f-pinoke-kiki-rozemeijer",
+      "name": "Kiki Rozemeijer",
+      "previousRating": 76,
+      "rating": 52,
+      "delta": -24
+    },
+    {
+      "playerId": "hk-nl-f-rotterdam-emma-van-santbrink",
+      "name": "Emma van Santbrink",
+      "previousRating": 76,
+      "rating": 52,
+      "delta": -24
+    },
+    {
+      "playerId": "hk-nl-m-schaerweijde-pepijn-leenhouts",
+      "name": "Pepijn Leenhouts",
+      "previousRating": 76,
+      "rating": 52,
+      "delta": -24
+    },
+    {
+      "playerId": "hk-nl-m-amsterdam-lucas-middendorp",
+      "name": "Lucas Middendorp",
+      "previousRating": 72,
+      "rating": 50,
+      "delta": -22
+    },
+    {
+      "playerId": "hk-nl-f-bloemendaal-sterre-bregman",
+      "name": "Sterre Bregman",
+      "previousRating": 72,
+      "rating": 50,
+      "delta": -22
+    },
+    {
+      "playerId": "hk-nl-f-bloemendaal-pientje-molenaar",
+      "name": "Pientje Molenaar",
+      "previousRating": 72,
+      "rating": 50,
+      "delta": -22
+    },
+    {
+      "playerId": "hk-nl-m-bloemendaal-jorrit-croon",
+      "name": "Jorrit Croon",
+      "previousRating": 76,
+      "rating": 54,
+      "delta": -22
+    },
+    {
+      "playerId": "hk-nl-m-bloemendaal-jasper-brinkman",
+      "name": "Jasper Brinkman",
+      "previousRating": 72,
+      "rating": 50,
+      "delta": -22
+    },
+    {
+      "playerId": "hk-nl-f-hdm-milou-klein",
+      "name": "Milou Klein",
+      "previousRating": 72,
+      "rating": 50,
+      "delta": -22
+    },
+    {
+      "playerId": "hk-nl-f-hdm-frederique-dekker",
+      "name": "Frederique Dekker",
+      "previousRating": 72,
+      "rating": 50,
+      "delta": -22
+    },
+    {
+      "playerId": "hk-nl-m-hdm-floris-van-der-kroon",
+      "name": "Floris van der Kroon",
+      "previousRating": 72,
+      "rating": 50,
+      "delta": -22
+    },
+    {
+      "playerId": "hk-nl-f-hgc-cecile-pieper",
+      "name": "Cécile Pieper",
+      "previousRating": 76,
+      "rating": 54,
+      "delta": -22
+    }
+  ]
+}

@@ -1,0 +1,522 @@
+playerId,name,club,teamLabel,position,positionStatus,topTraits,needsReview
+hk-nl-f-amsterdam-anne-veenendaal,Anne Veenendaal,Amsterdam,Dames 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-f-amsterdam-freeke-moes,Freeke Moes,Amsterdam,Dames 1,UNKNOWN,unknown,schieten:69% | tip-in:64% | 1 tegen 1 specialist:52% | dribbelaar:49% | snelheid:44%,yes
+hk-nl-f-amsterdam-felice-albers,Felice Albers,Amsterdam,Dames 1,UNKNOWN,unknown,schieten:54% | tip-in:40% | sleepcorner:36% | 1 tegen 1 specialist:34% | dribbelaar:31%,yes
+hk-nl-f-amsterdam-fay-van-der-elst,Fay van der Elst,Amsterdam,Dames 1,UNKNOWN,unknown,schieten:63% | tip-in:52% | 1 tegen 1 specialist:43% | dribbelaar:40% | rebound:40%,yes
+hk-nl-f-amsterdam-imke-verstraeten,Imke Verstraeten,Amsterdam,Dames 1,UNKNOWN,unknown,schieten:86% | sleepcorner:68% | rebound:50% | uitlopen strafcorner:38% | passing:12%,yes
+hk-nl-f-amsterdam-marijn-veen,Marijn Veen,Amsterdam,Dames 1,UNKNOWN,unknown,schieten:54% | tip-in:44% | 1 tegen 1 specialist:37% | dribbelaar:34% | snelheid:32%,yes
+hk-nl-f-amsterdam-li-hong,Li Hong,Amsterdam,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-amsterdam-stella-van-gils,Stella van Gils,Amsterdam,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-amsterdam-trijntje-beljaars,Trijntje Beljaars,Amsterdam,Dames 1,UNKNOWN,unknown,schieten:81% | tip-in:68% | 1 tegen 1 specialist:55% | dribbelaar:52% | rebound:50%,yes
+hk-nl-f-amsterdam-daantje-de-kruijff,Daantje de Kruijff,Amsterdam,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-amsterdam-sabine-plonissen,Sabine Plönissen,Amsterdam,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-amsterdam-gabrielle-mosch,Gabrielle Mosch,Amsterdam,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-amsterdam-noa-muller,Noa Muller,Amsterdam,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-amsterdam-alessia-norbiato,Alessia Norbiato,Amsterdam,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-amsterdam-ivy-tellier,Ivy Tellier,Amsterdam,Dames 1,UNKNOWN,unknown,schieten:48% | passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-amsterdam-katerina-langedijk,Katerina Langedijk,Amsterdam,Dames 1,UNKNOWN,unknown,schieten:74% | tip-in:48% | sleepcorner:44% | rebound:44% | 1 tegen 1 specialist:40%,yes
+hk-nl-f-amsterdam-renske-balemans,Renske Balemans,Amsterdam,Dames 1,UNKNOWN,unknown,schieten:48% | passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-amsterdam-merle-blaffert,Merle Blaffert,Amsterdam,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-amsterdam-reese-d-ariano,Reese d' Ariano,Amsterdam,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-amsterdam-fere-van-der-maarel,Fere van der Maarel,Amsterdam,Dames 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-f-amsterdam-charlotte-adegeest,Charlotte Adegeest,Amsterdam,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-amsterdam-sarah-smit-sibinga,Sarah Smit Sibinga,Amsterdam,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-amsterdam-luke-dommershuijzen,Luke Dommershuijzen,Amsterdam,Heren 1,UNKNOWN,unknown,schieten:51% | sleepcorner:40% | uitlopen strafcorner:24% | passing:12% | balcontrole:12%,yes
+hk-nl-m-amsterdam-oliver-payne,Oliver Payne,Amsterdam,Heren 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-m-amsterdam-lucas-middendorp,Lucas Middendorp,Amsterdam,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-amsterdam-boris-burkhardt,Boris Burkhardt,Amsterdam,Heren 1,UNKNOWN,unknown,schieten:96% | sleepcorner:68% | tip-in:60% | rebound:60% | 1 tegen 1 specialist:49%,yes
+hk-nl-m-amsterdam-floris-middendorp,Floris Middendorp,Amsterdam,Heren 1,UNKNOWN,unknown,schieten:51% | sleepcorner:40% | passing:24% | uitlopen strafcorner:24% | loopvermogen:20%,yes
+hk-nl-m-amsterdam-david-huussen,David Huussen,Amsterdam,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-amsterdam-lee-morton,Lee Morton,Amsterdam,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-amsterdam-dayaan-cassiem,Dayaan Cassiem,Amsterdam,Heren 1,UNKNOWN,unknown,schieten:78% | tip-in:72% | 1 tegen 1 specialist:58% | dribbelaar:55% | snelheid:50%,yes
+hk-nl-m-amsterdam-musthapha-cassiem,Musthapha Cassiem,Amsterdam,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-amsterdam-casper-berkman,Casper Berkman,Amsterdam,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-amsterdam-brent-van-bijnen,Brent van Bijnen,Amsterdam,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-amsterdam-tjeerd-boermans,Tjeerd Boermans,Amsterdam,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-amsterdam-robbert-kemperman,Robbert Kemperman,Amsterdam,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-amsterdam-karst-timmer,Karst Timmer,Amsterdam,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-amsterdam-thije-harm,Thije Harm,Amsterdam,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-amsterdam-sam-steins-bisschop,Sam Steins Bisschop,Amsterdam,Heren 1,UNKNOWN,unknown,schieten:54% | tip-in:44% | 1 tegen 1 specialist:37% | dribbelaar:34% | snelheid:32%,yes
+hk-nl-m-amsterdam-lucas-corstens,Lucas Corstens,Amsterdam,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-amsterdam-sam-van-der-weijden,Sam van der Weijden,Amsterdam,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-amsterdam-joost-tolboom,Joost Tolboom,Amsterdam,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-amsterdam-olivier-paalman,Olivier Paalman,Amsterdam,Heren 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-m-amsterdam-jochem-blok,Jochem Blok,Amsterdam,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-amsterdam-mirco-pruyser,Mirco Pruyser,Amsterdam,Heren 1,UNKNOWN,unknown,schieten:57% | tip-in:48% | 1 tegen 1 specialist:40% | rebound:38% | dribbelaar:37%,yes
+hk-nl-f-bloemendaal-ankelein-baardemans,Ankelein Baardemans,Bloemendaal,Dames 1,UNKNOWN,unknown,schieten:54% | tip-in:44% | 1 tegen 1 specialist:37% | dribbelaar:34% | snelheid:32%,yes
+hk-nl-f-bloemendaal-sterre-bregman,Sterre Bregman,Bloemendaal,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-bloemendaal-pientje-molenaar,Pientje Molenaar,Bloemendaal,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-bloemendaal-demi-hilterman,Demi Hilterman,Bloemendaal,Dames 1,UNKNOWN,unknown,schieten:74% | sleepcorner:64% | rebound:44% | uitlopen strafcorner:36% | passing:12%,yes
+hk-nl-f-bloemendaal-phileine-hazen,Phileine Hazen,Bloemendaal,Dames 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-f-bloemendaal-malou-nanninga,Malou Nanninga,Bloemendaal,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-bloemendaal-rosalie-rosman,Rosalie Rosman,Bloemendaal,Dames 1,UNKNOWN,unknown,schieten:48% | sleepcorner:36% | uitlopen strafcorner:22% | passing:12% | balcontrole:12%,yes
+hk-nl-f-bloemendaal-maud-preyde,Maud Preyde,Bloemendaal,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-bloemendaal-lilli-de-nooijer,Lilli de Nooijer,Bloemendaal,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-bloemendaal-annelies-pos,Annelies Pos,Bloemendaal,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-bloemendaal-luca-preyde,Luca Preyde,Bloemendaal,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-bloemendaal-isa-huijbers,Isa Huijbers,Bloemendaal,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-bloemendaal-ryanne-van-dooijeweerd,Ryanne van Dooijeweerd,Bloemendaal,Dames 1,UNKNOWN,unknown,schieten:48% | passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-bloemendaal-mijntje-van-campen,Mijntje van Campen,Bloemendaal,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-bloemendaal-florien-sondern,Florien Sondern,Bloemendaal,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-bloemendaal-floks-van-der-beek,Floks van der Beek,Bloemendaal,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-bloemendaal-sophie-thoolen,Sophie Thoolen,Bloemendaal,Dames 1,UNKNOWN,unknown,schieten:48% | passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-bloemendaal-julie-hoogendoorn,Julie Hoogendoorn,Bloemendaal,Dames 1,UNKNOWN,unknown,schieten:48% | passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-bloemendaal-isolde-otten,Isolde Otten,Bloemendaal,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-bloemendaal-diana-beemster,Diana Beemster,Bloemendaal,Dames 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-m-bloemendaal-jorrit-croon,Jorrit Croon,Bloemendaal,Heren 1,UNKNOWN,unknown,passing:24% | loopvermogen:20% | spelverdeler:18% | visie:15% | balcontrole:12%,yes
+hk-nl-m-bloemendaal-floris-wortelboer,Floris Wortelboer,Bloemendaal,Heren 1,UNKNOWN,unknown,schieten:51% | sleepcorner:36% | uitlopen strafcorner:22% | passing:12% | balcontrole:12%,yes
+hk-nl-m-bloemendaal-maurits-visser,Maurits Visser,Bloemendaal,Heren 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-m-bloemendaal-jasper-brinkman,Jasper Brinkman,Bloemendaal,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-bloemendaal-zachary-wallace,Zachary Wallace,Bloemendaal,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-bloemendaal-teun-beins,Teun Beins,Bloemendaal,Heren 1,UNKNOWN,unknown,sleepcorner:92% | schieten:87% | rebound:52% | uitlopen strafcorner:50% | passing:12%,yes
+hk-nl-m-bloemendaal-arno-van-dessel,Arno van Dessel,Bloemendaal,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-bloemendaal-casper-van-der-veen,Casper van der Veen,Bloemendaal,Heren 1,UNKNOWN,unknown,schieten:54% | tip-in:44% | 1 tegen 1 specialist:37% | dribbelaar:34% | snelheid:32%,yes
+hk-nl-m-bloemendaal-marco-miltkau,Marco Miltkau,Bloemendaal,Heren 1,UNKNOWN,unknown,schieten:57% | tip-in:48% | 1 tegen 1 specialist:40% | rebound:38% | dribbelaar:37%,yes
+hk-nl-m-bloemendaal-wiegert-schut,Wiegert Schut,Bloemendaal,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-bloemendaal-lucas-veen,Lucas Veen,Bloemendaal,Heren 1,UNKNOWN,unknown,schieten:51% | tip-in:40% | 1 tegen 1 specialist:34% | dribbelaar:31% | snelheid:30%,yes
+hk-nl-m-bloemendaal-elian-mazkour,Elian Mazkour,Bloemendaal,Heren 1,UNKNOWN,unknown,schieten:68% | tip-in:44% | rebound:40% | 1 tegen 1 specialist:37% | sleepcorner:36%,yes
+hk-nl-m-bloemendaal-gijs-ter-braak,Gijs ter Braak,Bloemendaal,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-bloemendaal-teun-hogenhout,Teun Hogenhout,Bloemendaal,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-bloemendaal-sheldon-schouten,Sheldon Schouten,Bloemendaal,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-bloemendaal-jan-van-t-land,Jan van 't Land,Bloemendaal,Heren 1,UNKNOWN,unknown,schieten:57% | tip-in:48% | 1 tegen 1 specialist:40% | rebound:38% | dribbelaar:37%,yes
+hk-nl-m-bloemendaal-max-langer,Max Langer,Bloemendaal,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-bloemendaal-tobias-bovelander,Tobias Bovelander,Bloemendaal,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-bloemendaal-ramses-zwijnenburg,Ramses Zwijnenburg,Bloemendaal,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-bloemendaal-allard-andre-de-la-porte,Allard André de la Porte,Bloemendaal,Heren 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-m-bloemendaal-wouter-jolie,Wouter Jolie,Bloemendaal,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-bloemendaal-matthijs-odekerken,Matthijs Odekerken,Bloemendaal,Heren 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-f-den-bosch-josine-koning,Josine Koning,Den Bosch,Dames 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-f-den-bosch-charlotte-englebert,Charlotte Englebert,Den Bosch,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-den-bosch-rosa-fernig,Rosa Fernig,Den Bosch,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-den-bosch-pien-sanders,Pien Sanders,Den Bosch,Dames 1,UNKNOWN,unknown,schieten:51% | sleepcorner:40% | passing:24% | uitlopen strafcorner:24% | loopvermogen:20%,yes
+hk-nl-f-den-bosch-sanne-koolen,Sanne Koolen,Den Bosch,Dames 1,UNKNOWN,unknown,schieten:48% | sleepcorner:40% | uitlopen strafcorner:24% | passing:12% | balcontrole:12%,yes
+hk-nl-f-den-bosch-frederique-matla,Frédérique Matla,Den Bosch,Dames 1,UNKNOWN,unknown,schieten:96% | sleepcorner:72% | tip-in:60% | rebound:60% | 1 tegen 1 specialist:49%,yes
+hk-nl-f-den-bosch-joosje-burg,Joosje Burg,Den Bosch,Dames 1,UNKNOWN,unknown,schieten:72% | tip-in:68% | 1 tegen 1 specialist:55% | dribbelaar:52% | snelheid:47%,yes
+hk-nl-f-den-bosch-laura-nunnink,Laura Nunnink,Den Bosch,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-den-bosch-maartje-krekelaar,Maartje Krekelaar,Den Bosch,Dames 1,UNKNOWN,unknown,schieten:48% | passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-den-bosch-danique-van-der-veerdonk,Danique van der Veerdonk,Den Bosch,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-den-bosch-imme-van-der-hoek,Imme van der Hoek,Den Bosch,Dames 1,UNKNOWN,unknown,schieten:48% | passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-den-bosch-emma-reijnen,Emma Reijnen,Den Bosch,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-den-bosch-babs-reijnen,Babs Reijnen,Den Bosch,Dames 1,UNKNOWN,unknown,schieten:48% | passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-den-bosch-anouk-brouwer,Anouk Brouwer,Den Bosch,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-den-bosch-lieve-wijckmans,Lieve Wijckmans,Den Bosch,Dames 1,UNKNOWN,unknown,schieten:51% | tip-in:40% | 1 tegen 1 specialist:34% | dribbelaar:31% | snelheid:30%,yes
+hk-nl-f-den-bosch-teuntje-de-wit,Teuntje de Wit,Den Bosch,Dames 1,UNKNOWN,unknown,schieten:54% | tip-in:40% | sleepcorner:36% | 1 tegen 1 specialist:34% | dribbelaar:31%,yes
+hk-nl-f-den-bosch-romee-joosten,Romee Joosten,Den Bosch,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-den-bosch-josephine-bekkers,Josephine Bekkers,Den Bosch,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-den-bosch-kim-peters,Kim Peters,Den Bosch,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-den-bosch-janneke-van-de-venne,Janneke van de Venne,Den Bosch,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-den-bosch-elke-boers,Elke Boers,Den Bosch,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-den-bosch-laurette-abelen,Laurette Abelen,Den Bosch,Dames 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-m-den-bosch-alexander-stadler,Alexander Stadler,Den Bosch,Heren 1,GK,verified_club_profile,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-m-den-bosch-thierry-brinkman,Thierry Brinkman,Den Bosch,Heren 1,ATT,verified_club_profile,schieten:88% | tip-in:64% | 1 tegen 1 specialist:52% | dribbelaar:49% | rebound:45%,no
+hk-nl-m-den-bosch-jasper-tukkers,Jasper Tukkers,Den Bosch,Heren 1,MID,verified_club_profile,spelverdeler:66% | passing:64% | visie:60% | loopvermogen:54% | balcontrole:38%,no
+hk-nl-m-den-bosch-koen-bijen,Koen Bijen,Den Bosch,Heren 1,ATT,verified_club_profile,schieten:88% | tip-in:76% | 1 tegen 1 specialist:61% | dribbelaar:58% | snelheid:52%,no
+hk-nl-m-den-bosch-timo-boers,Timo Boers,Den Bosch,Heren 1,DEF,verified_club_profile,sleepcorner:96% | schieten:96% | rebound:65% | uitlopen strafcorner:64% | onderscheppen:50%,no
+hk-nl-m-den-bosch-gijs-campbell,Gijs Campbell,Den Bosch,Heren 1,DEF,verified_club_profile,onderscheppen:50% | tackelen:48% | mandekking:46% | uitlopen strafcorner:40% | passing:28%,no
+hk-nl-m-den-bosch-joppe-wolbert,Joppe Wolbert,Den Bosch,Heren 1,DEF,verified_club_profile,onderscheppen:50% | tackelen:48% | mandekking:46% | uitlopen strafcorner:40% | passing:28%,no
+hk-nl-m-den-bosch-eduard-de-ignacio-simo,Eduard De Ignacio - Simó,Den Bosch,Heren 1,ATT,verified_club_profile,schieten:54% | tip-in:44% | snelheid:43% | 1 tegen 1 specialist:40% | dribbelaar:38%,no
+hk-nl-m-den-bosch-pepijn-reijenga,Pepijn Reijenga,Den Bosch,Heren 1,MID,verified_club_profile,passing:52% | spelverdeler:48% | visie:45% | loopvermogen:44% | balcontrole:38%,no
+hk-nl-m-den-bosch-imre-vos,Imre Vos,Den Bosch,Heren 1,DEF,verified_club_profile,onderscheppen:50% | tackelen:48% | mandekking:46% | uitlopen strafcorner:40% | passing:28%,no
+hk-nl-m-den-bosch-mees-kurvers,Mees Kurvers,Den Bosch,Heren 1,DEF,verified_club_profile,onderscheppen:50% | tackelen:48% | mandekking:46% | uitlopen strafcorner:40% | passing:28%,no
+hk-nl-m-den-bosch-jair-van-der-horst,Jaïr van der Horst,Den Bosch,Heren 1,ATT,verified_club_profile,schieten:57% | tip-in:44% | snelheid:43% | 1 tegen 1 specialist:40% | dribbelaar:38%,no
+hk-nl-m-den-bosch-max-kreft,Max Kreft,Den Bosch,Heren 1,ATT,verified_club_profile,schieten:88% | tip-in:60% | 1 tegen 1 specialist:49% | dribbelaar:46% | rebound:45%,no
+hk-nl-m-den-bosch-lucas-driessen,Lucas Driessen,Den Bosch,Heren 1,MID,verified_club_profile,passing:52% | spelverdeler:48% | visie:45% | loopvermogen:44% | balcontrole:38%,no
+hk-nl-m-den-bosch-max-pastoor,Max Pastoor,Den Bosch,Heren 1,MID,verified_club_profile,passing:52% | spelverdeler:48% | visie:45% | loopvermogen:44% | balcontrole:38%,no
+hk-nl-m-den-bosch-sweder-koens,Sweder Koens,Den Bosch,Heren 1,ATT,verified_club_profile,schieten:52% | snelheid:43% | 1 tegen 1 specialist:40% | dribbelaar:38% | tip-in:34%,no
+hk-nl-m-den-bosch-sander-van-berkel,Sander van Berkel,Den Bosch,Heren 1,GK,verified_club_profile,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-m-den-bosch-cedric-van-otterlo,Cedric van Otterlo,Den Bosch,Heren 1,DEF,verified_club_profile,onderscheppen:50% | tackelen:48% | mandekking:46% | uitlopen strafcorner:40% | passing:28%,no
+hk-nl-m-den-bosch-marc-vizcaino,Marc Vizcaino,Den Bosch,Heren 1,DEF,verified_club_profile,onderscheppen:50% | tackelen:48% | mandekking:46% | uitlopen strafcorner:40% | passing:28%,no
+hk-nl-m-den-bosch-thomas-sorsby,Thomas Sorsby,Den Bosch,Heren 1,MID,verified_club_profile,passing:52% | spelverdeler:48% | visie:45% | loopvermogen:44% | balcontrole:38%,no
+hk-nl-m-den-bosch-fabian-unterkircher,Fabian Unterkircher,Den Bosch,Heren 1,MID,verified_club_profile,passing:52% | spelverdeler:48% | visie:45% | loopvermogen:44% | balcontrole:38%,no
+hk-nl-m-den-bosch-tijn-van-groesen,Tijn van Groesen,Den Bosch,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hdm-milou-klein,Milou Klein,HDM,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hdm-belen-van-den-broek,Belén van den Broek,HDM,Dames 1,UNKNOWN,unknown,schieten:65% | rebound:39% | sleepcorner:36% | uitlopen strafcorner:22% | passing:12%,yes
+hk-nl-f-hdm-tessa-clasener,Tessa Clasener,HDM,Dames 1,UNKNOWN,unknown,schieten:48% | sleepcorner:36% | passing:24% | uitlopen strafcorner:22% | loopvermogen:20%,yes
+hk-nl-f-hdm-frederique-dekker,Frederique Dekker,HDM,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hdm-sabine-van-den-eijnden,Sabine van den Eijnden,HDM,Dames 1,UNKNOWN,unknown,schieten:48% | passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hdm-pien-van-der-heide,Pien van der Heide,HDM,Dames 1,UNKNOWN,unknown,schieten:48% | passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hdm-julia-remmerswaal,Julia Remmerswaal,HDM,Dames 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-f-hdm-hester-van-der-veld,Hester van der Veld,HDM,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hdm-kaat-walhof,Kaat Walhof,HDM,Dames 1,UNKNOWN,unknown,schieten:54% | tip-in:44% | 1 tegen 1 specialist:37% | dribbelaar:34% | snelheid:32%,yes
+hk-nl-f-hdm-phileine-van-den-bosch,Phileine van den Bosch,HDM,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hdm-delany-van-den-broek,Delany van den Broek,HDM,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hdm-julia-duffhuis,Julia Duffhuis,HDM,Dames 1,UNKNOWN,unknown,schieten:48% | sleepcorner:40% | uitlopen strafcorner:24% | passing:12% | balcontrole:12%,yes
+hk-nl-f-hdm-juliette-hijdra,Juliette Hijdra,HDM,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hdm-eva-van-t-hoog,Eva van 't Hoog,HDM,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hdm-lotte-beetsma,Lotte Beetsma,HDM,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hdm-claudia-negrete-garcia,Claudia Negrete Garcia,HDM,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hdm-anke-sanders,Anke Sanders,HDM,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hdm-isa-van-spronsen,Isa van Spronsen,HDM,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hdm-dirkie-chamberlain,Dirkie Chamberlain,HDM,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hdm-laila-dierkens-schuttevaer,Laila Dierkens Schuttevaer,HDM,Dames 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-f-hdm-pien-van-nes,Pien van Nes,HDM,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hdm-florien-vorderman,Florien Vorderman,HDM,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hdm-luis-beckmann,Luis Beckmann,HDM,Heren 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-m-hdm-cedric-de-gier,Cédric de Gier,HDM,Heren 1,UNKNOWN,unknown,passing:24% | loopvermogen:20% | spelverdeler:18% | visie:15% | balcontrole:12%,yes
+hk-nl-m-hdm-sander-groenheijde,Sander Groenheijde,HDM,Heren 1,UNKNOWN,unknown,passing:24% | loopvermogen:20% | spelverdeler:18% | visie:15% | balcontrole:12%,yes
+hk-nl-m-hdm-floris-van-der-kroon,Floris van der Kroon,HDM,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hdm-marc-bolto-gimo,Marc Boltó Gimó,HDM,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hdm-yorben-fontaine,Yorben Fontaine,HDM,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hdm-merijn-maas,Merijn Maas,HDM,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hdm-jasper-van-der-looy,Jasper van der Looy,HDM,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hdm-chris-taberima,Chris Taberima,HDM,Heren 1,UNKNOWN,unknown,schieten:71% | sleepcorner:56% | rebound:42% | uitlopen strafcorner:32% | passing:12%,yes
+hk-nl-m-hdm-fabian-verzuu,Fabian Verzuu,HDM,Heren 1,UNKNOWN,unknown,schieten:63% | tip-in:56% | 1 tegen 1 specialist:46% | dribbelaar:43% | snelheid:40%,yes
+hk-nl-m-hdm-alexander-weterings,Alexander Weterings,HDM,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hdm-jelte-kaptein,Jelte Kaptein,HDM,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hdm-rick-van-den-ijssel,Rick van den IJssel,HDM,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hdm-ruben-versteeg,Ruben Versteeg,HDM,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hdm-guus-van-den-boezem,Guus van den Boezem,HDM,Heren 1,UNKNOWN,unknown,schieten:54% | tip-in:40% | sleepcorner:36% | 1 tegen 1 specialist:34% | dribbelaar:31%,yes
+hk-nl-m-hdm-sam-spencer,Sam Spencer,HDM,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hdm-tom-provily,Tom Provily,HDM,Heren 1,UNKNOWN,unknown,schieten:54% | tip-in:44% | 1 tegen 1 specialist:37% | dribbelaar:34% | snelheid:32%,yes
+hk-nl-m-hdm-mats-dicke,Mats Dicke,HDM,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hdm-fenn-tellier,Fenn Tellier,HDM,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hdm-siebe-pijpers,Siebe Pijpers,HDM,Heren 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-m-hdm-duco-nieuwenhuizen-segaar,Duco Nieuwenhuizen Segaar,HDM,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hgc-sofie-ter-kuile,Sofie ter Kuile,HGC,Dames 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-f-hgc-isis-van-loon,Isis van Loon,HGC,Dames 1,UNKNOWN,unknown,schieten:48% | sleepcorner:36% | passing:24% | uitlopen strafcorner:22% | loopvermogen:20%,yes
+hk-nl-f-hgc-cecile-pieper,Cécile Pieper,HGC,Dames 1,UNKNOWN,unknown,passing:24% | loopvermogen:20% | spelverdeler:18% | visie:15% | balcontrole:12%,yes
+hk-nl-f-hgc-valentina-raposo-ruiz-de-los-llanos,Valentina Raposo Ruiz De Los Llanos,HGC,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hgc-marta-segu-rueda,Marta Segú Rueda,HGC,Dames 1,UNKNOWN,unknown,schieten:51% | sleepcorner:36% | uitlopen strafcorner:22% | passing:12% | balcontrole:12%,yes
+hk-nl-f-hgc-mariona-serrahima,Mariona Serrahima,HGC,Dames 1,UNKNOWN,unknown,schieten:54% | sleepcorner:40% | uitlopen strafcorner:24% | passing:12% | balcontrole:12%,yes
+hk-nl-f-hgc-anna-serrahima,Anna Serrahima,HGC,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hgc-lilly-stoffelsma,Lilly Stoffelsma,HGC,Dames 1,UNKNOWN,unknown,schieten:57% | sleepcorner:48% | rebound:38% | uitlopen strafcorner:28% | passing:12%,yes
+hk-nl-f-hgc-zoe-admiraal,Zoë Admiraal,HGC,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hgc-jip-blaas,Jip Blaas,HGC,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hgc-amy-van-den-bosch,Amy van den Bosch,HGC,Dames 1,UNKNOWN,unknown,schieten:51% | sleepcorner:36% | uitlopen strafcorner:22% | passing:12% | balcontrole:12%,yes
+hk-nl-f-hgc-tessel-huibregtsen,Tessel Huibregtsen,HGC,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hgc-bente-kolmus,Bente Kolmus,HGC,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hgc-lisa-lejeune,Lisa Lejeune,HGC,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hgc-faye-muijderman,Faye Muijderman,HGC,Dames 1,UNKNOWN,unknown,schieten:48% | passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hgc-julie-pieper,Julie Pieper,HGC,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hgc-mikki-roolaart,Mikki Roolaart,HGC,Dames 1,UNKNOWN,unknown,schieten:63% | tip-in:48% | sleepcorner:40% | 1 tegen 1 specialist:40% | rebound:40%,yes
+hk-nl-f-hgc-julie-sytsema,Julie Sytsema,HGC,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hgc-louisa-hopman,Louisa Hopman,HGC,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hgc-valentine-hulsbergen,Valentine Hulsbergen,HGC,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hgc-ellie-vinh,Ellie Vinh,HGC,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hgc-pip-jong,Pip Jong,HGC,Dames 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-f-hurley-maartje-kaptein,Maartje Kaptein,Hurley,Dames 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:30% | spelverdeler:18% | visie:15%,no
+hk-nl-f-hurley-sophie-schelfhout,Sophie Schelfhout,Hurley,Dames 1,UNKNOWN,unknown,passing:24% | loopvermogen:20% | spelverdeler:18% | visie:15% | balcontrole:12%,yes
+hk-nl-f-hurley-annelotte-nijhuis,Annelotte Nijhuis,Hurley,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hurley-fiona-morgenstern,Fiona Morgenstern,Hurley,Dames 1,UNKNOWN,unknown,passing:24% | loopvermogen:20% | spelverdeler:18% | visie:15% | balcontrole:12%,yes
+hk-nl-f-hurley-chrisje-van-der-salm,Chrisje van der Salm,Hurley,Dames 1,UNKNOWN,unknown,passing:24% | loopvermogen:20% | spelverdeler:18% | visie:15% | balcontrole:12%,yes
+hk-nl-f-hurley-margot-van-hecking-colenbrander,Margot van Hecking Colenbrander,Hurley,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hurley-sanne-caarls,Sanne Caarls,Hurley,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hurley-fleur-loomans,Fleur Loomans,Hurley,Dames 1,UNKNOWN,unknown,schieten:57% | tip-in:48% | 1 tegen 1 specialist:40% | rebound:38% | dribbelaar:37%,yes
+hk-nl-f-hurley-teuntje-horn,Teuntje Horn,Hurley,Dames 1,UNKNOWN,unknown,schieten:48% | passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hurley-eliza-vermeulen,Eliza Vermeulen,Hurley,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hurley-nora-bruinsma,Nora Bruinsma,Hurley,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hurley-dymph-luttge,Dymph Luttge,Hurley,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hurley-philine-vinkesteijn,Philine Vinkesteijn,Hurley,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hurley-taheera-augousti,Taheera Augousti,Hurley,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hurley-romee-corver,Romée Corver,Hurley,Dames 1,UNKNOWN,unknown,schieten:54% | tip-in:44% | 1 tegen 1 specialist:37% | dribbelaar:34% | snelheid:32%,yes
+hk-nl-f-hurley-michelle-van-der-drift,Michelle van der Drift,Hurley,Dames 1,UNKNOWN,unknown,schieten:51% | sleepcorner:36% | uitlopen strafcorner:22% | passing:12% | balcontrole:12%,yes
+hk-nl-f-hurley-floor-van-den-dungen,Floor van den Dungen,Hurley,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hurley-floor-van-gorkum,Floor van Gorkum,Hurley,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hurley-olivia-huisman,Olivia Huisman,Hurley,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hurley-ginella-zerbo,Ginella Zerbo,Hurley,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-hurley-laurien-leurink,Laurien Leurink,Hurley,Dames 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-f-hurley-julia-van-den-heuvel,Julia van den Heuvel,Hurley,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hurley-nikas-berendts,Nikas Berendts,Hurley,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hurley-daan-dekker,Daan Dekker,Hurley,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hurley-mees-loman,Mees Loman,Hurley,Heren 1,UNKNOWN,unknown,passing:24% | loopvermogen:20% | spelverdeler:18% | visie:15% | balcontrole:12%,yes
+hk-nl-m-hurley-harry-martin,Harry Martin,Hurley,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hurley-fred-newbold,Fred Newbold,Hurley,Heren 1,UNKNOWN,unknown,schieten:48% | passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hurley-laurens-nievelstein,Laurens Nievelstein,Hurley,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hurley-rutger-plat,Rutger Plat,Hurley,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hurley-joren-romijn,Joren Romijn,Hurley,Heren 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-m-hurley-hjalmar-voskuil,Hjalmar Voskuil,Hurley,Heren 1,UNKNOWN,unknown,schieten:63% | sleepcorner:56% | rebound:40% | uitlopen strafcorner:32% | passing:12%,yes
+hk-nl-m-hurley-grau-albert,Grau Albert,Hurley,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hurley-deegan-huisman,Deegan Huisman,Hurley,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hurley-joshua-keaveney,Joshua Keaveney,Hurley,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hurley-theun-de-leeuw,Theun de Leeuw,Hurley,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hurley-jake-raben,Jake Raben,Hurley,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hurley-noam-sheridan,Noam Sheridan,Hurley,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hurley-lex-tump,Lex Tump,Hurley,Heren 1,UNKNOWN,unknown,passing:24% | loopvermogen:20% | spelverdeler:18% | visie:15% | balcontrole:12%,yes
+hk-nl-m-hurley-pim-wasser,Pim Wasser,Hurley,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hurley-tieme-wiggers,Tieme Wiggers,Hurley,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hurley-camiel-erselina,Camiel Erselina,Hurley,Heren 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-m-hurley-i-an-van-de-scheur,I-An van de Scheur,Hurley,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hurley-imko-de-vries,Imko de Vries,Hurley,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-hurley-benjamin-walker,Benjamin Walker,Hurley,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-kampong-babette-backers,Babette Backers,Kampong,Dames 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-f-kampong-luna-fokke,Luna Fokke,Kampong,Dames 1,UNKNOWN,unknown,schieten:66% | sleepcorner:52% | rebound:42% | tip-in:40% | 1 tegen 1 specialist:34%,yes
+hk-nl-f-kampong-bente-van-der-veldt,Bente van der Veldt,Kampong,Dames 1,UNKNOWN,unknown,schieten:63% | tip-in:56% | 1 tegen 1 specialist:46% | dribbelaar:43% | snelheid:40%,yes
+hk-nl-f-kampong-noor-van-den-nieuwenhof,Noor van den Nieuwenhof,Kampong,Dames 1,UNKNOWN,unknown,schieten:62% | sleepcorner:40% | rebound:38% | uitlopen strafcorner:24% | passing:12%,yes
+hk-nl-f-kampong-eline-jansen,Eline Jansen,Kampong,Dames 1,UNKNOWN,unknown,schieten:51% | tip-in:40% | 1 tegen 1 specialist:34% | dribbelaar:31% | snelheid:30%,yes
+hk-nl-f-kampong-guusje-moes,Guusje Moes,Kampong,Dames 1,UNKNOWN,unknown,schieten:60% | sleepcorner:48% | rebound:39% | uitlopen strafcorner:28% | passing:12%,yes
+hk-nl-f-kampong-carlijn-tukkers,Carlijn Tukkers,Kampong,Dames 1,UNKNOWN,unknown,schieten:54% | sleepcorner:40% | uitlopen strafcorner:24% | passing:12% | balcontrole:12%,yes
+hk-nl-f-kampong-noor-de-baat,Noor de Baat,Kampong,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-kampong-sosha-benninga,Sosha Benninga,Kampong,Dames 1,UNKNOWN,unknown,schieten:63% | tip-in:52% | 1 tegen 1 specialist:43% | dribbelaar:40% | rebound:40%,yes
+hk-nl-f-kampong-veere-ter-horst,Veere ter Horst,Kampong,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-kampong-fleur-wolfert,Fleur Wolfert,Kampong,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-kampong-maria-de-vries,Maria de Vries,Kampong,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-kampong-iris-de-kemp,Iris de Kemp,Kampong,Dames 1,UNKNOWN,unknown,schieten:60% | tip-in:48% | 1 tegen 1 specialist:40% | rebound:39% | dribbelaar:37%,yes
+hk-nl-f-kampong-julie-roovers,Julie Roovers,Kampong,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-kampong-kyra-fortuin,Kyra Fortuin,Kampong,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-kampong-charlotte-hoctin-boes,Charlotte Hoctin Boes,Kampong,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-kampong-sofie-stomps,Sofie Stomps,Kampong,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-kampong-sophie-van-grimbergen,Sophie van Grimbergen,Kampong,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-kampong-imme-van-es,Imme Van es,Kampong,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-kampong-anne-berends,Anne Berends,Kampong,Dames 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-m-kampong-luis-calzado,Luis Calzado,Kampong,Heren 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-m-kampong-bram-van-battum,Bram van Battum,Kampong,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-kampong-caspar-dobbelaar,Caspar Dobbelaar,Kampong,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-kampong-jip-janssen,Jip Janssen,Kampong,Heren 1,UNKNOWN,unknown,schieten:60% | sleepcorner:56% | rebound:39% | uitlopen strafcorner:32% | passing:12%,yes
+hk-nl-m-kampong-lars-balk,Lars Balk,Kampong,Heren 1,UNKNOWN,unknown,passing:24% | loopvermogen:20% | spelverdeler:18% | visie:15% | balcontrole:12%,yes
+hk-nl-m-kampong-derck-de-vilder,Derck de Vilder,Kampong,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-kampong-jonas-de-geus,Jonas de Geus,Kampong,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-kampong-duco-telgenkamp,Duco Telgenkamp,Kampong,Heren 1,UNKNOWN,unknown,schieten:84% | tip-in:82% | 1 tegen 1 specialist:67% | dribbelaar:64% | snelheid:57%,yes
+hk-nl-m-kampong-terrance-pieters,Terrance Pieters,Kampong,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-kampong-kjell-plantenga,Kjell Plantenga,Kampong,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-kampong-sander-de-wijn,Sander de Wijn,Kampong,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-kampong-jens-de-vuijst,Jens de Vuijst,Kampong,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-kampong-rik-sprengers,Rik Sprengers,Kampong,Heren 1,UNKNOWN,unknown,schieten:71% | sleepcorner:48% | rebound:42% | uitlopen strafcorner:28% | passing:12%,yes
+hk-nl-m-kampong-thies-bakker,Thies Bakker,Kampong,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-kampong-finn-van-bijnen,Finn van Bijnen,Kampong,Heren 1,UNKNOWN,unknown,schieten:66% | tip-in:60% | 1 tegen 1 specialist:49% | dribbelaar:46% | snelheid:42%,yes
+hk-nl-m-kampong-hidde-plantenga,Hidde Plantenga,Kampong,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-kampong-mats-gruter,Mats Gruter,Kampong,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-kampong-sander-van-de-putte,Sander van de Putte,Kampong,Heren 1,UNKNOWN,unknown,schieten:54% | tip-in:44% | 1 tegen 1 specialist:37% | dribbelaar:34% | snelheid:32%,yes
+hk-nl-m-kampong-diederik-van-den-hoek,Diederik van den Hoek,Kampong,Heren 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-m-kampong-hugo-van-beusekom,Hugo van Beusekom,Kampong,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-kampong-koen-meijerink,Koen Meijerink,Kampong,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-kampong-silas-lageman,Silas Lageman,Kampong,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-klein-zwitserland-nicolas-santiago-keenan,Nicolas Santiago Keenan,Klein Zwitserland,Heren 1,UNKNOWN,unknown,passing:24% | loopvermogen:20% | spelverdeler:18% | visie:15% | balcontrole:12%,yes
+hk-nl-m-klein-zwitserland-aki-kappeler,Aki Käppeler,Klein Zwitserland,Heren 1,UNKNOWN,unknown,schieten:77% | sleepcorner:68% | rebound:45% | uitlopen strafcorner:38% | passing:24%,yes
+hk-nl-m-klein-zwitserland-lars-daniels,Lars Daniels,Klein Zwitserland,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-klein-zwitserland-ties-klinkhamer,Ties Klinkhamer,Klein Zwitserland,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-klein-zwitserland-douwe-steens,Douwe Steens,Klein Zwitserland,Heren 1,UNKNOWN,unknown,passing:24% | loopvermogen:20% | spelverdeler:18% | visie:15% | balcontrole:12%,yes
+hk-nl-m-klein-zwitserland-adrian-lehmann-richter,Adrian Lehmann-Richter,Klein Zwitserland,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-klein-zwitserland-chad-futcher,Chad Futcher,Klein Zwitserland,Heren 1,UNKNOWN,unknown,schieten:57% | sleepcorner:48% | rebound:38% | uitlopen strafcorner:28% | passing:12%,yes
+hk-nl-m-klein-zwitserland-lucas-toscani,Lucas Toscani,Klein Zwitserland,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-klein-zwitserland-pepijn-jones,Pepijn Jones,Klein Zwitserland,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-klein-zwitserland-koene-schaper,Koene Schaper,Klein Zwitserland,Heren 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:30% | spelverdeler:18% | visie:15%,no
+hk-nl-m-klein-zwitserland-willem-van-campen,Willem van Campen,Klein Zwitserland,Heren 1,UNKNOWN,unknown,schieten:60% | tip-in:52% | 1 tegen 1 specialist:43% | dribbelaar:40% | rebound:39%,yes
+hk-nl-m-klein-zwitserland-joaquin-toscani,Joaquin Toscani,Klein Zwitserland,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-klein-zwitserland-jochem-bakker,Jochem Bakker,Klein Zwitserland,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-klein-zwitserland-florent-vaal,Florent Vaal,Klein Zwitserland,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-klein-zwitserland-linus-michler,Linus Michler,Klein Zwitserland,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-klein-zwitserland-tom-schneider,Tom Schneider,Klein Zwitserland,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-klein-zwitserland-jonas-ellerman,Jonas Ellerman,Klein Zwitserland,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-klein-zwitserland-pepe-bijlaard,Pepe Bijlaard,Klein Zwitserland,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-klein-zwitserland-philip-van-aken,Philip van Aken,Klein Zwitserland,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-klein-zwitserland-stepan-klaban,Štěpán Klaban,Klein Zwitserland,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-klein-zwitserland-julian-seckel,Julian Seckel,Klein Zwitserland,Heren 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-m-klein-zwitserland-maurik-smits,Maurik Smits,Klein Zwitserland,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-laren-estiaan-kriek,Estiaan Kriek,Laren,Heren 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-m-laren-pelle-vos,Pelle Vos,Laren,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-laren-pieter-paul-houting,Pieter Paul Houting,Laren,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-laren-thomas-vis,Thomas Vis,Laren,Heren 1,UNKNOWN,unknown,schieten:57% | sleepcorner:52% | rebound:38% | uitlopen strafcorner:30% | passing:12%,yes
+hk-nl-m-laren-diederick-van-berckel,Diederick van Berckel,Laren,Heren 1,UNKNOWN,unknown,passing:24% | loopvermogen:20% | spelverdeler:18% | visie:15% | balcontrole:12%,yes
+hk-nl-m-laren-valentijn-charbon,Valentijn Charbon,Laren,Heren 1,UNKNOWN,unknown,schieten:59% | tip-in:40% | 1 tegen 1 specialist:34% | dribbelaar:31% | snelheid:30%,yes
+hk-nl-m-laren-luke-friederich,Luke Friederich,Laren,Heren 1,UNKNOWN,unknown,schieten:54% | sleepcorner:40% | uitlopen strafcorner:24% | passing:12% | balcontrole:12%,yes
+hk-nl-m-laren-thomas-selles,Thomas Selles,Laren,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-laren-wout-kooijman,Wout Kooijman,Laren,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-laren-balder-reyenga,Balder Reyenga,Laren,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-laren-berend-van-langeveld,Berend van Langeveld,Laren,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-laren-ruben-van-meer,Ruben van Meer,Laren,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-laren-floris-van-der-wal,Floris van der Wal,Laren,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-laren-sybren-loman,Sybren Loman,Laren,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-laren-joep-hagendoorn,Joep Hagendoorn,Laren,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-laren-teun-van-uunen,Teun van Uunen,Laren,Heren 1,UNKNOWN,unknown,schieten:54% | sleepcorner:48% | uitlopen strafcorner:28% | passing:12% | balcontrole:12%,yes
+hk-nl-m-laren-stan-thoolen,Stan Thoolen,Laren,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-laren-quinten-moojen,Quinten Moojen,Laren,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-laren-bart-de-nie,Bart de Nie,Laren,Heren 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-m-laren-giovanni-brand,Giovanni Brand,Laren,Heren 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-m-laren-kenneth-bain,Kenneth Bain,Laren,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-laren-xavier-van-de-kasteele,Xavier van de Kasteele,Laren,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-oranje-rood-vivienne-peters,Vivienne Peters,Oranje-Rood,Dames 1,UNKNOWN,unknown,passing:24% | loopvermogen:20% | spelverdeler:18% | visie:15% | balcontrole:12%,yes
+hk-nl-f-oranje-rood-amber-brouwer,Amber Brouwer,Oranje-Rood,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-oranje-rood-juul-van-der-velden,Juul van der Velden,Oranje-Rood,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-oranje-rood-madelief-de-beer,Madelief de Beer,Oranje-Rood,Dames 1,UNKNOWN,unknown,schieten:59% | passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-oranje-rood-pheline-vos,Pheline Vos,Oranje-Rood,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-oranje-rood-jolien-bogers,Jolien Bogers,Oranje-Rood,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-oranje-rood-pieke-van-de-pas,Pieke van de Pas,Oranje-Rood,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-oranje-rood-lynn-vasterink,Lynn Vasterink,Oranje-Rood,Dames 1,UNKNOWN,unknown,schieten:51% | sleepcorner:36% | uitlopen strafcorner:22% | passing:12% | balcontrole:12%,yes
+hk-nl-f-oranje-rood-merel-voermans,Merel Voermans,Oranje-Rood,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-oranje-rood-lucie-ehrmann,Lucie Ehrmann,Oranje-Rood,Dames 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-f-oranje-rood-renske-van-limpt,Renske van Limpt,Oranje-Rood,Dames 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-f-oranje-rood-margje-van-der-loo,Margje van der Loo,Oranje-Rood,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-oranje-rood-sara-puglisi,Sara Puglisi,Oranje-Rood,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-oranje-rood-thirsa-kho,Thirsa Kho,Oranje-Rood,Dames 1,UNKNOWN,unknown,schieten:51% | sleepcorner:44% | uitlopen strafcorner:26% | passing:12% | balcontrole:12%,yes
+hk-nl-f-oranje-rood-loeki-treffers,Loeki Treffers,Oranje-Rood,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-oranje-rood-brechje-scheepers,Brechje Scheepers,Oranje-Rood,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-oranje-rood-charlotte-schrijvers,Charlotte Schrijvers,Oranje-Rood,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-oranje-rood-bibi-donraadt,Bibi Donraadt,Oranje-Rood,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-oranje-rood-julianna-tornetta,Julianna Tornetta,Oranje-Rood,Dames 1,UNKNOWN,unknown,schieten:51% | sleepcorner:36% | uitlopen strafcorner:22% | passing:12% | balcontrole:12%,yes
+hk-nl-f-oranje-rood-babs-van-hest,Babs van Hest,Oranje-Rood,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-oranje-rood-lara-raaijmakers,Lara Raaijmakers,Oranje-Rood,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-oranje-rood-lisa-scheerlinck,Lisa Scheerlinck,Oranje-Rood,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-oranje-rood-joep-de-mol,Joep de Mol,Oranje-Rood,Heren 1,UNKNOWN,unknown,passing:24% | loopvermogen:20% | spelverdeler:18% | visie:15% | balcontrole:12%,yes
+hk-nl-m-oranje-rood-tijmen-reyenga,Tijmen Reyenga,Oranje-Rood,Heren 1,UNKNOWN,unknown,schieten:66% | sleepcorner:64% | rebound:42% | uitlopen strafcorner:36% | passing:12%,yes
+hk-nl-m-oranje-rood-max-de-bie,Max de Bie,Oranje-Rood,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-oranje-rood-arthur-de-sloover,Arthur de Sloover,Oranje-Rood,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-oranje-rood-gerard-clapes,Gerard Clapes,Oranje-Rood,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-oranje-rood-borja-lacalle,Borja LaCalle,Oranje-Rood,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-oranje-rood-struan-walker,Struan Walker,Oranje-Rood,Heren 1,UNKNOWN,unknown,schieten:96% | tip-in:82% | sleepcorner:76% | 1 tegen 1 specialist:70% | dribbelaar:67%,yes
+hk-nl-m-oranje-rood-henrik-mertgens,Henrik Mertgens,Oranje-Rood,Heren 1,UNKNOWN,unknown,schieten:83% | tip-in:64% | 1 tegen 1 specialist:52% | dribbelaar:49% | rebound:48%,yes
+hk-nl-m-oranje-rood-pol-cabre-verdiell-badia,Pol Cabre-Verdiell Badia,Oranje-Rood,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-oranje-rood-jelle-galema,Jelle Galema,Oranje-Rood,Heren 1,UNKNOWN,unknown,schieten:57% | sleepcorner:40% | tip-in:40% | rebound:38% | 1 tegen 1 specialist:34%,yes
+hk-nl-m-oranje-rood-bob-de-voogd,Bob de Voogd,Oranje-Rood,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-oranje-rood-florian-gosselink,Florian Gosselink,Oranje-Rood,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-oranje-rood-jacky-van-hout,Jacky van Hout,Oranje-Rood,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-oranje-rood-sem-de-roij,Sem de Roij,Oranje-Rood,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-oranje-rood-boaz-houben,Boaz Houben,Oranje-Rood,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-oranje-rood-gijs-van-merrienboer,Gijs van Merriënboer,Oranje-Rood,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-oranje-rood-thijs-bams,Thijs Bams,Oranje-Rood,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-oranje-rood-isha-houben,Isha Houben,Oranje-Rood,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-oranje-rood-noud-van-deijck,Noud van Deijck,Oranje-Rood,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-oranje-rood-niek-van-der-schoot,Niek van der Schoot,Oranje-Rood,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-oranje-rood-tomas-santiago,Tomas Santiago,Oranje-Rood,Heren 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-m-oranje-rood-nieki-verbeek,Nieki Verbeek,Oranje-Rood,Heren 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-f-pinoke-maria-steensma,Maria Steensma,Pinoké,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-pinoke-kiki-rozemeijer,Kiki Rozemeijer,Pinoké,Dames 1,UNKNOWN,unknown,passing:24% | loopvermogen:20% | spelverdeler:18% | visie:15% | balcontrole:12%,yes
+hk-nl-f-pinoke-josephine-murray,Josephine Murray,Pinoké,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-pinoke-pam-van-der-laan,Pam van der Laan,Pinoké,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-pinoke-tessa-beetsma,Tessa Beetsma,Pinoké,Dames 1,UNKNOWN,unknown,schieten:51% | sleepcorner:36% | uitlopen strafcorner:22% | passing:12% | balcontrole:12%,yes
+hk-nl-f-pinoke-lana-kalse,Lana Kalse,Pinoké,Dames 1,UNKNOWN,unknown,schieten:83% | tip-in:64% | 1 tegen 1 specialist:52% | dribbelaar:49% | rebound:48%,yes
+hk-nl-f-pinoke-floor-de-haan,Floor de Haan,Pinoké,Dames 1,UNKNOWN,unknown,schieten:51% | sleepcorner:44% | uitlopen strafcorner:26% | passing:12% | balcontrole:12%,yes
+hk-nl-f-pinoke-sam-luttmer,Sam Luttmer,Pinoké,Dames 1,UNKNOWN,unknown,schieten:51% | sleepcorner:44% | uitlopen strafcorner:26% | passing:12% | balcontrole:12%,yes
+hk-nl-f-pinoke-marloes-timmermans,Marloes Timmermans,Pinoké,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-pinoke-bente-jager,Bente Jager,Pinoké,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-pinoke-anouk-stam,Anouk Stam,Pinoké,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-pinoke-elin-van-erk,Elin van Erk,Pinoké,Dames 1,UNKNOWN,unknown,schieten:51% | sleepcorner:40% | uitlopen strafcorner:24% | passing:12% | balcontrole:12%,yes
+hk-nl-f-pinoke-flo-klinkhamer,Flo Klinkhamer,Pinoké,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-pinoke-amber-ezechiels,Amber Ezechiels,Pinoké,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-pinoke-nina-van-der-marel,Nina van der Marel,Pinoké,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-pinoke-florine-rodenburg,Florine Rodenburg,Pinoké,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-pinoke-eliana-boekhoven,Eliana Boekhoven,Pinoké,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-pinoke-juul-sauer,Juul Sauer,Pinoké,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-pinoke-anouk-slotema,Anouk Slotema,Pinoké,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-pinoke-meeuw-tulp,Meeuw Tulp,Pinoké,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-pinoke-kiki-gunneman,Kiki Gunneman,Pinoké,Dames 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-f-pinoke-marit-van-buul,Marit van Buul,Pinoké,Dames 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-m-pinoke-hidde-brink,Hidde Brink,Pinoké,Heren 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-m-pinoke-jack-waller,Jack Waller,Pinoké,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-pinoke-jacob-draper,Jacob Draper,Pinoké,Heren 1,UNKNOWN,unknown,passing:24% | loopvermogen:20% | spelverdeler:18% | visie:15% | balcontrole:12%,yes
+hk-nl-m-pinoke-florent-van-aubel,Florent van Aubel,Pinoké,Heren 1,UNKNOWN,unknown,schieten:81% | tip-in:72% | 1 tegen 1 specialist:58% | dribbelaar:55% | snelheid:50%,yes
+hk-nl-m-pinoke-miles-bukkens,Miles Bukkens,Pinoké,Heren 1,UNKNOWN,unknown,schieten:87% | sleepcorner:64% | tip-in:56% | rebound:52% | 1 tegen 1 specialist:46%,yes
+hk-nl-m-pinoke-daan-bonhof,Daan Bonhof,Pinoké,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-pinoke-luca-wolff,Luca Wolff,Pinoké,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-pinoke-teo-hinrichs,Teo Hinrichs,Pinoké,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-pinoke-thies-prinz,Thies Prinz,Pinoké,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-pinoke-pieter-sutorius,Pieter Sutorius,Pinoké,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-pinoke-tim-knapper,Tim Knapper,Pinoké,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-pinoke-jannis-van-hattum,Jannis van Hattum,Pinoké,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-pinoke-boris-aardenburg,Boris Aardenburg,Pinoké,Heren 1,UNKNOWN,unknown,schieten:57% | tip-in:48% | 1 tegen 1 specialist:40% | rebound:38% | dribbelaar:37%,yes
+hk-nl-m-pinoke-joep-troost,Joep Troost,Pinoké,Heren 1,UNKNOWN,unknown,schieten:96% | sleepcorner:92% | rebound:63% | tip-in:52% | uitlopen strafcorner:50%,yes
+hk-nl-m-pinoke-texas-bukkens,Texas Bukkens,Pinoké,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-pinoke-indra-aerts,Indra Aerts,Pinoké,Heren 1,UNKNOWN,unknown,schieten:54% | sleepcorner:40% | uitlopen strafcorner:24% | passing:12% | balcontrole:12%,yes
+hk-nl-m-pinoke-joppe-stappenbelt,Joppe Stappenbelt,Pinoké,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-pinoke-iwan-roukema,Iwan Roukema,Pinoké,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-pinoke-pepijn-van-der-valk,Pepijn van der Valk,Pinoké,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-pinoke-jimi-kummer,Jimi Kummer,Pinoké,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-pinoke-gijs-somers,Gijs Somers,Pinoké,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-pinoke-ralph-grevenstuk,Ralph Grevenstuk,Pinoké,Heren 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-f-rotterdam-emma-van-santbrink,Emma van Santbrink,Rotterdam,Dames 1,UNKNOWN,unknown,passing:24% | loopvermogen:20% | spelverdeler:18% | visie:15% | balcontrole:12%,yes
+hk-nl-f-rotterdam-myrthe-van-kesteren,Myrthe van Kesteren,Rotterdam,Dames 1,UNKNOWN,unknown,schieten:51% | sleepcorner:40% | uitlopen strafcorner:24% | passing:12% | balcontrole:12%,yes
+hk-nl-f-rotterdam-brechtje-van-santbrink,Brechtje van Santbrink,Rotterdam,Dames 1,UNKNOWN,unknown,schieten:51% | sleepcorner:44% | uitlopen strafcorner:26% | passing:12% | balcontrole:12%,yes
+hk-nl-f-rotterdam-caoimhe-perdue,Caoimhe Perdue,Rotterdam,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-rotterdam-merel-boekhorst,Merel Boekhorst,Rotterdam,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-rotterdam-amber-van-den-dijssel,Amber van den Dijssel,Rotterdam,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-rotterdam-lieke-elsman,Lieke Elsman,Rotterdam,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-rotterdam-julie-van-dam,Julie van Dam,Rotterdam,Dames 1,UNKNOWN,unknown,schieten:59% | sleepcorner:36% | uitlopen strafcorner:22% | passing:12% | balcontrole:12%,yes
+hk-nl-f-rotterdam-noor-omrani,Noor Omrani,Rotterdam,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-rotterdam-daphne-koolhaas,Daphne Koolhaas,Rotterdam,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-rotterdam-kirsten-zennemers,Kirsten Zennemers,Rotterdam,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-rotterdam-iris-hollander,Iris Hollander,Rotterdam,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-rotterdam-melle-vaessen,Melle Vaessen,Rotterdam,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-rotterdam-isis-van-der-kooij,Isis van der Kooij,Rotterdam,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-rotterdam-joy-haarman,Joy Haarman,Rotterdam,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-rotterdam-bobbi-dijk,Bobbi Dijk,Rotterdam,Dames 1,UNKNOWN,unknown,schieten:56% | passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-rotterdam-iris-langejans,Iris Langejans,Rotterdam,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-rotterdam-jaidy-greebe,Jaidy Greebe,Rotterdam,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-rotterdam-danique-lucieer,Danique Lucieer,Rotterdam,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-rotterdam-kelsey-bing,Kelsey Bing,Rotterdam,Dames 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-f-rotterdam-olivia-van-der-knaap,Olivia van der Knaap,Rotterdam,Dames 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-f-rotterdam-mascha-sterk,Mascha Sterk,Rotterdam,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-rotterdam-derk-meijer,Derk Meijer,Rotterdam,Heren 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-m-rotterdam-thijs-van-dam,Thijs van Dam,Rotterdam,Heren 1,UNKNOWN,unknown,schieten:60% | tip-in:44% | sleepcorner:40% | rebound:39% | 1 tegen 1 specialist:37%,yes
+hk-nl-m-rotterdam-pepijn-van-der-heijden,Pepijn van der Heijden,Rotterdam,Heren 1,UNKNOWN,unknown,schieten:95% | sleepcorner:84% | rebound:54% | uitlopen strafcorner:46% | passing:12%,yes
+hk-nl-m-rotterdam-justen-blok,Justen Blok,Rotterdam,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-rotterdam-steijn-van-heijningen,Steijn van Heijningen,Rotterdam,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-rotterdam-olivier-hortensius,Olivier Hortensius,Rotterdam,Heren 1,UNKNOWN,unknown,schieten:66% | tip-in:56% | 1 tegen 1 specialist:46% | dribbelaar:43% | rebound:42%,yes
+hk-nl-m-rotterdam-tjep-hoedemakers,Tjep Hoedemakers,Rotterdam,Heren 1,UNKNOWN,unknown,schieten:72% | tip-in:64% | 1 tegen 1 specialist:52% | dribbelaar:49% | rebound:45%,yes
+hk-nl-m-rotterdam-joaquin-menini,Joaquín Menini,Rotterdam,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-rotterdam-marc-recasens,Marc Recasens,Rotterdam,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-rotterdam-lars-zijderveld,Lars Zijderveld,Rotterdam,Heren 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-m-rotterdam-lucas-van-tetering,Lucas van Tetering,Rotterdam,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-rotterdam-vincent-langenhuijsen,Vincent Langenhuijsen,Rotterdam,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-rotterdam-bouwe-buitenhuis,Bouwe Buitenhuis,Rotterdam,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-rotterdam-dylan-lucieer,Dylan Lucieer,Rotterdam,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-rotterdam-timme-van-der-heijden,Timme van der Heijden,Rotterdam,Heren 1,UNKNOWN,unknown,schieten:75% | tip-in:72% | 1 tegen 1 specialist:58% | dribbelaar:55% | snelheid:50%,yes
+hk-nl-m-rotterdam-nick-van-trigt,Nick van Trigt,Rotterdam,Heren 1,UNKNOWN,unknown,schieten:60% | tip-in:52% | 1 tegen 1 specialist:43% | dribbelaar:40% | rebound:39%,yes
+hk-nl-m-rotterdam-jesse-steenhoff,Jesse Steenhoff,Rotterdam,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-rotterdam-matthijs-van-der-wielen,Matthijs van der Wielen,Rotterdam,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-rotterdam-guus-jansen,Guus Jansen,Rotterdam,Heren 1,UNKNOWN,unknown,schieten:78% | tip-in:72% | 1 tegen 1 specialist:58% | dribbelaar:55% | snelheid:50%,yes
+hk-nl-m-rotterdam-menno-boeren,Menno Boeren,Rotterdam,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-rotterdam-jeroen-hertzberger,Jeroen Hertzberger,Rotterdam,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-schaerweijde-pepijn-leenhouts,Pepijn Leenhouts,Schaerweijde,Heren 1,UNKNOWN,unknown,passing:24% | loopvermogen:20% | spelverdeler:18% | visie:15% | balcontrole:12%,yes
+hk-nl-m-schaerweijde-jelle-westendorp,Jelle Westendorp,Schaerweijde,Heren 1,UNKNOWN,unknown,schieten:62% | rebound:38% | sleepcorner:36% | uitlopen strafcorner:22% | passing:12%,yes
+hk-nl-m-schaerweijde-joost-van-eijck,Joost van Eijck,Schaerweijde,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-schaerweijde-peppe-veen,Peppe Veen,Schaerweijde,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-schaerweijde-stijn-draaijer,Stijn Draaijer,Schaerweijde,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-schaerweijde-lode-draaijer,Lode Draaijer,Schaerweijde,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-schaerweijde-mick-bosse,Mick Bosse,Schaerweijde,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-schaerweijde-maarten-bruisten,Maarten Bruisten,Schaerweijde,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-schaerweijde-daan-troost,Daan Troost,Schaerweijde,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-schaerweijde-tijs-van-horn,Tijs van Horn,Schaerweijde,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-schaerweijde-juup-veen,Juup Veen,Schaerweijde,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-schaerweijde-jaap-solleveld,Jaap Solleveld,Schaerweijde,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-schaerweijde-graeme-scott,Graeme Scott,Schaerweijde,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-schaerweijde-niels-de-joode,Niels de Joode,Schaerweijde,Heren 1,UNKNOWN,unknown,schieten:54% | tip-in:40% | sleepcorner:36% | 1 tegen 1 specialist:34% | dribbelaar:31%,yes
+hk-nl-m-schaerweijde-jens-hagen,Jens Hagen,Schaerweijde,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-schaerweijde-michiel-moret,Michiel Moret,Schaerweijde,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-schaerweijde-teun-van-aalderen,Teun van Aalderen,Schaerweijde,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-schaerweijde-thibaut-mordac,Thibaut Mordac,Schaerweijde,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-schaerweijde-derk-moret,Derk Moret,Schaerweijde,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-schaerweijde-tom-vermeulen,Tom Vermeulen,Schaerweijde,Heren 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-m-schaerweijde-mahinder-terlouw,Mahinder Terlouw,Schaerweijde,Heren 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-m-schaerweijde-guus-van-holten,Guus van Holten,Schaerweijde,Heren 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-f-schc-xan-de-waard,Xan de Waard,SCHC,Dames 1,UNKNOWN,unknown,schieten:51% | tip-in:40% | 1 tegen 1 specialist:34% | dribbelaar:31% | snelheid:30%,yes
+hk-nl-f-schc-yibbi-jansen,Yibbi Jansen,SCHC,Dames 1,UNKNOWN,unknown,sleepcorner:96% | schieten:96% | rebound:60% | uitlopen strafcorner:54% | passing:12%,yes
+hk-nl-f-schc-renee-van-laarhoven,Renee van Laarhoven,SCHC,Dames 1,UNKNOWN,unknown,passing:24% | loopvermogen:20% | spelverdeler:18% | visie:15% | balcontrole:12%,yes
+hk-nl-f-schc-lisa-post,Lisa Post,SCHC,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-schc-pien-dicke,Pien Dicke,SCHC,Dames 1,UNKNOWN,unknown,schieten:72% | tip-in:60% | 1 tegen 1 specialist:49% | dribbelaar:46% | rebound:45%,yes
+hk-nl-f-schc-marleen-jochems,Marleen Jochems,SCHC,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-schc-mette-winter,Mette Winter,SCHC,Dames 1,UNKNOWN,unknown,schieten:63% | tip-in:52% | 1 tegen 1 specialist:43% | dribbelaar:40% | rebound:40%,yes
+hk-nl-f-schc-maud-van-den-heuvel,Maud van den Heuvel,SCHC,Dames 1,UNKNOWN,unknown,schieten:63% | tip-in:56% | 1 tegen 1 specialist:46% | dribbelaar:43% | snelheid:40%,yes
+hk-nl-f-schc-jip-dicke,Jip Dicke,SCHC,Dames 1,UNKNOWN,unknown,schieten:96% | tip-in:82% | 1 tegen 1 specialist:70% | dribbelaar:67% | snelheid:60%,yes
+hk-nl-f-schc-marsha-zwezereijn,Marsha Zwezereijn,SCHC,Dames 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-f-schc-rifka-bakker,Rifka Bakker,SCHC,Dames 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-f-schc-naomi-brunsveld,Naomi Brunsveld,SCHC,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-schc-isa-van-heerde,Isa van Heerde,SCHC,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-schc-elzemiek-zandee,Elzemiek Zandee,SCHC,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-schc-elodie-picard,Elodie Picard,SCHC,Dames 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-f-schc-noa-boterman,Noa Boterman,SCHC,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-schc-mariette-boot,Mariette Boot,SCHC,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-schc-anna-de-geus,Anna de Geus,SCHC,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-schc-famke-richardson,Famke Richardson,SCHC,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-schc-floortje-middelbos,Floortje Middelbos,SCHC,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-schc-nanieck-mengelberg,Nanieck Mengelberg,SCHC,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-tilburg-mikki-roberts,Mikki Roberts,Tilburg,Dames 1,UNKNOWN,unknown,schieten:62% | sleepcorner:48% | rebound:38% | uitlopen strafcorner:28% | passing:24%,yes
+hk-nl-f-tilburg-hannah-salden,Hannah Salden,Tilburg,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-tilburg-daphne-nikkels,Daphne Nikkels,Tilburg,Dames 1,UNKNOWN,unknown,schieten:54% | tip-in:40% | sleepcorner:36% | 1 tegen 1 specialist:34% | dribbelaar:31%,yes
+hk-nl-f-tilburg-iris-dominicus,Iris Dominicus,Tilburg,Dames 1,UNKNOWN,unknown,schieten:54% | sleepcorner:44% | uitlopen strafcorner:26% | passing:12% | balcontrole:12%,yes
+hk-nl-f-tilburg-carmen-victoria,Carmen Victoria,Tilburg,Dames 1,UNKNOWN,unknown,schieten:60% | tip-in:48% | 1 tegen 1 specialist:40% | rebound:39% | dribbelaar:37%,yes
+hk-nl-f-tilburg-lotte-de-heer,Lotte de Heer,Tilburg,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-tilburg-sanne-koks,Sanne Koks,Tilburg,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-tilburg-merel-tukkers,Merel Tukkers,Tilburg,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-tilburg-ingeborg-dijkstra,Ingeborg Dijkstra,Tilburg,Dames 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-f-tilburg-pleun-wester,Pleun Wester,Tilburg,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-tilburg-roos-ezendam,Roos Ezendam,Tilburg,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-tilburg-eef-hoyinck,Eef Hoyinck,Tilburg,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-tilburg-mijs-berkhemer,Mijs Berkhemer,Tilburg,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-tilburg-carolin-hoffmann,Carolin Hoffmann,Tilburg,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-tilburg-floor-de-bruin,Floor de Bruin,Tilburg,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-tilburg-precious-oud,Precious Oud,Tilburg,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-tilburg-merlijn-roodenburg,Merlijn Roodenburg,Tilburg,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-tilburg-emmely-bekker,Emmely Bekker,Tilburg,Dames 1,UNKNOWN,unknown,schieten:54% | tip-in:44% | 1 tegen 1 specialist:37% | dribbelaar:34% | snelheid:32%,yes
+hk-nl-f-tilburg-emma-staats,Emma Staats,Tilburg,Dames 1,GK,verified_keeper_from_knhb,keeper reflexen:76% | uitlopen strafcorner:42% | passing:18%,no
+hk-nl-f-tilburg-lieke-leeggangers,Lieke Leeggangers,Tilburg,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-tilburg-lieke-van-otten,Lieke Van otten,Tilburg,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes
+hk-nl-f-tilburg-sophie-van-de-velde,Sophie van de Velde,Tilburg,Dames 1,UNKNOWN,unknown,passing:12% | balcontrole:12% | loopvermogen:10% | pressing:9%,yes

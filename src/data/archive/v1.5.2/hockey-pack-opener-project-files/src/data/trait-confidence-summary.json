@@ -1,0 +1,15 @@
+{
+  "players": 521,
+  "traitsPerPlayer": 20,
+  "totalTraitScores": 10420,
+  "version": "traits-v1-2026-05-02",
+  "notes": [
+    "All original traits arrays are kept empty.",
+    "Use traitScores confidence percentages for future rules.",
+    "Scores combine top-scorer evidence, verified Den Bosch H1 positions, KNHB keeper flags and low default heuristics for unknown-position players.",
+    "Second-step media/news source index added for all Hoofdklasse teams in teamMediaEvidence.ts/json and mediaSourceRegistry.ts/json."
+  ],
+  "mediaEvidenceUpdate": "2026-05-02",
+  "teamMediaEvidenceTeams": 24,
+  "mediaSourceRegistrySources": 21
+}

@@ -1,0 +1,31 @@
+{
+  "totalPlayers": 521,
+  "men": 262,
+  "women": 259,
+  "nonDutchMenCurrent": 57,
+  "nonDutchWomenCurrent": 28,
+  "targetNonDutchMenAccordingToTulp": 48,
+  "targetNonDutchWomenAccordingToTulp": 21,
+  "statusCounts": {
+    "verified_fih": 64,
+    "source_based": 58,
+    "assumed_nl": 378,
+    "verified_club": 21
+  },
+  "nationalityCounts": {
+    "NL": 436,
+    "BE": 9,
+    "CN": 1,
+    "DE": 18,
+    "IT": 2,
+    "GB": 14,
+    "ZA": 9,
+    "ES": 16,
+    "AT": 1,
+    "AR": 5,
+    "IE": 4,
+    "FR": 3,
+    "CZ": 1,
+    "US": 2
+  }
+}

@@ -24,7 +24,7 @@ export function DatasetInfo({ onBack }: Props) {
         <div className="bg-white/5 border border-white/10 rounded-xl p-4">
           <div className="text-white/40 text-xs uppercase tracking-wider mb-1">Versie</div>
           <div className="text-white font-mono text-lg font-bold">v{datasetMeta.version}</div>
-          <div className="text-white/40 text-xs mt-1">{datasetMeta.versionDate}</div>
+          <div className="text-white/40 text-xs mt-1">{datasetMeta.lastUpdated}</div>
         </div>
         <div className="bg-white/5 border border-white/10 rounded-xl p-4">
           <div className="text-white/40 text-xs uppercase tracking-wider mb-1">Status</div>
@@ -35,7 +35,7 @@ export function DatasetInfo({ onBack }: Props) {
 
       <div className="bg-white/5 border border-white/10 rounded-xl p-4 mb-4">
         <div className="text-white/40 text-xs uppercase tracking-wider mb-3">Scope</div>
-        <div className="text-white/70 text-sm">{datasetMeta.description}</div>
+        <div className="text-white/70 text-sm">{datasetMeta.scope}</div>
       </div>
 
       <div className="bg-white/5 border border-white/10 rounded-xl p-4 mb-4">
@@ -78,15 +78,8 @@ export function DatasetInfo({ onBack }: Props) {
       </div>
 
       <div className="bg-white/5 border border-white/10 rounded-xl p-4">
-        <div className="text-white/40 text-xs uppercase tracking-wider mb-3">Bronnen</div>
-        <ul className="space-y-1">
-          {(datasetMeta.sourcesIncluded as readonly string[]).map((s, i) => (
-            <li key={i} className="text-white/50 text-xs flex gap-2">
-              <span className="text-white/20">·</span>
-              <span>{s}</span>
-            </li>
-          ))}
-        </ul>
+        <div className="text-white/40 text-xs uppercase tracking-wider mb-3">Notities</div>
+        <p className="text-white/50 text-xs">{datasetMeta.notes}</p>
       </div>
 
       <p className="text-white/20 text-xs text-center mt-6">

@@ -22,5 +22,8 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src"],
-  "exclude": ["src/data/v1.5.2/hockey-pack-opener-project-files/scripts"]
+  "exclude": [
+    "src/data/archive",
+    "src/data/v1.6.0/hockey-pack-opener-project-files/scripts"
+  ]
 }

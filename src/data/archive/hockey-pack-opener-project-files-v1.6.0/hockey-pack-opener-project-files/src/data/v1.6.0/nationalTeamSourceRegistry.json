@@ -1,0 +1,56 @@
+[
+  {
+    "id": "hockeynl_oranje_heren_current",
+    "sourceName": "Hockey.nl - Oranje Heren",
+    "sourceType": "official_team_page",
+    "url": "https://www.hockey.nl/oranje/oranje-heren",
+    "publishedDate": null,
+    "lastChecked": "2026-05-02",
+    "description": "Actuele Oranje Heren-spelerspagina van Hockey.nl; gebruikt voor senior international-status."
+  },
+  {
+    "id": "hockeynl_oranje_dames_current",
+    "sourceName": "Hockey.nl - Oranje Dames",
+    "sourceType": "official_team_page",
+    "url": "https://www.hockey.nl/oranje/oranje-dames",
+    "publishedDate": null,
+    "lastChecked": "2026-05-02",
+    "description": "Actuele Oranje Dames-spelerspagina van Hockey.nl; gebruikt voor senior international-status."
+  },
+  {
+    "id": "hockeynl_u21_training_groups_2026",
+    "sourceName": "Hockey.nl - U21 trainingsgroepen in aanloop naar EK Valencia bekend",
+    "sourceType": "official_news_selection",
+    "url": "https://www.hockey.nl/nieuws/u21-trainingsgroepen-in-aanloop-naar-ek-in-valencia-bekend",
+    "publishedDate": "2026-02-26",
+    "lastChecked": "2026-05-02",
+    "description": "Nieuwsbericht met Jong Oranje Dames en Jong Oranje Heren trainingsgroepen voor kalenderjaar 2026."
+  },
+  {
+    "id": "hockeynl_jong_oranje_heren_wk21_2025",
+    "sourceName": "Hockey.nl - India-selectie Jong Oranje: Van der Veen richting derde WK",
+    "sourceType": "official_news_selection",
+    "url": "https://www.hockey.nl/nieuws/india-selectie-jong-oranje-van-der-veen-richting-derde-wk",
+    "publishedDate": "2025-11-04",
+    "lastChecked": "2026-05-02",
+    "description": "Nieuwsbericht met Jong Oranje Heren WK-21 selectie voor India 2025."
+  },
+  {
+    "id": "hockeynl_jong_oranje_dames_wk21_2025",
+    "sourceName": "Hockey.nl - Jong Oranje met zeven regerend wereldkampioenen naar WK in Chili",
+    "sourceType": "official_news_selection",
+    "url": "https://www.hockey.nl/nieuws/jong-oranje-met-zeven-regerend-wereldkampioenen-naar-wk-in-chili",
+    "publishedDate": "2025-11-04",
+    "lastChecked": "2026-05-02",
+    "description": "Nieuwsbericht met Jong Oranje Dames WK-21 selectie voor Chili 2025."
+  },
+  {
+    "id": "hockeynl_jong_oranje_training_groups_wk21_2025",
+    "sourceName": "Hockey.nl - Jong Oranje: dit zijn de trainingsgroepen voor het WK U21",
+    "sourceType": "official_news_training_group",
+    "url": "https://www.hockey.nl/nieuws/jong-oranje-dit-zijn-de-trainingsgroepen-voor-het-wk-u21",
+    "publishedDate": "2025-09-01",
+    "lastChecked": "2026-05-02",
+    "description": "Nieuwsbericht met Jong Oranje trainingsgroepen richting WK U21 2025."
+  }
+]

@@ -1,0 +1,402 @@
+{
+  "knhb_players_2025_2026": {
+    "title": "KNHB spelerslijsten Hoofdklasse seizoen 2025-2026",
+    "url": "https://www.knhb.nl/nieuws/spelerslijsten-hoofdklasse-seizoen-2025-2026-gepubliceerd",
+    "type": "official_player_list",
+    "appliesTo": "all_teams",
+    "useFor": [
+      "team roster",
+      "rugnummer",
+      "keeper",
+      "aanvoerder"
+    ],
+    "reliability": "high"
+  },
+  "hockeynl_topscorers_men_2025_2026": {
+    "title": "Topscorers Tulp Hoofdklasse Heren 2025-2026 - Hockey.nl",
+    "url": "https://www.hockey.nl/topscorers-tulp-hoofdklasse-heren-2025-2026",
+    "type": "season_stats",
+    "appliesTo": "male",
+    "useFor": [
+      "schieten",
+      "sleepcorner",
+      "tip-in",
+      "rebound",
+      "field-goal signal"
+    ],
+    "reliability": "high"
+  },
+  "hockeynl_topscorers_women_2025_2026": {
+    "title": "Topscorers Tulp Hoofdklasse Dames 2025-2026 - Hockey.nl",
+    "url": "https://www.hockey.nl/topscorers-tulp-hoofdklasse-dames-2025-2026",
+    "type": "season_stats",
+    "appliesTo": "female",
+    "useFor": [
+      "schieten",
+      "sleepcorner",
+      "tip-in",
+      "rebound",
+      "field-goal signal"
+    ],
+    "reliability": "high"
+  },
+  "tulp_m_round21_preview": {
+    "title": "Wat je moet weten over speelronde 21 bij de mannen",
+    "url": "https://tulphoofdklasse.com/nieuws/wat-je-moet-weten-over-speelronde-21-bij-de-mannen",
+    "type": "season_round_preview",
+    "appliesTo": "male",
+    "teams": [
+      "Hurley",
+      "Oranje-Rood",
+      "Schaerweijde",
+      "Laren",
+      "Rotterdam",
+      "Amsterdam",
+      "HDM",
+      "Pinoké",
+      "Kampong",
+      "Den Bosch"
+    ],
+    "useFor": [
+      "team form",
+      "match context",
+      "media evidence"
+    ],
+    "reliability": "medium"
+  },
+  "tulp_m_round20_preview": {
+    "title": "Wat je moet weten over speelronde 20 bij de mannen",
+    "url": "https://tulphoofdklasse.com/nieuws/wat-je-moet-weten-over-speelronde-20-bij-de-mannen",
+    "type": "season_round_preview",
+    "appliesTo": "male",
+    "teams": [
+      "Klein Zwitserland",
+      "Pinoké",
+      "Bloemendaal",
+      "Amsterdam",
+      "Kampong",
+      "Schaerweijde",
+      "Hurley",
+      "Laren",
+      "Oranje-Rood",
+      "Rotterdam"
+    ],
+    "useFor": [
+      "team form",
+      "player mentions",
+      "media evidence"
+    ],
+    "reliability": "medium"
+  },
+  "tulp_m_round18_preview": {
+    "title": "Wat je moet weten over speelronde 18 bij de mannen",
+    "url": "https://tulphoofdklasse.com/nieuws/wat-je-moet-weten-over-speelronde-18-bij-de-mannen",
+    "type": "season_round_preview",
+    "appliesTo": "male",
+    "teams": [
+      "Schaerweijde",
+      "Oranje-Rood",
+      "Bloemendaal"
+    ],
+    "useFor": [
+      "team form",
+      "match context"
+    ],
+    "reliability": "medium"
+  },
+  "tulp_m_round10_preview": {
+    "title": "Wat je moet weten over speelronde 10 bij de mannen",
+    "url": "https://tulphoofdklasse.com/nieuws/wat-je-moet-weten-over-speelronde-10-bij-de-mannen-2",
+    "type": "season_round_preview",
+    "appliesTo": "male",
+    "teams": [
+      "Den Bosch",
+      "Kampong",
+      "Laren",
+      "Schaerweijde"
+    ],
+    "useFor": [
+      "team form",
+      "match context"
+    ],
+    "reliability": "medium"
+  },
+  "tulp_m_round7_video": {
+    "title": "Terugkijken: primeur Oranje-Rood, wereldgoal Brinkman",
+    "url": "https://tulphoofdklasse.com/nieuws/terugkijken-primeur-oranje-rood-wereldgoal-brinkman",
+    "type": "match_report_video_summary",
+    "appliesTo": "male",
+    "teams": [
+      "Pinoké",
+      "Laren",
+      "Bloemendaal",
+      "Oranje-Rood",
+      "Klein Zwitserland",
+      "Amsterdam",
+      "Hurley",
+      "HDM",
+      "Rotterdam",
+      "Den Bosch",
+      "Schaerweijde",
+      "Kampong"
+    ],
+    "useFor": [
+      "goal/action evidence",
+      "player mentions",
+      "media evidence"
+    ],
+    "reliability": "medium"
+  },
+  "tulp_m_round8_video": {
+    "title": "Terugkijken: monsterzege Den Bosch, zeldzame stunt Laren",
+    "url": "https://tulphoofdklasse.com/nieuws/terugkijken-monsterzege-den-bosch-zeldzame-stunt-laren",
+    "type": "match_report_video_summary",
+    "appliesTo": "male",
+    "teams": [
+      "HDM",
+      "Klein Zwitserland",
+      "Kampong",
+      "Hurley",
+      "Den Bosch",
+      "Schaerweijde",
+      "Laren",
+      "Bloemendaal",
+      "Oranje-Rood",
+      "Rotterdam",
+      "Amsterdam",
+      "Pinoké"
+    ],
+    "useFor": [
+      "goal/action evidence",
+      "team form",
+      "media evidence"
+    ],
+    "reliability": "medium"
+  },
+  "tulp_m_round16_video": {
+    "title": "Terugkijken: acht goals op de Klapperboom, hattrick Boers",
+    "url": "https://tulphoofdklasse.com/nieuws/terugkijken-acht-goals-op-de-klapperboom-hattrick-boers",
+    "type": "match_report_video_summary",
+    "appliesTo": "male",
+    "teams": [
+      "Pinoké",
+      "Den Bosch",
+      "Kampong",
+      "Bloemendaal"
+    ],
+    "useFor": [
+      "goal/action evidence",
+      "player mentions"
+    ],
+    "reliability": "medium"
+  },
+  "tulp_m_denhaag_productive": {
+    "title": "Mannen Den Bosch productiever dan ooit op vreemde bodem",
+    "url": "https://tulphoofdklasse.com/nieuws/mannen-den-bosch-productiever-dan-ooit-op-vreemde-bodem",
+    "type": "season_feature",
+    "appliesTo": "male",
+    "teams": [
+      "Den Bosch",
+      "Oranje-Rood",
+      "Amsterdam",
+      "Pinoké",
+      "Rotterdam",
+      "Hurley",
+      "HDM",
+      "Laren",
+      "Klein Zwitserland",
+      "Bloemendaal",
+      "Schaerweijde"
+    ],
+    "useFor": [
+      "schieten",
+      "team scoring form",
+      "player/team context"
+    ],
+    "reliability": "medium"
+  },
+  "tulp_m_struan_walker": {
+    "title": "Struan Walker evenaart clublegende Mink van der Weerden",
+    "url": "https://tulphoofdklasse.com/nieuws/struan-walker-evenaart-clublegende-mink-van-der-weerden",
+    "type": "player_feature",
+    "appliesTo": "male",
+    "teams": [
+      "Oranje-Rood"
+    ],
+    "useFor": [
+      "schieten",
+      "sleepcorner",
+      "topscorer context"
+    ],
+    "reliability": "medium"
+  },
+  "tulp_f_round21_preview": {
+    "title": "Wat je moet weten over speelronde 21 bij de vrouwen",
+    "url": "https://tulphoofdklasse.com/nieuws/wat-je-moet-weten-over-speelronde-21-bij-de-vrouwen",
+    "type": "season_round_preview",
+    "appliesTo": "female",
+    "teams": [
+      "Amsterdam",
+      "SCHC",
+      "HDM",
+      "Bloemendaal",
+      "HGC",
+      "Hurley",
+      "Oranje-Rood",
+      "Tilburg"
+    ],
+    "useFor": [
+      "team form",
+      "match context"
+    ],
+    "reliability": "medium"
+  },
+  "tulp_f_round20_video": {
+    "title": "Terugkijken: Matla blijft maar scoren, Jip Dicke beslist topper",
+    "url": "https://tulphoofdklasse.com/nieuws/terugkijken-matla-blijft-maar-scoren-jip-dicke-beslist-topper",
+    "type": "match_report_video_summary",
+    "appliesTo": "female",
+    "teams": [
+      "Oranje-Rood",
+      "Rotterdam",
+      "Amsterdam",
+      "SCHC",
+      "HGC",
+      "Bloemendaal",
+      "HDM",
+      "Den Bosch"
+    ],
+    "useFor": [
+      "schieten",
+      "goal/action evidence",
+      "player mentions"
+    ],
+    "reliability": "medium"
+  },
+  "tulp_f_round18_preview": {
+    "title": "Wat je moet weten over speelronde 18 bij de vrouwen",
+    "url": "https://tulphoofdklasse.com/nieuws/wat-je-moet-weten-over-speelronde-18-bij-de-vrouwen",
+    "type": "season_round_preview",
+    "appliesTo": "female",
+    "teams": [
+      "Tilburg",
+      "HGC",
+      "HDM",
+      "Hurley"
+    ],
+    "useFor": [
+      "team form",
+      "match context"
+    ],
+    "reliability": "medium"
+  },
+  "tulp_f_round16_preview": {
+    "title": "Wat je moet weten over speelronde 16 bij de vrouwen",
+    "url": "https://tulphoofdklasse.com/nieuws/wat-je-moet-weten-over-speelronde-16-bij-de-vrouwen",
+    "type": "season_round_preview",
+    "appliesTo": "female",
+    "teams": [
+      "Kampong",
+      "Bloemendaal",
+      "Amsterdam"
+    ],
+    "useFor": [
+      "team form",
+      "match context"
+    ],
+    "reliability": "medium"
+  },
+  "tulp_f_round14_preview": {
+    "title": "Wat je moet weten over speelronde 14 bij de vrouwen",
+    "url": "https://tulphoofdklasse.com/nieuws/wat-je-moet-weten-over-speelronde-14-bij-de-vrouwen",
+    "type": "season_round_preview",
+    "appliesTo": "female",
+    "teams": [
+      "Kampong",
+      "Amsterdam",
+      "HDM",
+      "Pinoké"
+    ],
+    "useFor": [
+      "team form",
+      "match context"
+    ],
+    "reliability": "medium"
+  },
+  "tulp_f_round13_video": {
+    "title": "Terugblik: SCHC opnieuw foutloos, Hurley doet HGC pijn",
+    "url": "https://tulphoofdklasse.com/nieuws/terugkijken-hurley-zet-hgc-te-kijk-schc-opnieuw-foutloos",
+    "type": "match_report_video_summary",
+    "appliesTo": "female",
+    "teams": [
+      "Oranje-Rood",
+      "HDM",
+      "Amsterdam",
+      "Den Bosch",
+      "SCHC",
+      "Pinoké",
+      "Bloemendaal",
+      "Rotterdam",
+      "Hurley",
+      "HGC"
+    ],
+    "useFor": [
+      "goal/action evidence",
+      "team form",
+      "player mentions"
+    ],
+    "reliability": "medium"
+  },
+  "tulp_f_round5_report": {
+    "title": "Topper onbeslist, eerste zege voor Rotterdam",
+    "url": "https://tulphoofdklasse.com/nieuws/topper-onbeslist-eerste-zege-voor-rotterdam",
+    "type": "match_report",
+    "appliesTo": "female",
+    "teams": [
+      "SCHC",
+      "Den Bosch",
+      "Kampong",
+      "Bloemendaal",
+      "Rotterdam",
+      "HDM"
+    ],
+    "useFor": [
+      "goal/action evidence",
+      "team form"
+    ],
+    "reliability": "medium"
+  },
+  "tulp_f_round1_preview": {
+    "title": "Competitiestart vrouwen: wat je moet weten over speelronde 1",
+    "url": "https://tulphoofdklasse.com/nieuws/competitiestart-vrouwen-wat-je-moet-weten-over-speelronde-1",
+    "type": "season_round_preview",
+    "appliesTo": "female",
+    "teams": [
+      "Amsterdam",
+      "Hurley",
+      "SCHC"
+    ],
+    "useFor": [
+      "match context",
+      "team form"
+    ],
+    "reliability": "medium"
+  },
+  "hockeynl_dames_preview_2025": {
+    "title": "Het Hoofdklasse-jaar: Gaat het SCHC eindelijk lukken?",
+    "url": "https://www.hockey.nl/nieuws/het-hoofdklasse-jaar-gaat-het-schc-eindelijk-lukken",
+    "type": "season_preview",
+    "appliesTo": "female",
+    "teams": [
+      "SCHC",
+      "Den Bosch",
+      "Amsterdam",
+      "Hurley"
+    ],
+    "useFor": [
+      "season context",
+      "talent/foreign-player context"
+    ],
+    "reliability": "medium"
+  }
+}

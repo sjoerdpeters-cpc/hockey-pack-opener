@@ -1,8 +1,9 @@
-// Dataset adapter: merges playersBase + playerRatings from v1.5.2
-import { playersBase } from './v1.5.2/hockey-pack-opener-project-files/src/data/playersBase';
-import { playerRatings } from './v1.5.2/hockey-pack-opener-project-files/src/data/playerRatings';
-import { playerCountries } from './v1.5.2/hockey-pack-opener-project-files/src/data/playerCountries';
-export { datasetMeta } from './v1.5.2/hockey-pack-opener-project-files/src/data/datasetMeta';
+// Dataset adapter: merges playersBase + playerRatings from v1.6.0
+import { playersBase } from './v1.6.0/hockey-pack-opener-project-files/src/data/playersBase';
+import { playerRatings } from './v1.6.0/hockey-pack-opener-project-files/src/data/playerRatings';
+// playerCountries not included in v1.6.0 — kept from archived v1.5.2 (country metadata is version-independent)
+import { playerCountries } from './archive/v1.5.2/hockey-pack-opener-project-files/src/data/playerCountries';
+export { datasetMeta } from './v1.6.0/hockey-pack-opener-project-files/src/data/datasetMeta';
 
 import type { EnrichedPlayer, Rarity, Position, Gender } from '../types';
 
@@ -67,22 +68,18 @@ function mergePlayer(
     // International status
     isSeniorInternational: base.isSeniorInternational ?? false,
     isJongOranje: base.isJongOranje ?? false,
-    isForeignSeniorInternational: base.isForeignSeniorInternational ?? false,
+    // isForeignSeniorInternational removed in v1.6.0
+    isForeignSeniorInternational: (base as Record<string, unknown>).isForeignSeniorInternational === true,
     internationalStatusSummary: base.internationalStatusSummary ?? '',
-    officialInternationalCaps:
-      typeof base.officialInternationalCaps === 'number' ? base.officialInternationalCaps : null,
-    officialInternationalGoals:
-      typeof base.officialInternationalGoals === 'number' ? base.officialInternationalGoals : null,
-    officialInternationalStatsTeam: base.officialInternationalStatsTeam ?? null,
-
-    // Portrait
-    portraitUrl: base.portraitUrl ?? '',
-    portraitStatus: base.portraitStatus ?? 'missing',
-    imageUrl: base.portraitUrl || undefined,
-
-    // Age
-    ageYears: typeof base.ageYears === 'number' ? base.ageYears : null,
-    birthDate: base.birthDate ?? '',
+    // Caps/goals/portrait/age removed in v1.6.0 — default to null/empty
+    officialInternationalCaps: null,
+    officialInternationalGoals: null,
+    officialInternationalStatsTeam: null,
+    portraitUrl: '',
+    portraitStatus: 'missing',
+    imageUrl: undefined,
+    ageYears: null,
+    birthDate: '',
   };
 }
 

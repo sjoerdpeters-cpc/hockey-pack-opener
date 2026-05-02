@@ -1,0 +1,8 @@
+{
+  "version": "v1.6.0",
+  "lastUpdated": "2026-05-02",
+  "updateSequence": 11,
+  "status": "rating_model_v1_applied",
+  "scope": "NL Hoofdklasse Heren + Dames 2025-2026",
+  "notes": "Applied transparent rating model to playerRatings.ts; added ratingBreakdown per player, rating-summary.json and RATING_MODEL.md."
+}
