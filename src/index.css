@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    margin: 0;
+    background-color: #0a0e1a;
+    color: white;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+  }
+  #root {
+    width: 100%;
+    min-height: 100svh;
+  }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+@keyframes rainbow {
+  0% { border-color: #ff0080; box-shadow: 0 0 20px #ff0080, 0 0 40px #ff008055; }
+  16% { border-color: #ff8000; box-shadow: 0 0 20px #ff8000, 0 0 40px #ff800055; }
+  33% { border-color: #ffff00; box-shadow: 0 0 20px #ffff00, 0 0 40px #ffff0055; }
+  50% { border-color: #00ff80; box-shadow: 0 0 20px #00ff80, 0 0 40px #00ff8055; }
+  66% { border-color: #0080ff; box-shadow: 0 0 20px #0080ff, 0 0 40px #0080ff55; }
+  83% { border-color: #8000ff; box-shadow: 0 0 20px #8000ff, 0 0 40px #8000ff55; }
+  100% { border-color: #ff0080; box-shadow: 0 0 20px #ff0080, 0 0 40px #ff008055; }
+}
+
+.card-rainbow {
+  animation: rainbow 2s linear infinite;
+}
+
+.card-shimmer {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255,255,255,0.15) 50%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
