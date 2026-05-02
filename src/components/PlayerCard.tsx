@@ -2,13 +2,14 @@ import type { EnrichedPlayer, Rarity } from '../types';
 import { getClubByName, darkenColor, getClubInitials } from '../clubs';
 import { getFlagEmoji, getFlagPngUrl } from '../data/dataset';
 
-const RARITY_BORDER: Record<Rarity, string> = {
-  Bronze:  'border-amber-700',
-  Silver:  'border-slate-400',
-  Gold:    'border-yellow-400',
-  Elite:   'border-violet-500',
-  Icon:    'border-cyan-400',
-  Special: 'border-4 card-rainbow',
+// Exact hex border colors per rarity (used as inline borderColor)
+const RARITY_BORDER_COLOR: Record<Rarity, string> = {
+  Bronze:  '#b45309',
+  Silver:  '#94a3b8',
+  Gold:    '#facc15',
+  Elite:   '#8b5cf6',
+  Icon:    '#22d3ee',
+  Special: '#ec4899',
 };
 
 const RARITY_GLOW: Record<Rarity, string> = {
@@ -90,8 +91,15 @@ export function PlayerCard({ player, small = false }: Props) {
   const flagEmoji = getFlagEmoji(player.nationality);
   const flagPng = getFlagPngUrl(player.nationality);
 
-  // Background gradient from club colors
-  const cardBg = `linear-gradient(160deg, ${darkenColor(club.colorPrimary, 0.22)} 0%, ${darkenColor(club.colorSecondary, 0.15)} 100%)`;
+  // Club color background: start from app dark, blend through club colors
+  const hexA = (hex: string, a: number) =>
+    hex.replace(/^#/, '') + Math.round(a * 255).toString(16).padStart(2, '0');
+  const cardBg = [
+    `linear-gradient(160deg,`,
+    `#0a0e1a 0%,`,
+    `#${hexA(club.colorPrimary, 0.50)} 55%,`,
+    `#${hexA(club.colorSecondary || club.colorPrimary, 0.35)} 100%)`,
+  ].join(' ');
   const glowColor = RARITY_GLOW[player.rarity];
 
   const posLabel = player.fieldPosition === 'UNKNOWN' ? '?' : player.position;
@@ -100,12 +108,13 @@ export function PlayerCard({ player, small = false }: Props) {
   return (
     <div
       className={`
-        relative rounded-xl border-2 ${RARITY_BORDER[player.rarity]}
-        flex flex-col items-center overflow-hidden select-none
+        relative rounded-xl flex flex-col items-center overflow-hidden select-none
+        ${player.rarity === 'Special' ? 'border-4 card-rainbow' : 'border-2'}
         ${small ? 'w-32 p-2 gap-1' : 'w-52 p-4 gap-2'}
       `}
       style={{
         background: cardBg,
+        borderColor: player.rarity !== 'Special' ? RARITY_BORDER_COLOR[player.rarity] : undefined,
         boxShadow: `0 0 18px ${glowColor}55, 0 4px 12px rgba(0,0,0,0.6)`,
       }}
     >
@@ -113,7 +122,7 @@ export function PlayerCard({ player, small = false }: Props) {
       {isHighRarity && <div className="absolute inset-0 card-shimmer pointer-events-none rounded-xl" />}
 
       {/* Dark overlay for readability */}
-      <div className="absolute inset-0 bg-black/35 rounded-xl pointer-events-none" />
+      <div className="absolute inset-0 bg-black/20 rounded-xl pointer-events-none" />
 
       {/* Club color stripe at top */}
       <div
