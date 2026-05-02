@@ -1,22 +1,27 @@
-import type { Player, Rarity } from '../types';
+import type { EnrichedPlayer, Rarity } from '../types';
+import { getClubByName, darkenColor, getClubInitials } from '../clubs';
+import { getFlagEmoji, getFlagPngUrl } from '../data/dataset';
 
-const FLAG: Record<string, string> = {
-  NL: '🇳🇱',
-  DE: '🇩🇪',
-  ES: '🇪🇸',
+const RARITY_BORDER: Record<Rarity, string> = {
+  Bronze:  'border-amber-700',
+  Silver:  'border-slate-400',
+  Gold:    'border-yellow-400',
+  Elite:   'border-violet-500',
+  Icon:    'border-cyan-400',
+  Special: 'border-4 card-rainbow',
 };
 
-const RARITY_STYLES: Record<Rarity, string> = {
-  Bronze:  'border-amber-700 bg-gradient-to-b from-amber-950 to-amber-900 shadow-amber-800/40',
-  Silver:  'border-slate-400 bg-gradient-to-b from-slate-700 to-slate-800 shadow-slate-400/40',
-  Gold:    'border-yellow-400 bg-gradient-to-b from-yellow-900 to-yellow-950 shadow-yellow-400/50',
-  Elite:   'border-violet-500 bg-gradient-to-b from-violet-950 to-indigo-950 shadow-violet-500/60',
-  Icon:    'border-cyan-400 bg-gradient-to-b from-cyan-950 to-blue-950 shadow-cyan-400/60',
-  Special: 'border-4 bg-gradient-to-b from-purple-950 to-pink-950 card-rainbow',
+const RARITY_GLOW: Record<Rarity, string> = {
+  Bronze:  '#92400e',
+  Silver:  '#94a3b8',
+  Gold:    '#facc15',
+  Elite:   '#8b5cf6',
+  Icon:    '#22d3ee',
+  Special: '#ec4899',
 };
 
 const RARITY_LABEL: Record<Rarity, string> = {
-  Bronze:  'text-amber-600',
+  Bronze:  'text-amber-500',
   Silver:  'text-slate-300',
   Gold:    'text-yellow-400',
   Elite:   'text-violet-400',
@@ -32,78 +37,152 @@ const POS_COLOR: Record<string, string> = {
 };
 
 interface Props {
-  player: Player;
+  player: EnrichedPlayer;
   small?: boolean;
 }
 
+function IntlBadge({ player, small }: { player: EnrichedPlayer; small: boolean }) {
+  const size = small ? 'text-xs' : 'text-xs';
+  if (player.isSeniorInternational) return <span className={size} title="Senior international">🌟</span>;
+  if (player.isJongOranje) return <span className={size} title="Jong Oranje">🟡</span>;
+  if (player.isForeignSeniorInternational) return <span className={size} title="Buitenlands international">🌍</span>;
+  return null;
+}
+
+function Portrait({ player, size }: { player: EnrichedPlayer; size: number }) {
+  const club = getClubByName(player.club);
+  const initials = player.name.split(' ').map(w => w[0]).slice(0, 2).join('');
+
+  if (player.portraitUrl) {
+    return (
+      <img
+        src={player.portraitUrl}
+        alt={player.name}
+        className="rounded-full object-cover border border-white/20"
+        style={{ width: size, height: size }}
+        onError={(e) => {
+          // On broken image: swap to initials div
+          const target = e.currentTarget;
+          target.style.display = 'none';
+          const fallback = target.nextElementSibling as HTMLElement | null;
+          if (fallback) fallback.style.display = 'flex';
+        }}
+      />
+    );
+  }
+
+  // Club logo watermark behind initials
+  const bgGrad = `radial-gradient(circle, ${darkenColor(club.colorPrimary, 0.4)}, ${darkenColor(club.colorSecondary, 0.25)})`;
+
+  return (
+    <div
+      className="rounded-full flex items-center justify-center border border-white/10 font-black text-white/70"
+      style={{ width: size, height: size, background: bgGrad, fontSize: size * 0.33 }}
+    >
+      {initials}
+    </div>
+  );
+}
+
 export function PlayerCard({ player, small = false }: Props) {
-  const rarityStyle = RARITY_STYLES[player.rarity];
-  const isSpecial = player.rarity === 'Special' || player.rarity === 'Icon';
+  const club = getClubByName(player.club);
+  const isHighRarity = player.rarity === 'Special' || player.rarity === 'Icon' || player.rarity === 'Elite';
+  const flagEmoji = getFlagEmoji(player.nationality);
+  const flagPng = getFlagPngUrl(player.nationality);
+
+  // Background gradient from club colors
+  const cardBg = `linear-gradient(160deg, ${darkenColor(club.colorPrimary, 0.22)} 0%, ${darkenColor(club.colorSecondary, 0.15)} 100%)`;
+  const glowColor = RARITY_GLOW[player.rarity];
+
+  const posLabel = player.fieldPosition === 'UNKNOWN' ? '?' : player.position;
+  const posClass = POS_COLOR[player.position] ?? 'bg-gray-600';
 
   return (
     <div
       className={`
-        relative rounded-xl border-2 ${rarityStyle}
-        shadow-lg flex flex-col items-center
+        relative rounded-xl border-2 ${RARITY_BORDER[player.rarity]}
+        flex flex-col items-center overflow-hidden select-none
         ${small ? 'w-32 p-2 gap-1' : 'w-52 p-4 gap-2'}
-        select-none overflow-hidden
       `}
+      style={{
+        background: cardBg,
+        boxShadow: `0 0 18px ${glowColor}55, 0 4px 12px rgba(0,0,0,0.6)`,
+      }}
     >
-      {/* Shimmer overlay for Elite+ */}
-      {isSpecial && (
-        <div className="absolute inset-0 card-shimmer pointer-events-none rounded-xl" />
-      )}
+      {/* Shimmer for Elite+ */}
+      {isHighRarity && <div className="absolute inset-0 card-shimmer pointer-events-none rounded-xl" />}
 
-      {/* Rating badge */}
+      {/* Dark overlay for readability */}
+      <div className="absolute inset-0 bg-black/35 rounded-xl pointer-events-none" />
+
+      {/* Club color stripe at top */}
+      <div
+        className="absolute top-0 left-0 right-0 h-1 rounded-t-xl"
+        style={{ background: `linear-gradient(90deg, ${club.colorPrimary}, ${club.colorSecondary})` }}
+      />
+
+      {/* Rating */}
       <div className={`
-        absolute top-2 left-2 font-black rounded-md
-        ${small ? 'text-lg px-1' : 'text-3xl px-2 py-0.5'}
+        relative z-10 absolute top-2 left-2 font-black leading-none
+        ${small ? 'text-xl px-1' : 'text-3xl px-1'}
         ${RARITY_LABEL[player.rarity]}
-      `}>
+      `}
+        style={{ textShadow: `0 0 8px ${glowColor}` }}
+      >
         {player.rating}
       </div>
 
       {/* Position badge */}
       <div className={`
-        absolute top-2 right-2 rounded-md font-bold text-white
-        ${small ? 'text-xs px-1 py-0' : 'text-xs px-1.5 py-0.5'}
-        ${POS_COLOR[player.position]}
+        relative z-10 absolute top-2 right-2 rounded font-bold text-white text-xs
+        ${small ? 'px-1' : 'px-1.5 py-0.5'}
+        ${posClass}
       `}>
-        {player.position}
+        {posLabel}
       </div>
 
-      {/* Silhouette avatar */}
-      <div className={`
-        rounded-full flex items-center justify-center
-        bg-black/30 border border-white/10 font-bold text-white/60
-        ${small ? 'w-12 h-12 text-lg mt-4' : 'w-24 h-24 text-4xl mt-6'}
-      `}>
-        {player.name.split(' ').map(w => w[0]).slice(0, 2).join('')}
+      {/* Portrait / Avatar */}
+      <div className={`relative z-10 ${small ? 'mt-4' : 'mt-6'}`}>
+        <Portrait player={player} size={small ? 44 : 88} />
+        {/* Broken-image fallback (hidden by default, shown by onError) */}
+        <div
+          className="rounded-full items-center justify-center border border-white/10 font-black text-white/70 hidden"
+          style={{ width: small ? 44 : 88, height: small ? 44 : 88, fontSize: small ? 14 : 28 }}
+        >
+          {player.name.split(' ').map(w => w[0]).slice(0, 2).join('')}
+        </div>
       </div>
 
       {/* Name */}
-      <div className={`
-        font-bold text-white text-center leading-tight
-        ${small ? 'text-xs' : 'text-sm'}
-      `}>
+      <div className={`relative z-10 font-bold text-white text-center leading-tight ${small ? 'text-xs' : 'text-sm'}`}>
         {player.name}
+        {player.isCaptain && <span className="ml-1 text-yellow-400 text-xs">©</span>}
       </div>
 
-      {/* Club + Flag */}
-      <div className={`flex items-center gap-1 text-white/60 ${small ? 'text-xs' : 'text-xs'}`}>
-        <span>{FLAG[player.nationality] ?? '🏳️'}</span>
-        <span className="truncate max-w-24">{player.club}</span>
+      {/* Club + flag + international badge */}
+      <div className="relative z-10 flex items-center gap-1 text-white/60 text-xs">
+        {flagPng
+          ? <img src={flagPng} alt={player.nationality} className="w-4 h-3 object-cover rounded-sm" />
+          : <span>{flagEmoji}</span>
+        }
+        <span className={`truncate ${small ? 'max-w-16' : 'max-w-24'}`}>{player.club}</span>
+        <IntlBadge player={player} small={small} />
       </div>
 
-      {/* Rarity label */}
-      <div className={`font-semibold uppercase tracking-wider ${small ? 'text-xs' : 'text-xs'} ${RARITY_LABEL[player.rarity]}`}>
+      {/* Team label (full card only) */}
+      {!small && player.teamLabel && (
+        <div className="relative z-10 text-white/40 text-xs">{player.teamLabel}</div>
+      )}
+
+      {/* Rarity */}
+      <div className={`relative z-10 font-semibold uppercase tracking-wider text-xs ${RARITY_LABEL[player.rarity]}`}>
         {player.rarity}
       </div>
 
-      {/* Traits (only on full card) */}
+      {/* Traits (full card only) */}
       {!small && player.traits.length > 0 && (
-        <div className="flex flex-wrap gap-1 justify-center mt-1">
-          {player.traits.slice(0, 3).map((t) => (
+        <div className="relative z-10 flex flex-wrap gap-1 justify-center">
+          {player.traits.slice(0, 3).map(t => (
             <span key={t} className="bg-white/10 text-white/70 text-xs rounded px-1.5 py-0.5">
               {t}
             </span>
@@ -111,8 +190,37 @@ export function PlayerCard({ player, small = false }: Props) {
         </div>
       )}
 
+      {/* Caps (full card only, only if senior international) */}
+      {!small && player.isSeniorInternational && player.officialInternationalCaps !== null && (
+        <div className="relative z-10 flex gap-2 text-xs text-white/50">
+          <span>🌟 {player.officialInternationalCaps} caps</span>
+          {player.officialInternationalGoals !== null && (
+            <span>· {player.officialInternationalGoals} goals</span>
+          )}
+        </div>
+      )}
+
+      {/* Club initials watermark (full card only, no logo URL) */}
+      {!small && !club.logoUrl && club.name && (
+        <div
+          className="absolute bottom-6 right-2 font-black opacity-10 text-lg pointer-events-none z-0"
+          style={{ color: club.colorPrimary }}
+        >
+          {getClubInitials(club)}
+        </div>
+      )}
+
+      {/* Club logo (if available) */}
+      {!small && club.logoUrl && (
+        <img
+          src={club.logoUrl}
+          alt={club.name}
+          className="absolute bottom-6 right-2 w-6 h-6 object-contain opacity-40 z-0"
+        />
+      )}
+
       {/* Gender indicator */}
-      <div className="absolute bottom-2 right-2 text-white/30 text-xs">
+      <div className="relative z-10 absolute bottom-1.5 right-2 text-white/20 text-xs">
         {player.gender === 'female' ? '♀' : '♂'}
       </div>
     </div>

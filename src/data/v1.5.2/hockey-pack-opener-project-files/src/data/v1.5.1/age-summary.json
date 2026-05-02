@@ -1,0 +1,8 @@
+{
+  "version": "1.4.0",
+  "lastUpdated": "2026-05-02",
+  "totalPlayers": 521,
+  "ageKnown": 0,
+  "ageMissing": 521,
+  "note": "Age fields have been added for all players. No dates of birth were mass-filled in this update; fill only from explicit club/FIH/federation profiles."
+}

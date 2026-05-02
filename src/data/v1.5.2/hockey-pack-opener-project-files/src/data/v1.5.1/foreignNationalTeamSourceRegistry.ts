@@ -1,0 +1,204 @@
+// Auto-generated registry for foreign national-team evidence.
+
+export const foreignNationalTeamSourceRegistry = [
+  {
+    "id": "fih_spain_men_london_2024_pdf",
+    "sourceName": "FIH Pro League Season 5 - Spain Men mini-tournament list of players",
+    "sourceType": "official_fih_roster_pdf",
+    "url": "https://www.fih.hockey/static-assets/pdf/esp_men_london.pdf",
+    "publishedDate": "2024-06-07",
+    "lastChecked": "2026-05-02",
+    "description": "Official FIH roster PDF for Spain Men; includes Marc Recasens, Joaquín Menini, Marc Vizcaíno, Eduard De Ignacio-Simó, Gerard Clapes, Pol Cabré-Verdiell, Luis Calzado and Borja Lacalle."
+  },
+  {
+    "id": "fih_valentina_raposo_profile",
+    "sourceName": "FIH player profile - Valentina Raposo",
+    "sourceType": "official_fih_player_profile",
+    "url": "https://www.fih.hockey/events/pan-american-games-2023-chile/teams/women/player/raposo-valentina-25146",
+    "publishedDate": null,
+    "lastChecked": "2026-05-02",
+    "description": "Official FIH player profile for Valentina Raposo, Argentina."
+  },
+  {
+    "id": "fih_tomas_santiago_profile",
+    "sourceName": "FIH player profile - Tomás Santiago",
+    "sourceType": "official_fih_player_profile",
+    "url": "https://www.fih.hockey/events/others/men/xi-south-american-games-cochabamba-2018-m-920/player/santiago-tomas-2476",
+    "publishedDate": null,
+    "lastChecked": "2026-05-02",
+    "description": "Official FIH player profile for Tomás Santiago, Argentina."
+  },
+  {
+    "id": "fih_dayaan_cassiem_profile",
+    "sourceName": "FIH player profile - Dayaan Cassiem",
+    "sourceType": "official_fih_player_profile",
+    "url": "https://www.fih.hockey/events/others/men/african-hockey-road-to-paris-2024-men-1619/player/cassiem-dayaan-16975",
+    "publishedDate": null,
+    "lastChecked": "2026-05-02",
+    "description": "Official FIH player profile for Dayaan Cassiem, South Africa."
+  },
+  {
+    "id": "fih_mustaphaa_cassiem_profile",
+    "sourceName": "FIH player profile - Mustaphaa Cassiem",
+    "sourceType": "official_fih_player_profile",
+    "url": "https://www.fih.hockey/events/world-cup/men/2024-test-match-rsa-v-ind-m-1647/player/cassiem-mustaphaa-20975",
+    "publishedDate": null,
+    "lastChecked": "2026-05-02",
+    "description": "Official FIH player profile for Mustaphaa Cassiem, South Africa."
+  },
+  {
+    "id": "sa_hockey_men_hp_2025_26",
+    "sourceName": "South African Hockey - Men High Performance Squad 2025/26",
+    "sourceType": "official_federation_squad",
+    "url": "https://sahockey.co.za/2025/09/04/south-african-mens-high-performance-squad-announced-for-2025-26/",
+    "publishedDate": "2025-09-04",
+    "lastChecked": "2026-05-02",
+    "description": "Official SA Hockey high-performance squad; includes Dayaan Cassiem and Mustapha Cassiem with caps."
+  },
+  {
+    "id": "sa_hockey_dirkie_chamberlain_retirement",
+    "sourceName": "South African Hockey - Dirkie Chamberlain calls time on international career",
+    "sourceType": "official_federation_news",
+    "url": "https://sahockey.co.za/2024/09/20/dirkie-chamberlain-calls-time-on-her-international-career/",
+    "publishedDate": "2024-09-20",
+    "lastChecked": "2026-05-02",
+    "description": "Official SA Hockey article confirming Dirkie Chamberlain international career and 250 caps."
+  },
+  {
+    "id": "england_hockey_ollie_payne_profile",
+    "sourceName": "England Hockey player profile - Ollie Payne",
+    "sourceType": "official_federation_player_profile",
+    "url": "https://www.englandhockey.co.uk/international/senior-squad/ollie-payne",
+    "publishedDate": null,
+    "lastChecked": "2026-05-02",
+    "description": "Official England Hockey player profile; lists nationality, position, debut and caps for Ollie Payne."
+  },
+  {
+    "id": "england_hockey_eurohockey_2023_squad",
+    "sourceName": "England Hockey - EuroHockey Championships 2023 squad",
+    "sourceType": "official_federation_squad_news",
+    "url": "https://www.englandhockey.co.uk/media/news/england-hockey-announce-mens-and-womens-squad-for-eurohockey-championships",
+    "publishedDate": "2023-08-03",
+    "lastChecked": "2026-05-02",
+    "description": "Official England Hockey squad article; includes Ollie Payne, Tom Sorsby, Zach Wallace and Jack Waller."
+  },
+  {
+    "id": "england_hockey_2026_wcq_review",
+    "sourceName": "England Hockey - 2026 FIH Hockey World Cup Qualifier review",
+    "sourceType": "official_federation_news",
+    "url": "https://www.englandhockey.co.uk/media/news/2026-fih-hockey-world-cup-qualifier-review",
+    "publishedDate": "2026-03-09",
+    "lastChecked": "2026-05-02",
+    "description": "Official England Hockey news; confirms Jack Waller and Zach Wallace England/GB cap milestone."
+  },
+  {
+    "id": "england_gb_duchess_bisham_2023",
+    "sourceName": "England and GB Hockey senior squad visit at Bisham Abbey",
+    "sourceType": "official_federation_news",
+    "url": "https://www.englandhockey.co.uk/media/news/england-and-gb-hockey-welcomed-her-royal-highness-the-duchess-of-edinburgh-to-bisham-abbey",
+    "publishedDate": "2023-06-01",
+    "lastChecked": "2026-05-02",
+    "description": "Official England/GB Hockey news mentioning Tom Sorsby, Jack Waller, Ollie Payne and Welsh/GB player Jacob Draper as members of the men senior squad context."
+  },
+  {
+    "id": "scottish_hockey_lee_morton_profile",
+    "sourceName": "Scottish Hockey player profile - Lee Morton",
+    "sourceType": "official_federation_player_profile",
+    "url": "https://scottish-hockey.org.uk/player/lee-morton/",
+    "publishedDate": "2017-06-16",
+    "lastChecked": "2026-05-02",
+    "description": "Official Scottish Hockey player profile for Lee Morton."
+  },
+  {
+    "id": "scottish_hockey_open_morning_2026",
+    "sourceName": "Scottish Hockey - Men National Team Open Morning",
+    "sourceType": "official_federation_event",
+    "url": "https://scottish-hockey.org.uk/events/scotland-mens-national-team-open-morning/",
+    "publishedDate": null,
+    "lastChecked": "2026-05-02",
+    "description": "Official Scottish Hockey event page listing international facts for Lee Morton and Struan Walker."
+  },
+  {
+    "id": "hockey_de_marco_miltkau_profile",
+    "sourceName": "hockey.de player profile - Marco Miltkau",
+    "sourceType": "official_federation_player_profile",
+    "url": "https://www.hockey.de/players/671/Marco-Miltkau",
+    "publishedDate": null,
+    "lastChecked": "2026-05-02",
+    "description": "Official German federation player profile with senior caps/goals for Marco Miltkau."
+  },
+  {
+    "id": "hockey_de_thies_prinz_100_caps",
+    "sourceName": "hockey.de - Thies Prinz 100th cap",
+    "sourceType": "official_federation_news",
+    "url": "https://www.hockey.de/articles/zum-100-laenderspiel-von-thies-prinz-fuer-die-honamas",
+    "publishedDate": "2025-08-10",
+    "lastChecked": "2026-05-02",
+    "description": "Official German federation article confirming Thies Prinz as HONAMAS player and 100th cap."
+  },
+  {
+    "id": "hockey_de_cecile_pieper_retirement",
+    "sourceName": "hockey.de - Cécile Pieper retirement from national team",
+    "sourceType": "official_federation_news",
+    "url": "https://www.hockey.de/articles/danas5",
+    "publishedDate": "2024-12-13",
+    "lastChecked": "2026-05-02",
+    "description": "Official German federation article confirming Cécile Pieper national-team career and retirement from DANAS."
+  },
+  {
+    "id": "hockey_de_germany_argentina_olympics_2024_report",
+    "sourceName": "hockey.de Germany v Argentina Olympic 2024 report",
+    "sourceType": "official_federation_match_report",
+    "url": "https://www.hockey.de/leaguematch/olympische-spiele-2024--herren-intolyh/ger--arg-7899/report",
+    "publishedDate": null,
+    "lastChecked": "2026-05-02",
+    "description": "Official German federation Olympic match report containing German roster including Teo Hinrichs and Marco Miltkau."
+  },
+  {
+    "id": "hockey_be_englebert_100_caps",
+    "sourceName": "hockey.be Red Panthers Charlotte Englebert 100th cap",
+    "sourceType": "official_federation_news",
+    "url": "https://hockey.be/nl/fih-pro-league-de-red-panthers-blijven-foutloos-tegen-engeland/",
+    "publishedDate": "2025-12-12",
+    "lastChecked": "2026-05-02",
+    "description": "Official Belgian federation article confirming Charlotte Englebert as Red Panther and 100th cap."
+  },
+  {
+    "id": "hockey_be_red_lions_hpl_2024_selection",
+    "sourceName": "hockey.be Red Lions Pro League/Olympic selection 2024",
+    "sourceType": "official_federation_squad_news",
+    "url": "https://hockey.be/nl/selectie-red-lions-voor-de-hockey-pro-league-en-nominaties-voor-de-olympische-selectie/",
+    "publishedDate": "2024-06-10",
+    "lastChecked": "2026-05-02",
+    "description": "Official Belgian federation selection article; includes Arthur De Sloover and Arno Van Dessel."
+  },
+  {
+    "id": "hockey_be_florent_red_legend",
+    "sourceName": "hockey.be - Dank U Red Legends: Florent van Aubel",
+    "sourceType": "official_federation_news",
+    "url": "https://hockey.be/nl/dank-u-red-legends/",
+    "publishedDate": "2024-11-07",
+    "lastChecked": "2026-05-02",
+    "description": "Official Belgian federation article confirming Florent van Aubel international career and Belgium caps/goals."
+  },
+  {
+    "id": "fih_kelsey_bing_worldcup_qualification_2025",
+    "sourceName": "FIH - USA women qualify for 2026 World Cup, Kelsey Bing",
+    "sourceType": "official_fih_news",
+    "url": "https://www.fih.hockey/fih-hockey-world-cup-belgium-netherlands-event/news/usa-women-seal-fih-hockey-world-cup-2026-qualification",
+    "publishedDate": "2025-08-02",
+    "lastChecked": "2026-05-02",
+    "description": "Official FIH news quotes USA goalkeeper Kelsey Bing after qualification."
+  },
+  {
+    "id": "fih_zachary_wallace_proleague_2024",
+    "sourceName": "FIH Pro League news - Zachary Wallace Great Britain",
+    "sourceType": "official_fih_news",
+    "url": "https://www.fih.hockey/fih-pro-league/news/gb-women-prevail-against-china-after-eight-goal-spectacle",
+    "publishedDate": "2024-06-06",
+    "lastChecked": "2026-05-02",
+    "description": "Official FIH news naming Zachary Wallace of Great Britain."
+  }
+] as const;
+
+export default foreignNationalTeamSourceRegistry;

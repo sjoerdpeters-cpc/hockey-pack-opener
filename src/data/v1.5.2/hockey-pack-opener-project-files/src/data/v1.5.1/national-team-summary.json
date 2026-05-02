@@ -1,0 +1,18 @@
+{
+  "lastChecked": "2026-05-02",
+  "playersTotal": 521,
+  "matchedEvidenceRows": 158,
+  "playersWithAnyInternationalStatus": 119,
+  "seniorInternationalPlayers": 53,
+  "activeJongOranjePlayers": 54,
+  "historicalYouthOnlyPlayers": 12,
+  "unmatchedSelectionNames": 15,
+  "sources": [
+    "hockeynl_oranje_heren_current",
+    "hockeynl_oranje_dames_current",
+    "hockeynl_u21_training_groups_2026",
+    "hockeynl_jong_oranje_heren_wk21_2025",
+    "hockeynl_jong_oranje_dames_wk21_2025",
+    "hockeynl_jong_oranje_training_groups_wk21_2025"
+  ]
+}

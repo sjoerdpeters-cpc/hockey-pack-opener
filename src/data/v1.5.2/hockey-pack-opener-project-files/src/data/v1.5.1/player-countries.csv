@@ -1,0 +1,15 @@
+code,isoAlpha2,nameNl,nameEn,flagEmoji,flagSvgUrl,flagPngUrl,playerCount,source,sourceUrl,lastChecked,status
+AR,AR,Argentinië,Argentina,🇦🇷,https://flagcdn.com/ar.svg,https://flagcdn.com/w80/ar.png,5,Derived from playersBase.nationality,https://flagcdn.com/,2026-05-02,active_in_dataset
+AT,AT,Oostenrijk,Austria,🇦🇹,https://flagcdn.com/at.svg,https://flagcdn.com/w80/at.png,1,Derived from playersBase.nationality,https://flagcdn.com/,2026-05-02,active_in_dataset
+BE,BE,België,Belgium,🇧🇪,https://flagcdn.com/be.svg,https://flagcdn.com/w80/be.png,9,Derived from playersBase.nationality,https://flagcdn.com/,2026-05-02,active_in_dataset
+CN,CN,China,China,🇨🇳,https://flagcdn.com/cn.svg,https://flagcdn.com/w80/cn.png,1,Derived from playersBase.nationality,https://flagcdn.com/,2026-05-02,active_in_dataset
+CZ,CZ,Tsjechië,Czechia,🇨🇿,https://flagcdn.com/cz.svg,https://flagcdn.com/w80/cz.png,1,Derived from playersBase.nationality,https://flagcdn.com/,2026-05-02,active_in_dataset
+DE,DE,Duitsland,Germany,🇩🇪,https://flagcdn.com/de.svg,https://flagcdn.com/w80/de.png,18,Derived from playersBase.nationality,https://flagcdn.com/,2026-05-02,active_in_dataset
+ES,ES,Spanje,Spain,🇪🇸,https://flagcdn.com/es.svg,https://flagcdn.com/w80/es.png,16,Derived from playersBase.nationality,https://flagcdn.com/,2026-05-02,active_in_dataset
+FR,FR,Frankrijk,France,🇫🇷,https://flagcdn.com/fr.svg,https://flagcdn.com/w80/fr.png,3,Derived from playersBase.nationality,https://flagcdn.com/,2026-05-02,active_in_dataset
+GB,GB,Groot-Brittannië,Great Britain / United Kingdom,🇬🇧,https://flagcdn.com/gb.svg,https://flagcdn.com/w80/gb.png,14,Derived from playersBase.nationality,https://flagcdn.com/,2026-05-02,active_in_dataset
+IE,IE,Ierland,Ireland,🇮🇪,https://flagcdn.com/ie.svg,https://flagcdn.com/w80/ie.png,4,Derived from playersBase.nationality,https://flagcdn.com/,2026-05-02,active_in_dataset
+IT,IT,Italië,Italy,🇮🇹,https://flagcdn.com/it.svg,https://flagcdn.com/w80/it.png,2,Derived from playersBase.nationality,https://flagcdn.com/,2026-05-02,active_in_dataset
+NL,NL,Nederland,Netherlands,🇳🇱,https://flagcdn.com/nl.svg,https://flagcdn.com/w80/nl.png,436,Derived from playersBase.nationality,https://flagcdn.com/,2026-05-02,active_in_dataset
+US,US,Verenigde Staten,United States,🇺🇸,https://flagcdn.com/us.svg,https://flagcdn.com/w80/us.png,2,Derived from playersBase.nationality,https://flagcdn.com/,2026-05-02,active_in_dataset
+ZA,ZA,Zuid-Afrika,South Africa,🇿🇦,https://flagcdn.com/za.svg,https://flagcdn.com/w80/za.png,9,Derived from playersBase.nationality,https://flagcdn.com/,2026-05-02,active_in_dataset

@@ -1,0 +1,16 @@
+{
+  "version": "1.5.0",
+  "lastUpdated": "2026-05-02",
+  "totalPlayers": 521,
+  "seniorInternationalPlayers": 94,
+  "verifiedCapsAndGoals": 34,
+  "verifiedCapsOnlyGoalsMissingInRetrievedProfile": 16,
+  "pendingNlSeniorStatsLookup": 2,
+  "pendingForeignFederationOrFihStatsLookup": 42,
+  "evidenceRecords": 52,
+  "reviewRecords": 44,
+  "notes": [
+    "Caps/goals are only filled when an official numeric value was visible in the source.",
+    "Foreign internationals remain on review unless official FIH/federation caps and goals were explicitly confirmed."
+  ]
+}

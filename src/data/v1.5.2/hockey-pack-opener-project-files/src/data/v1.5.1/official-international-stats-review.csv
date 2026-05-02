@@ -1,0 +1,45 @@
+playerId,playerName,club,nationality,isSeniorInternational,isForeignSeniorInternational,status
+hk-nl-f-amsterdam-alessia-norbiato,Alessia Norbiato,Amsterdam,IT,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-f-den-bosch-charlotte-englebert,Charlotte Englebert,Den Bosch,BE,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-f-den-bosch-pien-sanders,Pien Sanders,Den Bosch,NL,True,False,profile_found_stats_not_extracted
+hk-nl-f-hdm-dirkie-chamberlain,Dirkie Chamberlain,HDM,ZA,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-f-hgc-valentina-raposo-ruiz-de-los-llanos,Valentina Raposo Ruiz De Los Llanos,HGC,AR,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-f-hgc-cecile-pieper,Cécile Pieper,HGC,DE,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-f-oranje-rood-lucie-ehrmann,Lucie Ehrmann,Oranje-Rood,FR,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-f-oranje-rood-julianna-tornetta,Julianna Tornetta,Oranje-Rood,US,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-f-oranje-rood-sara-puglisi,Sara Puglisi,Oranje-Rood,IT,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-f-pinoke-josephine-murray,Josephine Murray,Pinoké,IE,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-f-rotterdam-kelsey-bing,Kelsey Bing,Rotterdam,US,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-f-rotterdam-caoimhe-perdue,Caoimhe Perdue,Rotterdam,IE,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-f-schc-elodie-picard,Elodie Picard,SCHC,FR,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-amsterdam-oliver-payne,Oliver Payne,Amsterdam,GB,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-amsterdam-musthapha-cassiem,Musthapha Cassiem,Amsterdam,ZA,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-amsterdam-dayaan-cassiem,Dayaan Cassiem,Amsterdam,ZA,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-amsterdam-lee-morton,Lee Morton,Amsterdam,GB,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-bloemendaal-arno-van-dessel,Arno van Dessel,Bloemendaal,BE,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-bloemendaal-zachary-wallace,Zachary Wallace,Bloemendaal,GB,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-bloemendaal-marco-miltkau,Marco Miltkau,Bloemendaal,DE,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-den-bosch-eduard-de-ignacio-simo,Eduard De Ignacio - Simó,Den Bosch,ES,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-den-bosch-marc-vizcaino,Marc Vizcaino,Den Bosch,ES,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-den-bosch-thomas-sorsby,Thomas Sorsby,Den Bosch,GB,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-hurley-harry-martin,Harry Martin,Hurley,GB,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-kampong-luis-calzado,Luis Calzado,Kampong,ES,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-klein-zwitserland-chad-futcher,Chad Futcher,Klein Zwitserland,ZA,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-klein-zwitserland-aki-kappeler,Aki Käppeler,Klein Zwitserland,DE,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-klein-zwitserland-nicolas-santiago-keenan,Nicolas Santiago Keenan,Klein Zwitserland,AR,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-laren-estiaan-kriek,Estiaan Kriek,Laren,ZA,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-oranje-rood-tomas-santiago,Tomas Santiago,Oranje-Rood,AR,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-oranje-rood-arthur-de-sloover,Arthur de Sloover,Oranje-Rood,BE,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-oranje-rood-pol-cabre-verdiell-badia,Pol Cabre-Verdiell Badia,Oranje-Rood,ES,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-oranje-rood-gerard-clapes,Gerard Clapes,Oranje-Rood,ES,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-oranje-rood-struan-walker,Struan Walker,Oranje-Rood,GB,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-oranje-rood-borja-lacalle,Borja LaCalle,Oranje-Rood,ES,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-oranje-rood-joep-de-mol,Joep de Mol,Oranje-Rood,BE,True,False,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-pinoke-jack-waller,Jack Waller,Pinoké,GB,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-pinoke-jacob-draper,Jacob Draper,Pinoké,GB,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-pinoke-florent-van-aubel,Florent van Aubel,Pinoké,BE,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-pinoke-teo-hinrichs,Teo Hinrichs,Pinoké,DE,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-pinoke-thies-prinz,Thies Prinz,Pinoké,DE,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-rotterdam-justen-blok,Justen Blok,Rotterdam,NL,True,False,profile_found_stats_not_extracted
+hk-nl-m-rotterdam-joaquin-menini,Joaquín Menini,Rotterdam,ES,False,True,needs_foreign_federation_or_fih_caps_goals_lookup
+hk-nl-m-rotterdam-marc-recasens,Marc Recasens,Rotterdam,ES,False,True,needs_foreign_federation_or_fih_caps_goals_lookup

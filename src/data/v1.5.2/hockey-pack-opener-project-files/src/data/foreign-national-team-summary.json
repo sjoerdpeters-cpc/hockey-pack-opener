@@ -1,0 +1,16 @@
+{
+  "datasetVersion": "1.1.0",
+  "lastUpdated": "2026-05-02",
+  "updateSequence": 2,
+  "scope": "NL Hoofdklasse Heren/Dames 2025-2026 only",
+  "totalPlayers": 521,
+  "ratingsRecords": 521,
+  "nonNlPlayers": 85,
+  "foreignSeniorOrFormerInternational": 41,
+  "foreignNeedsReviewOrNoneFound": 44,
+  "sourceCount": 22,
+  "notes": [
+    "All players outside NL Hoofdklasse Heren/Dames removed from exported base/rating files (current set already matched this scope).",
+    "Non-NL players now carry foreignNationalTeamStatuses with confidence and sources."
+  ]
+}

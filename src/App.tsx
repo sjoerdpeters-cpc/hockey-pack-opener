@@ -1,17 +1,19 @@
 import { useState, useEffect } from 'react';
-import type { PackConfig, CollectedCard, Player } from './types';
+import type { PackConfig, CollectedCard, EnrichedPlayer } from './types';
 import { PackSelector } from './components/PackSelector';
 import { PackOpening } from './components/PackOpening';
 import { Collection } from './components/Collection';
 import { CsvImport } from './components/CsvImport';
+import { DatasetInfo } from './components/DatasetInfo';
 import { openPack, loadCollection, saveToCollection, loadCoins, saveCoins } from './lib/packLogic';
+import { datasetMeta } from './data/dataset';
 
-type Screen = 'home' | 'opening' | 'collection' | 'csv';
+type Screen = 'home' | 'opening' | 'collection' | 'csv' | 'dataset';
 
 export default function App() {
   const [screen, setScreen] = useState<Screen>('home');
   const [selectedPack, setSelectedPack] = useState<PackConfig | null>(null);
-  const [drawnCards, setDrawnCards] = useState<Player[]>([]);
+  const [drawnCards, setDrawnCards] = useState<EnrichedPlayer[]>([]);
   const [collection, setCollection] = useState<CollectedCard[]>([]);
   const [coins, setCoins] = useState(1500);
 
@@ -36,7 +38,7 @@ export default function App() {
     setScreen('opening');
   }
 
-  function handleCsvImport(players: Player[]) {
+  function handleCsvImport(players: EnrichedPlayer[]) {
     const updated = saveToCollection(players, collection);
     setCollection(updated);
     setScreen('home');
@@ -73,6 +75,15 @@ export default function App() {
             >
               📂 Import
             </button>
+            <button
+              onClick={() => setScreen('dataset')}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg transition-colors ${
+                screen === 'dataset' ? 'bg-blue-600 text-white' : 'text-white/60 hover:text-white hover:bg-white/10'
+              }`}
+              title={`Dataset v${datasetMeta.version}`}
+            >
+              🗄️ <span className="hidden sm:inline">v{datasetMeta.version}</span>
+            </button>
             <div className="flex items-center gap-1 bg-yellow-500/20 border border-yellow-400/30 rounded-lg px-3 py-1.5">
               <span>🪙</span>
               <span className="font-bold text-yellow-400">{coins.toLocaleString()}</span>
@@ -88,11 +99,13 @@ export default function App() {
             <h1 className="text-5xl font-black text-white mb-3 tracking-tight">
               Hockey Pack Opener
             </h1>
-            <p className="text-white/50 text-lg">Verzamel hockeykaarten uit de Tulp Hoofdklasse en internationals</p>
+            <p className="text-white/50 text-lg">
+              Tulp Hoofdklasse Heren &amp; Dames 2025-2026
+            </p>
           </div>
 
           {collection.length > 0 && (
-            <div className="flex gap-6 text-center">
+            <div className="flex gap-4 text-center flex-wrap justify-center">
               <div className="bg-white/5 border border-white/10 rounded-xl px-6 py-3">
                 <div className="text-2xl font-bold text-white">{uniqueCount}</div>
                 <div className="text-white/50 text-xs">Unieke spelers</div>
@@ -102,8 +115,18 @@ export default function App() {
                 <div className="text-white/50 text-xs">Totaal kaarten</div>
               </div>
               <div className="bg-white/5 border border-white/10 rounded-xl px-6 py-3">
-                <div className="text-2xl font-bold text-yellow-400">{collection.filter(c => c.rarity === 'Elite' || c.rarity === 'Icon').length}</div>
+                <div className="text-2xl font-bold text-yellow-400">
+                  {collection.filter(c => c.rarity === 'Elite' || c.rarity === 'Icon').length}
+                </div>
                 <div className="text-white/50 text-xs">Elite & Icon</div>
+              </div>
+              <div className="bg-white/5 border border-white/10 rounded-xl px-6 py-3">
+                <div className="text-2xl font-bold text-yellow-300">
+                  {[...new Set(collection.map(c => c.id))].filter(
+                    id => collection.find(c => c.id === id)?.isSeniorInternational
+                  ).length}
+                </div>
+                <div className="text-white/50 text-xs">🌟 Internationals</div>
               </div>
             </div>
           )}
@@ -111,8 +134,8 @@ export default function App() {
           <PackSelector coins={coins} onSelect={handleSelectPack} />
 
           <p className="text-white/20 text-xs text-center max-w-xl">
-            Disclaimer: Dit is een fan-made concept en niet officieel verbonden aan KNHB, FIH, clubs of spelers.
-            Ratings zijn fictief en bedoeld voor entertainment.
+            Fan-made concept · Niet officieel verbonden aan KNHB, FIH, clubs of spelers ·
+            Ratings zijn fictief en bedoeld voor entertainment
           </p>
         </main>
       )}
@@ -131,6 +154,10 @@ export default function App() {
 
       {screen === 'csv' && (
         <CsvImport onImport={handleCsvImport} onBack={() => setScreen('home')} />
+      )}
+
+      {screen === 'dataset' && (
+        <DatasetInfo onBack={() => setScreen('home')} />
       )}
     </div>
   );

@@ -1,0 +1,17 @@
+{
+  "version": "1.2.1",
+  "lastUpdated": "2026-05-02",
+  "totalPlayers": 521,
+  "knownPositions": 211,
+  "unknownPositions": 310,
+  "positions": {
+    "GK": 51,
+    "DEF": 49,
+    "MID": 55,
+    "UNKNOWN": 310,
+    "ATT": 56
+  },
+  "newPositionEvidenceRecordsAddedThisUpdate": 32,
+  "totalPositionEvidenceRecords": 174,
+  "method": "Additional lookup pass for UNKNOWN players using Hockey.nl/Tulp Hoofdklasse/club/news snippets and explicit position wording only; non-explicit hits remain UNKNOWN."
+}

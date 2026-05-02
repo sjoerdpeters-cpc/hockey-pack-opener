@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import type { Player, PackConfig } from '../types';
+import type { EnrichedPlayer, PackConfig } from '../types';
 import { PlayerCard } from './PlayerCard';
 
 interface Props {
   pack: PackConfig;
-  cards: Player[];
+  cards: EnrichedPlayer[];
   onDone: () => void;
 }
 

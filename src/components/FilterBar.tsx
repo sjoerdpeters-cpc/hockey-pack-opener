@@ -7,7 +7,22 @@ export interface Filters {
   rarity: Rarity | 'all';
   club: string;
   nationality: string;
+  isSeniorInternational: boolean | 'all';
+  isJongOranje: boolean | 'all';
+  isForeignSeniorInternational: boolean | 'all';
 }
+
+export const DEFAULT_FILTERS: Filters = {
+  search: '',
+  gender: 'all',
+  position: 'all',
+  rarity: 'all',
+  club: '',
+  nationality: '',
+  isSeniorInternational: 'all',
+  isJongOranje: 'all',
+  isForeignSeniorInternational: 'all',
+};
 
 interface Props {
   filters: Filters;
@@ -17,6 +32,47 @@ interface Props {
 }
 
 const SELECT = 'bg-white/5 border border-white/10 text-white rounded-lg px-3 py-1.5 text-sm focus:outline-none focus:border-blue-400';
+
+function BoolSelect({
+  label,
+  value,
+  trueLabel,
+  onChange,
+}: {
+  label: string;
+  value: boolean | 'all';
+  trueLabel: string;
+  onChange: (v: boolean | 'all') => void;
+}) {
+  return (
+    <select
+      className={SELECT}
+      value={value === 'all' ? 'all' : value ? 'true' : 'false'}
+      onChange={e => {
+        const v = e.target.value;
+        onChange(v === 'all' ? 'all' : v === 'true');
+      }}
+    >
+      <option value="all">{label}</option>
+      <option value="true">{trueLabel}</option>
+      <option value="false">Niet {trueLabel.toLowerCase()}</option>
+    </select>
+  );
+}
+
+function hasActiveFilters(f: Filters): boolean {
+  return (
+    f.search !== '' ||
+    f.gender !== 'all' ||
+    f.position !== 'all' ||
+    f.rarity !== 'all' ||
+    f.club !== '' ||
+    f.nationality !== '' ||
+    f.isSeniorInternational !== 'all' ||
+    f.isJongOranje !== 'all' ||
+    f.isForeignSeniorInternational !== 'all'
+  );
+}
 
 export function FilterBar({ filters, clubs, nationalities, onChange }: Props) {
   function set<K extends keyof Filters>(key: K, value: Filters[K]) {
@@ -61,9 +117,27 @@ export function FilterBar({ filters, clubs, nationalities, onChange }: Props) {
         <option value="">Alle landen</option>
         {nationalities.map(n => <option key={n} value={n}>{n}</option>)}
       </select>
-      {Object.values(filters).some(v => v !== 'all' && v !== '') && (
+      <BoolSelect
+        label="Senior int'l"
+        value={filters.isSeniorInternational}
+        trueLabel="Senior int'l"
+        onChange={v => set('isSeniorInternational', v)}
+      />
+      <BoolSelect
+        label="Jong Oranje"
+        value={filters.isJongOranje}
+        trueLabel="Jong Oranje"
+        onChange={v => set('isJongOranje', v)}
+      />
+      <BoolSelect
+        label="Buitenlands int'l"
+        value={filters.isForeignSeniorInternational}
+        trueLabel="Buitenlands int'l"
+        onChange={v => set('isForeignSeniorInternational', v)}
+      />
+      {hasActiveFilters(filters) && (
         <button
-          onClick={() => onChange({ search: '', gender: 'all', position: 'all', rarity: 'all', club: '', nationality: '' })}
+          onClick={() => onChange(DEFAULT_FILTERS)}
           className="text-white/40 hover:text-white text-sm underline"
         >
           Wis filters

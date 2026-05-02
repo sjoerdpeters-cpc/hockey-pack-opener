@@ -1,0 +1,86 @@
+playerId,name,club,teamName,nationality,statusSummary,isForeignSeniorInternational,bestConfidence,bestTeam,bestStatus,sourceIds
+hk-nl-f-amsterdam-imke-verstraeten,Imke Verstraeten,Amsterdam,Amsterdam D1,BE,needs_review_or_none_found,False,0,BE national team,needs_review_no_official_match_yet,
+hk-nl-f-amsterdam-li-hong,Li Hong,Amsterdam,Amsterdam D1,CN,needs_review_or_none_found,False,0,CN national team,needs_review_no_official_match_yet,
+hk-nl-f-amsterdam-sabine-plonissen,Sabine Plönissen,Amsterdam,Amsterdam D1,DE,needs_review_or_none_found,False,0,DE national team,needs_review_no_official_match_yet,
+hk-nl-f-amsterdam-alessia-norbiato,Alessia Norbiato,Amsterdam,Amsterdam D1,IT,foreign_senior_or_former_international,True,70,Italy Women,likely_senior_international,
+hk-nl-m-amsterdam-oliver-payne,Oliver Payne,Amsterdam,Amsterdam H1,GB,foreign_senior_or_former_international,True,100,England / Great Britain Men,confirmed_senior_international,england_hockey_ollie_payne_profile|england_hockey_eurohockey_2023_squad
+hk-nl-m-amsterdam-lee-morton,Lee Morton,Amsterdam,Amsterdam H1,GB,foreign_senior_or_former_international,True,100,Scotland / Great Britain Men,confirmed_senior_international,scottish_hockey_lee_morton_profile|scottish_hockey_open_morning_2026
+hk-nl-m-amsterdam-dayaan-cassiem,Dayaan Cassiem,Amsterdam,Amsterdam H1,ZA,foreign_senior_or_former_international,True,100,South Africa Men,confirmed_senior_international,fih_dayaan_cassiem_profile|sa_hockey_men_hp_2025_26
+hk-nl-m-amsterdam-musthapha-cassiem,Musthapha Cassiem,Amsterdam,Amsterdam H1,ZA,foreign_senior_or_former_international,True,100,South Africa Men,confirmed_senior_international,fih_mustaphaa_cassiem_profile|sa_hockey_men_hp_2025_26
+hk-nl-m-bloemendaal-zachary-wallace,Zachary Wallace,Bloemendaal,Bloemendaal H1,GB,foreign_senior_or_former_international,True,100,England / Great Britain Men,confirmed_senior_international,england_hockey_2026_wcq_review|fih_zachary_wallace_proleague_2024
+hk-nl-m-bloemendaal-arno-van-dessel,Arno van Dessel,Bloemendaal,Bloemendaal H1,BE,foreign_senior_or_former_international,True,95,Belgium Men / Red Lions,confirmed_senior_international,hockey_be_red_lions_hpl_2024_selection
+hk-nl-m-bloemendaal-marco-miltkau,Marco Miltkau,Bloemendaal,Bloemendaal H1,DE,foreign_senior_or_former_international,True,100,Germany Men / HONAMAS,former_senior_international,hockey_de_marco_miltkau_profile
+hk-nl-m-bloemendaal-max-langer,Max Langer,Bloemendaal,Bloemendaal H1,DE,needs_review_or_none_found,False,0,DE national team,needs_review_no_official_match_yet,
+hk-nl-f-den-bosch-charlotte-englebert,Charlotte Englebert,Den Bosch,Den Bosch D1,BE,foreign_senior_or_former_international,True,100,Belgium Women / Red Panthers,confirmed_senior_international,hockey_be_englebert_100_caps
+hk-nl-m-den-bosch-alexander-stadler,Alexander Stadler,Den Bosch,Den Bosch H1,DE,needs_review_or_none_found,False,0,DE national team,needs_review_no_official_match_yet,
+hk-nl-m-den-bosch-eduard-de-ignacio-simo,Eduard De Ignacio - Simó,Den Bosch,Den Bosch H1,ES,foreign_senior_or_former_international,True,98,Spain Men,confirmed_senior_roster,fih_spain_men_london_2024_pdf
+hk-nl-m-den-bosch-marc-vizcaino,Marc Vizcaino,Den Bosch,Den Bosch H1,ES,foreign_senior_or_former_international,True,98,Spain Men,confirmed_senior_roster,fih_spain_men_london_2024_pdf
+hk-nl-m-den-bosch-thomas-sorsby,Thomas Sorsby,Den Bosch,Den Bosch H1,GB,foreign_senior_or_former_international,True,100,England / Great Britain Men,confirmed_senior_international,england_hockey_eurohockey_2023_squad|england_gb_duchess_bisham_2023
+hk-nl-m-den-bosch-fabian-unterkircher,Fabian Unterkircher,Den Bosch,Den Bosch H1,AT,needs_review_or_none_found,False,0,AT national team,needs_review_no_official_match_yet,
+hk-nl-f-hdm-belen-van-den-broek,Belén van den Broek,HDM,HDM D1,ES,needs_review_or_none_found,False,0,ES national team,needs_review_no_official_match_yet,
+hk-nl-f-hdm-claudia-negrete-garcia,Claudia Negrete Garcia,HDM,HDM D1,ES,needs_review_or_none_found,False,0,ES national team,needs_review_no_official_match_yet,
+hk-nl-f-hdm-dirkie-chamberlain,Dirkie Chamberlain,HDM,HDM D1,ZA,foreign_senior_or_former_international,True,100,South Africa Women,former_senior_international,sa_hockey_dirkie_chamberlain_retirement
+hk-nl-m-hdm-luis-beckmann,Luis Beckmann,HDM,HDM H1,DE,needs_review_or_none_found,False,0,DE national team,needs_review_no_official_match_yet,
+hk-nl-m-hdm-marc-bolto-gimo,Marc Boltó Gimó,HDM,HDM H1,ES,needs_review_or_none_found,False,0,ES national team,needs_review_no_official_match_yet,
+hk-nl-m-hdm-yorben-fontaine,Yorben Fontaine,HDM,HDM H1,BE,needs_review_or_none_found,False,0,BE national team,needs_review_no_official_match_yet,
+hk-nl-m-hdm-sam-spencer,Sam Spencer,HDM,HDM H1,GB,needs_review_or_none_found,False,0,GB national team,needs_review_no_official_match_yet,
+hk-nl-f-hgc-cecile-pieper,Cécile Pieper,HGC,HGC D1,DE,foreign_senior_or_former_international,True,100,Germany Women / DANAS,former_senior_international,hockey_de_cecile_pieper_retirement
+hk-nl-f-hgc-valentina-raposo-ruiz-de-los-llanos,Valentina Raposo Ruiz De Los Llanos,HGC,HGC D1,AR,foreign_senior_or_former_international,True,100,Argentina Women,confirmed_senior_international,fih_valentina_raposo_profile
+hk-nl-f-hgc-marta-segu-rueda,Marta Segú Rueda,HGC,HGC D1,ES,needs_review_or_none_found,False,0,ES national team,needs_review_no_official_match_yet,
+hk-nl-f-hgc-mariona-serrahima,Mariona Serrahima,HGC,HGC D1,ES,needs_review_or_none_found,False,0,ES national team,needs_review_no_official_match_yet,
+hk-nl-f-hgc-anna-serrahima,Anna Serrahima,HGC,HGC D1,ES,needs_review_or_none_found,False,0,ES national team,needs_review_no_official_match_yet,
+hk-nl-f-hurley-fiona-morgenstern,Fiona Morgenstern,Hurley,Hurley D1,DE,needs_review_or_none_found,False,0,DE national team,needs_review_no_official_match_yet,
+hk-nl-f-hurley-taheera-augousti,Taheera Augousti,Hurley,Hurley D1,ZA,needs_review_or_none_found,False,0,ZA national team,needs_review_no_official_match_yet,
+hk-nl-m-hurley-nikas-berendts,Nikas Berendts,Hurley,Hurley H1,DE,needs_review_or_none_found,False,0,DE national team,needs_review_no_official_match_yet,
+hk-nl-m-hurley-harry-martin,Harry Martin,Hurley,Hurley H1,GB,foreign_senior_or_former_international,True,75,England / Great Britain Men,former_senior_international,
+hk-nl-m-hurley-fred-newbold,Fred Newbold,Hurley,Hurley H1,GB,needs_review_or_none_found,False,0,GB national team,needs_review_no_official_match_yet,
+hk-nl-m-hurley-grau-albert,Grau Albert,Hurley,Hurley H1,ES,needs_review_or_none_found,False,0,ES national team,needs_review_no_official_match_yet,
+hk-nl-m-hurley-joshua-keaveney,Joshua Keaveney,Hurley,Hurley H1,IE,needs_review_or_none_found,False,0,IE national team,needs_review_no_official_match_yet,
+hk-nl-m-hurley-noam-sheridan,Noam Sheridan,Hurley,Hurley H1,IE,needs_review_or_none_found,False,0,IE national team,needs_review_no_official_match_yet,
+hk-nl-m-hurley-benjamin-walker,Benjamin Walker,Hurley,Hurley H1,GB,needs_review_or_none_found,False,0,GB national team,needs_review_no_official_match_yet,
+hk-nl-f-kampong-charlotte-hoctin-boes,Charlotte Hoctin Boes,Kampong,Kampong D1,FR,needs_review_or_none_found,False,0,FR national team,needs_review_no_official_match_yet,
+hk-nl-m-kampong-luis-calzado,Luis Calzado,Kampong,Kampong H1,ES,foreign_senior_or_former_international,True,98,Spain Men,confirmed_senior_roster,fih_spain_men_london_2024_pdf
+hk-nl-m-klein-zwitserland-nicolas-santiago-keenan,Nicolas Santiago Keenan,Klein Zwitserland,Klein Zwitserland H1,AR,foreign_senior_or_former_international,True,80,Argentina Men,confirmed_senior_international,
+hk-nl-m-klein-zwitserland-aki-kappeler,Aki Käppeler,Klein Zwitserland,Klein Zwitserland H1,DE,foreign_senior_or_former_international,True,70,Germany Men / HONAMAS,likely_senior_international,
+hk-nl-m-klein-zwitserland-adrian-lehmann-richter,Adrian Lehmann-Richter,Klein Zwitserland,Klein Zwitserland H1,DE,needs_review_or_none_found,False,0,DE national team,needs_review_no_official_match_yet,
+hk-nl-m-klein-zwitserland-chad-futcher,Chad Futcher,Klein Zwitserland,Klein Zwitserland H1,ZA,foreign_senior_or_former_international,True,80,South Africa Men,confirmed_senior_international,
+hk-nl-m-klein-zwitserland-lucas-toscani,Lucas Toscani,Klein Zwitserland,Klein Zwitserland H1,AR,needs_review_or_none_found,False,0,AR national team,needs_review_no_official_match_yet,
+hk-nl-m-klein-zwitserland-joaquin-toscani,Joaquin Toscani,Klein Zwitserland,Klein Zwitserland H1,AR,needs_review_or_none_found,False,0,AR national team,needs_review_no_official_match_yet,
+hk-nl-m-klein-zwitserland-linus-michler,Linus Michler,Klein Zwitserland,Klein Zwitserland H1,DE,needs_review_or_none_found,False,0,DE national team,needs_review_no_official_match_yet,
+hk-nl-m-klein-zwitserland-tom-schneider,Tom Schneider,Klein Zwitserland,Klein Zwitserland H1,DE,needs_review_or_none_found,False,0,DE national team,needs_review_no_official_match_yet,
+hk-nl-m-klein-zwitserland-stepan-klaban,Štěpán Klaban,Klein Zwitserland,Klein Zwitserland H1,CZ,needs_review_or_none_found,False,0,CZ national team,needs_review_no_official_match_yet,
+hk-nl-m-klein-zwitserland-julian-seckel,Julian Seckel,Klein Zwitserland,Klein Zwitserland H1,DE,needs_review_or_none_found,False,0,DE national team,needs_review_no_official_match_yet,
+hk-nl-m-laren-estiaan-kriek,Estiaan Kriek,Laren,Laren H1,ZA,foreign_senior_or_former_international,True,90,South Africa Men,confirmed_senior_international,sa_hockey_men_hp_2025_26
+hk-nl-m-laren-luke-friederich,Luke Friederich,Laren,Laren H1,ZA,needs_review_or_none_found,False,0,ZA national team,needs_review_no_official_match_yet,
+hk-nl-m-laren-giovanni-brand,Giovanni Brand,Laren,Laren H1,ZA,needs_review_or_none_found,False,0,ZA national team,needs_review_no_official_match_yet,
+hk-nl-m-laren-kenneth-bain,Kenneth Bain,Laren,Laren H1,GB,needs_review_or_none_found,False,0,GB national team,needs_review_no_official_match_yet,
+hk-nl-f-oranje-rood-lucie-ehrmann,Lucie Ehrmann,Oranje-Rood,Oranje-Rood D1,FR,foreign_senior_or_former_international,True,80,France Women,confirmed_senior_international,
+hk-nl-f-oranje-rood-sara-puglisi,Sara Puglisi,Oranje-Rood,Oranje-Rood D1,IT,foreign_senior_or_former_international,True,70,Italy Women,likely_senior_international,
+hk-nl-f-oranje-rood-julianna-tornetta,Julianna Tornetta,Oranje-Rood,Oranje-Rood D1,US,foreign_senior_or_former_international,True,80,United States Women,confirmed_senior_international,
+hk-nl-f-oranje-rood-lisa-scheerlinck,Lisa Scheerlinck,Oranje-Rood,Oranje-Rood D1,BE,needs_review_or_none_found,False,0,BE national team,needs_review_no_official_match_yet,
+hk-nl-m-oranje-rood-joep-de-mol,Joep de Mol,Oranje-Rood,Oranje-Rood H1,BE,needs_review_or_none_found,False,45,Belgium Men / Red Lions,needs_review_name_match,
+hk-nl-m-oranje-rood-arthur-de-sloover,Arthur de Sloover,Oranje-Rood,Oranje-Rood H1,BE,foreign_senior_or_former_international,True,100,Belgium Men / Red Lions,confirmed_senior_international,hockey_be_red_lions_hpl_2024_selection
+hk-nl-m-oranje-rood-gerard-clapes,Gerard Clapes,Oranje-Rood,Oranje-Rood H1,ES,foreign_senior_or_former_international,True,98,Spain Men,confirmed_senior_roster,fih_spain_men_london_2024_pdf
+hk-nl-m-oranje-rood-borja-lacalle,Borja LaCalle,Oranje-Rood,Oranje-Rood H1,ES,foreign_senior_or_former_international,True,98,Spain Men,confirmed_senior_roster,fih_spain_men_london_2024_pdf
+hk-nl-m-oranje-rood-struan-walker,Struan Walker,Oranje-Rood,Oranje-Rood H1,GB,foreign_senior_or_former_international,True,90,Scotland Men,confirmed_senior_international,scottish_hockey_open_morning_2026
+hk-nl-m-oranje-rood-henrik-mertgens,Henrik Mertgens,Oranje-Rood,Oranje-Rood H1,DE,needs_review_or_none_found,False,0,DE national team,needs_review_no_official_match_yet,
+hk-nl-m-oranje-rood-pol-cabre-verdiell-badia,Pol Cabre-Verdiell Badia,Oranje-Rood,Oranje-Rood H1,ES,foreign_senior_or_former_international,True,98,Spain Men,confirmed_senior_roster,fih_spain_men_london_2024_pdf
+hk-nl-m-oranje-rood-tomas-santiago,Tomas Santiago,Oranje-Rood,Oranje-Rood H1,AR,foreign_senior_or_former_international,True,100,Argentina Men,confirmed_senior_international,fih_tomas_santiago_profile
+hk-nl-f-pinoke-josephine-murray,Josephine Murray,Pinoké,Pinoké D1,IE,foreign_senior_or_former_international,True,70,Ireland Women,likely_senior_international,
+hk-nl-m-pinoke-jack-waller,Jack Waller,Pinoké,Pinoké H1,GB,foreign_senior_or_former_international,True,100,England / Great Britain Men,confirmed_senior_international,england_hockey_2026_wcq_review|england_gb_duchess_bisham_2023
+hk-nl-m-pinoke-jacob-draper,Jacob Draper,Pinoké,Pinoké H1,GB,foreign_senior_or_former_international,True,95,Wales / Great Britain Men,confirmed_senior_international,england_gb_duchess_bisham_2023
+hk-nl-m-pinoke-florent-van-aubel,Florent van Aubel,Pinoké,Pinoké H1,BE,foreign_senior_or_former_international,True,100,Belgium Men / Red Lions,former_senior_international,hockey_be_florent_red_legend
+hk-nl-m-pinoke-luca-wolff,Luca Wolff,Pinoké,Pinoké H1,DE,needs_review_or_none_found,False,0,DE national team,needs_review_no_official_match_yet,
+hk-nl-m-pinoke-teo-hinrichs,Teo Hinrichs,Pinoké,Pinoké H1,DE,foreign_senior_or_former_international,True,95,Germany Men / HONAMAS,confirmed_senior_roster,hockey_de_germany_argentina_olympics_2024_report
+hk-nl-m-pinoke-thies-prinz,Thies Prinz,Pinoké,Pinoké H1,DE,foreign_senior_or_former_international,True,100,Germany Men / HONAMAS,confirmed_senior_international,hockey_de_thies_prinz_100_caps
+hk-nl-f-rotterdam-caoimhe-perdue,Caoimhe Perdue,Rotterdam,Rotterdam D1,IE,foreign_senior_or_former_international,True,70,Ireland Women,likely_senior_international,
+hk-nl-f-rotterdam-kelsey-bing,Kelsey Bing,Rotterdam,Rotterdam D1,US,foreign_senior_or_former_international,True,100,United States Women,confirmed_senior_international,fih_kelsey_bing_worldcup_qualification_2025
+hk-nl-m-rotterdam-joaquin-menini,Joaquín Menini,Rotterdam,Rotterdam H1,ES,foreign_senior_or_former_international,True,98,Spain Men,confirmed_senior_roster,fih_spain_men_london_2024_pdf
+hk-nl-m-rotterdam-marc-recasens,Marc Recasens,Rotterdam,Rotterdam H1,ES,foreign_senior_or_former_international,True,98,Spain Men,confirmed_senior_roster,fih_spain_men_london_2024_pdf
+hk-nl-m-schaerweijde-graeme-scott,Graeme Scott,Schaerweijde,Schaerweijde H1,GB,needs_review_or_none_found,False,0,GB national team,needs_review_no_official_match_yet,
+hk-nl-m-schaerweijde-thibaut-mordac,Thibaut Mordac,Schaerweijde,Schaerweijde H1,BE,needs_review_or_none_found,False,0,BE national team,needs_review_no_official_match_yet,
+hk-nl-f-schc-elodie-picard,Elodie Picard,SCHC,SCHC D1,FR,foreign_senior_or_former_international,True,80,France Women,confirmed_senior_international,
+hk-nl-f-tilburg-mikki-roberts,Mikki Roberts,Tilburg,Tilburg D1,GB,needs_review_or_none_found,False,0,GB national team,needs_review_no_official_match_yet,
+hk-nl-f-tilburg-carmen-victoria,Carmen Victoria,Tilburg,Tilburg D1,ES,needs_review_or_none_found,False,0,ES national team,needs_review_no_official_match_yet,
+hk-nl-f-tilburg-carolin-hoffmann,Carolin Hoffmann,Tilburg,Tilburg D1,DE,needs_review_or_none_found,False,0,DE national team,needs_review_no_official_match_yet,
+hk-nl-f-tilburg-precious-oud,Precious Oud,Tilburg,Tilburg D1,ZA,needs_review_or_none_found,False,0,ZA national team,needs_review_no_official_match_yet,

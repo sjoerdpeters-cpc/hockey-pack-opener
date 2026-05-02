@@ -1,0 +1,13 @@
+{
+  "version": "1.3.0",
+  "lastUpdated": "2026-05-02",
+  "totalPlayers": 521,
+  "playersWithPortraitUrl": 41,
+  "playersMissingPortraitUrl": 480,
+  "byStatus": {
+    "missing": 480,
+    "verified_club_image_url": 39,
+    "club_image_link_pending_fetch_check": 2
+  },
+  "note": "First portrait-data pass. Direct URLs added where captured from official club team pages; remaining players are marked missing for follow-up."
+}

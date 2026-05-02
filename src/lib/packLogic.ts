@@ -1,10 +1,9 @@
-import type { Player, Rarity, PackConfig, CollectedCard } from '../types';
+import type { EnrichedPlayer, Rarity, PackConfig, CollectedCard } from '../types';
 import { BASE_ODDS } from '../data/packs';
-import { players } from '../data/players';
+import { players } from '../data/dataset';
 
 function weightedRarity(boost?: Partial<Record<Rarity, number>>): Rarity {
   const odds = { ...BASE_ODDS, ...boost };
-  // Normalise to sum to 1
   const total = Object.values(odds).reduce((a, b) => a + b, 0);
   let r = Math.random() * total;
   for (const [rarity, weight] of Object.entries(odds) as [Rarity, number][]) {
@@ -14,11 +13,11 @@ function weightedRarity(boost?: Partial<Record<Rarity, number>>): Rarity {
   return 'Bronze';
 }
 
-export function openPack(pack: PackConfig): Player[] {
+export function openPack(pack: PackConfig): EnrichedPlayer[] {
   const pool = pack.filter ? players.filter(pack.filter) : players;
   if (pool.length === 0) return [];
 
-  const drawn: Player[] = [];
+  const drawn: EnrichedPlayer[] = [];
 
   for (let i = 0; i < pack.cardCount; i++) {
     const targetRarity = weightedRarity(pack.rarityBoost);
@@ -41,7 +40,7 @@ export function loadCollection(): CollectedCard[] {
   }
 }
 
-export function saveToCollection(newCards: Player[], existing: CollectedCard[]): CollectedCard[] {
+export function saveToCollection(newCards: EnrichedPlayer[], existing: CollectedCard[]): CollectedCard[] {
   const existingIds = new Set(existing.map((c) => c.id));
   const updated = [...existing];
   for (const card of newCards) {

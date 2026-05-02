@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react';
 import type { CollectedCard } from '../types';
 import { PlayerCard } from './PlayerCard';
-import { FilterBar } from './FilterBar';
+import { FilterBar, DEFAULT_FILTERS } from './FilterBar';
 import type { Filters } from './FilterBar';
 
 interface Props {
@@ -10,14 +10,7 @@ interface Props {
 }
 
 export function Collection({ collection, onBack }: Props) {
-  const [filters, setFilters] = useState<Filters>({
-    search: '',
-    gender: 'all',
-    position: 'all',
-    rarity: 'all',
-    club: '',
-    nationality: '',
-  });
+  const [filters, setFilters] = useState<Filters>(DEFAULT_FILTERS);
 
   const clubs = useMemo(() => [...new Set(collection.map(c => c.club))].sort(), [collection]);
   const nationalities = useMemo(() => [...new Set(collection.map(c => c.nationality))].sort(), [collection]);
@@ -30,11 +23,16 @@ export function Collection({ collection, onBack }: Props) {
       if (filters.rarity !== 'all' && c.rarity !== filters.rarity) return false;
       if (filters.club && c.club !== filters.club) return false;
       if (filters.nationality && c.nationality !== filters.nationality) return false;
+      if (filters.isSeniorInternational !== 'all' && c.isSeniorInternational !== filters.isSeniorInternational) return false;
+      if (filters.isJongOranje !== 'all' && c.isJongOranje !== filters.isJongOranje) return false;
+      if (filters.isForeignSeniorInternational !== 'all' && c.isForeignSeniorInternational !== filters.isForeignSeniorInternational) return false;
       return true;
     });
   }, [collection, filters]);
 
   const uniqueCount = new Set(collection.map(c => c.id)).size;
+  const internationalCount = [...new Set(collection.map(c => c.id))]
+    .filter(id => collection.find(c => c.id === id)?.isSeniorInternational).length;
 
   return (
     <div className="w-full max-w-6xl mx-auto px-4 py-8">
@@ -43,8 +41,16 @@ export function Collection({ collection, onBack }: Props) {
           ← Terug
         </button>
         <h2 className="text-2xl font-bold text-white">Mijn Collectie</h2>
-        <div className="text-white/50 text-sm ml-auto">
-          {uniqueCount} unieke spelers · {collection.length} totaal
+        <div className="flex gap-3 text-sm ml-auto">
+          <span className="text-white/50">{uniqueCount} uniek</span>
+          <span className="text-white/30">·</span>
+          <span className="text-white/50">{collection.length} totaal</span>
+          {internationalCount > 0 && (
+            <>
+              <span className="text-white/30">·</span>
+              <span className="text-yellow-400/70">🌟 {internationalCount} int'ls</span>
+            </>
+          )}
         </div>
       </div>
 
@@ -64,7 +70,7 @@ export function Collection({ collection, onBack }: Props) {
             : 'Geen kaarten gevonden met deze filters.'}
         </div>
       ) : (
-        <div className="flex flex-wrap gap-4 justify-start">
+        <div className="flex flex-wrap gap-3 justify-start">
           {filtered.map((card, i) => (
             <div key={`${card.id}-${card.collectedAt}-${i}`} className="relative">
               <PlayerCard player={card} small />

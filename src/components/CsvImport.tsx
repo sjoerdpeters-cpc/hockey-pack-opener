@@ -1,21 +1,22 @@
 import { useRef, useState } from 'react';
 import Papa from 'papaparse';
-import type { Player, Position, Rarity, Gender, TeamType } from '../types';
+import type { EnrichedPlayer, Position, Rarity, Gender } from '../types';
 
 interface Props {
-  onImport: (players: Player[]) => void;
+  onImport: (players: EnrichedPlayer[]) => void;
   onBack: () => void;
 }
 
 type RawRow = Record<string, string>;
 
-function parsePlayer(row: RawRow, index: number): Player | null {
+function parsePlayer(row: RawRow, index: number): EnrichedPlayer | null {
   const name = row['name']?.trim();
   const club = row['club']?.trim();
-  const position = row['position']?.trim().toUpperCase() as Position;
+  const rawPos = row['position']?.trim().toUpperCase();
+  const position = (['GK', 'DEF', 'MID', 'ATT'].includes(rawPos) ? rawPos : null) as Position | null;
   const rating = parseInt(row['rating'], 10);
 
-  if (!name || !club || !['GK', 'DEF', 'MID', 'ATT'].includes(position) || isNaN(rating)) return null;
+  if (!name || !club || !position || isNaN(rating)) return null;
 
   const rawRarity = row['rarity']?.trim();
   const rarity: Rarity = (['Bronze', 'Silver', 'Gold', 'Elite', 'Icon', 'Special'].includes(rawRarity)
@@ -23,24 +24,45 @@ function parsePlayer(row: RawRow, index: number): Player | null {
     : rating >= 93 ? 'Icon' : rating >= 88 ? 'Elite' : rating >= 80 ? 'Gold' : rating >= 70 ? 'Silver' : 'Bronze'
   ) as Rarity;
 
-  return {
+  const base: EnrichedPlayer = {
     id: `csv-${index}-${Date.now()}`,
     name,
     gender: (row['gender'] === 'female' ? 'female' : 'male') as Gender,
     nationality: row['nationality']?.trim() || 'NL',
     club,
-    teamType: (row['teamType'] || 'Hoofdklasse') as TeamType,
+    teamType: 'Hoofdklasse',
     position,
+    fieldPosition: rawPos,
     rating,
     rarity,
     traits: row['traits'] ? row['traits'].split(';').map(t => t.trim()).filter(Boolean) : [],
+    traitScores: [],
     source: 'CSV',
+    teamName: club,
+    team: '',
+    teamLabel: '',
+    competition: 'Tulp Hoofdklasse',
+    jerseyNumber: null,
+    isKeeper: position === 'GK',
+    isCaptain: false,
+    isSeniorInternational: false,
+    isJongOranje: false,
+    isForeignSeniorInternational: false,
+    internationalStatusSummary: 'not_applicable',
+    officialInternationalCaps: null,
+    officialInternationalGoals: null,
+    officialInternationalStatsTeam: null,
+    portraitUrl: '',
+    portraitStatus: 'missing',
+    ageYears: null,
+    birthDate: '',
   };
+  return base;
 }
 
 export function CsvImport({ onImport, onBack }: Props) {
   const inputRef = useRef<HTMLInputElement>(null);
-  const [preview, setPreview] = useState<Player[]>([]);
+  const [preview, setPreview] = useState<EnrichedPlayer[]>([]);
   const [errors, setErrors] = useState<string[]>([]);
   const [fileName, setFileName] = useState('');
 
@@ -53,7 +75,7 @@ export function CsvImport({ onImport, onBack }: Props) {
       skipEmptyLines: true,
       complete(results) {
         const errs: string[] = [];
-        const parsed: Player[] = [];
+        const parsed: EnrichedPlayer[] = [];
         results.data.forEach((row, i) => {
           const p = parsePlayer(row, i);
           if (p) parsed.push(p);
@@ -74,9 +96,9 @@ export function CsvImport({ onImport, onBack }: Props) {
 
       <div className="bg-white/5 border border-white/10 rounded-xl p-6 mb-6">
         <p className="text-white/60 text-sm mb-4">
-          Upload een CSV met kolommen: <code className="text-blue-400">name, club, position, rating, gender, nationality, teamType, traits, rarity</code>
+          Upload een CSV met kolommen: <code className="text-blue-400">name, club, position, rating, gender, nationality, traits, rarity</code>
         </p>
-        <p className="text-white/40 text-xs mb-4">Traits gescheiden door <code className="text-blue-400">;</code> (bijv. <code className="text-blue-400">Speed;Vision</code>)</p>
+        <p className="text-white/40 text-xs mb-4">Traits gescheiden door <code className="text-blue-400">;</code></p>
         <button
           onClick={() => inputRef.current?.click()}
           className="bg-blue-600 hover:bg-blue-700 text-white font-bold px-6 py-2 rounded-lg transition-colors"
